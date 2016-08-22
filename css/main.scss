@@ -1,0 +1,101 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@mixin mq($point) {
+    @include bp($point) {@content;}
+}
+
+@mixin bp($point) {
+    @if ($point == desktop) {
+      @media (min-width:64em) {@content;}
+    } @elseif ($point == tablet) {
+      @media (min-width:54em) {@content;}
+    } @elseif ($point == mobile) {
+      @media (max-width:53.99999em) {@content;}
+    }
+}
+
+// Our variables
+$base-font-family: "Optimist", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$smaller-base-font-size: 14px;
+$mobile-base-font-size: 13px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+/*
+Global values
+*/
+$gutter: 5px;
+$desktop-body-width: 54em;
+$tablet-body-width: 48em;
+$c1-blue: #004977;
+$c1-cyan: #008bc1;
+$c1-red: #d12e32;
+$c1-green: #00a400;
+$c1-yellow: #f8cc01;
+
+.yt-video {
+  position: relative;
+  // padding-bottom: 56.25%; /* 16:9 */
+  // padding-bottom: 48.25%; /* manual adjustment to kill top/bottom border */
+  // padding-top: 25px;
+  padding-bottom: 53.25%;
+  padding-top: 27px;
+  height: 0;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    vertical-align:top;
+  }
+}
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting",
+        "footer",
+        "header",
+        "nav",
+        "index",
+        "blog-page"
+;

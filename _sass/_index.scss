@@ -1,0 +1,515 @@
+p {
+  margin:0px;
+  line-height:28px;
+}
+
+.semibold {
+  font-family:"Optimist SemiBold";
+}
+
+.center {
+  text-align:center;
+}
+
+.w60 {
+  width:60%;
+}
+.w40 {
+  width:40%;
+}
+.w50 {
+  width:50%;
+}
+
+.green {
+  background-color:$c1-green;
+}
+.red {
+  // background-color:$c1-red;
+  background-image:url("../assets/img/background-red.jpg");
+  background-size: 200% auto;
+}
+.yellow {
+  background-color:$c1-yellow;
+  color:#000;
+}
+
+a.sign-up {
+  div {
+    background-color:$c1-red;
+    color:#fff;
+    padding:5px 15px;
+    margin:50px 0px;
+    width:auto;
+    display:inline-block;
+    border-radius:3px;
+  }
+}
+
+#main-page {
+.col {
+  @include mq(tablet) { width:$tablet-body-width / 2; }
+  @include mq(desktop) { width:$desktop-body-width / 2; }
+}
+
+.left {
+  float:left;
+}
+.right {
+  float:right;
+}
+
+/*
+try to keep this scss reuseable
+if overwrite needed, try to do it using overrides instead of changing this
+*/
+.container {
+  @include mq(tablet) { width:$tablet-body-width; }
+  @include mq(desktop) { width:$desktop-body-width; }
+  margin:0px auto;
+
+  .row {
+    @include mq(tablet) { /*margin-bottom:50px;*/margin-bottom:80px; }
+    &.no-margin { margin:0px !important; }
+
+    .col-md-6 { // notation from bootstrap
+      @include mq(mobile) {
+        width:100%;
+      }
+      @include mq(tablet) {
+        width:50%;
+        float:left;
+      }
+
+      @include mq(desktop) {
+        &:nth-child(1) > div { // left
+          margin-right:$gutter / 2;
+        }
+        &:nth-child(2) > div { // right
+          margin-left:$gutter / 2;
+        }
+      }
+      @include mq(mobile) {
+        > div {
+          // padding-left:$gutter * 2;
+          // padding-right:$gutter * 2;
+          padding-left:40px;
+          padding-right:40px;
+        }
+      }
+    }
+  }
+}
+
+section {
+  @include mq(tablet) {
+    width:$tablet-body-width;
+    display:flex;
+  }
+  @include mq(desktop) { width:$desktop-body-width; }
+  color:#fff;
+  position:relative;
+  margin:0px auto;
+
+  &.full-width {
+    width:100%;
+    padding-top:$gutter;
+
+    .wrapper {
+      width:100%;
+
+      .container {
+        @include mq(tablet) { width:$tablet-body-width; }
+        @include mq(desktop) { width:$desktop-body-width; }
+      }
+    }
+  }
+}
+
+section#intro {
+  background-color:$c1-cyan;
+
+  .logo {
+    padding:0px 30px;
+    @include mq(mobile) {
+      margin:0 auto;
+      max-width:250px;
+    }
+
+    img {
+      width:100%;
+      height:100%;
+    }
+  }
+
+  .brainstation {
+    max-width: 200px;
+    margin: 0px auto;
+    margin-top:30px !important;
+
+    div {
+      padding: 10px;
+      font-size: 17px;
+    }
+  }
+
+  .title {
+    font-size:2em;
+    margin:40px 0px 0px 0px;
+  }
+  .date {
+    font-size:1.75em;
+  }
+
+  .col-md-6 {
+    @include mq(tablet) { padding-top:20px; }
+
+    &:nth-child(1) > div {
+      @include mq(tablet) { margin-right:20px; }
+    }
+    &.col-img {
+      margin-bottom:-3px;
+      @include mq(mobile) {
+        text-align:center;
+        margin-top:40px;
+        img { max-width:80%; }
+      }
+      @include mq(tablet) {
+        margin-top:150px;
+        > div { margin-left:60px; }
+        img { max-width:117.5%; }
+      }
+    }
+  }
+}
+
+section#what-is-it {
+  width:100%;
+
+  .wrapper {
+    // background-color:$c1-blue;
+    background-image:url("../assets/img/background-blue.jpg");
+    @include mq(mobile) {
+      background-size:auto 70%;
+    }
+    @include mq(tablet) {
+      background-size:100% auto;
+    }
+  }
+
+  .spacer {
+    @include mq(mobile) {
+      padding-bottom:50px;
+    }
+  }
+
+  .row {
+    @include mq(mobile) {
+      padding-bottom:50px;
+    }
+  }
+
+  .col-md-6 {
+    padding-top:50px;
+
+    @include mq(mobile) {
+      // text-align:center;
+    }
+    @include mq(tablet) {
+      &:nth-child(1) > div {
+        margin-right:20px;
+      }
+      &:nth-child(2) > div {
+        margin-left:20px;
+      }
+    }
+  }
+
+  h1 {
+    margin-bottom:20px;
+    font-weight:normal;
+  }
+  p {
+    margin-bottom:15px;
+  }
+  ul {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    @include mq(mobile) {
+      text-align:left !important;
+      // padding-left:25px;
+    }
+
+    li {
+      background-image:url("../assets/img/img-lrg-flag-left.png");
+      background-repeat:no-repeat;
+      padding-left:30px;
+      padding-bottom:10px;
+      background-size:20px 11px;
+      background-position:0px 6px;
+    }
+  }
+}
+
+section#who-and-how {
+  .divide {
+    > div {
+      height:100%;
+    }
+
+    @include mq(tablet) {
+      &:nth-child(1) { margin-right:$gutter / 2; }
+      &:nth-child(2) { margin-left:$gutter / 2; }
+    }
+    @include mq(mobile) {
+      width:100% !important;
+
+      // &:nth-child(1) { margin-right:$gutter; }
+      // &:nth-child(2) { margin-left:$gutter; }
+      .yellow { margin-top:$gutter; }
+    }
+
+    .flex-right {
+      display:flex;
+      flex-direction:row;
+      justify-content:flex-end;
+    }
+
+    .who-can-enter {
+      @include mq(tablet) { padding:104px 0px; }
+      @include mq(desktop) { padding:60px 0px; }
+    }
+    .hows-it-work > div {
+      padding:30px;
+    }
+  }
+
+  .top {
+    margin-bottom:$gutter;
+    @include mq(mobile) { img.sticker { margin:40px 0px; } }
+  }
+  .bottom {
+    &.red {
+      .col * { padding-right:30px; }
+    }
+    @include mq(mobile) { padding:40px; }
+  }
+
+  @include mq(mobile) {
+    .hows-it-work {
+      float:none;
+
+      > div {
+        padding:40px !important;
+      }
+    }
+  }
+}
+
+section#point {
+  .wrapper {
+    background-color:$c1-cyan;
+  }
+
+  .left {
+    @include mq(mobile) { float:none; padding:40px !important; width:calc(100% - 80px); }
+    &.text {
+      padding:50px 0px;
+    }
+  }
+  @include mq(mobile) {
+    .spacer {
+      float:none;
+      width:100%;
+      padding-bottom:40px;
+    }
+  }
+}
+
+section#featured-video {
+  @include mq(mobile) { width:80%; }
+  @include mq(tablet) { width:$tablet-body-width + 10em; }
+  @include mq(desktop) { width:$desktop-body-width + 10em; }
+  display:block;
+  text-align:center;
+}
+
+section#charities {
+  color:#000;
+  display:block;
+  padding-bottom:50px;
+
+  .feature {
+    margin-bottom:50px;
+    @include mq(mobile) { padding:0px 30px; margin-bottom:0px; }
+
+    h1 {
+      font-family:"Optimist";
+    }
+    p {
+      font-family:"Optimist Thin";
+    }
+  }
+
+  .row {
+    overflow:hidden;
+
+    .col-md-6 {
+      @include mq(tablet) {
+        &:nth-child(1) > div {
+          margin-right:20px;
+        }
+        &:nth-child(2) > div {
+          margin-left:20px;
+        }
+      }
+      @include mq(mobile) {
+        padding-top:40px;
+
+        > div {
+          padding-right:40px;
+          padding-left:40px;
+        }
+      }
+    }
+  }
+  .title {
+    font-weight:700;
+  }
+  .link {
+    color:$c1-red;
+  }
+  .text {
+    font-family:"Optimist Thin";
+    margin-top:30px;
+  }
+}
+
+section#details {
+  p {
+    font-family:"Optimist Thin";
+  }
+
+  a {
+    color:#fff;
+  }
+
+  .divide {
+    display:inline-block;
+
+    @include mq(mobile) {
+      width:100% !important;
+      &:nth-child(1) { margin-right:0px !important; }
+      &:nth-child(2) { margin-left:0px !important; }
+    }
+
+    &:nth-child(1) { // left side 50%
+      background-color:$c1-blue;
+      width:50%;
+      margin-right:$gutter / 2;
+
+      .col {
+        @include mq(mobile) {
+          > div { padding:40px; padding-bottom:120px; }
+        }
+        @include mq(tablet) {
+          .spacer { height:120px; max-height:120px; }
+          > div { padding-right:40px; }
+        }
+      }
+    }
+    &:nth-child(2) { // right side 50%
+      width:50%;
+      margin-left:$gutter / 2;
+      position:relative;
+
+      .col {
+        background-color:$c1-cyan;
+        > div { padding:0px 40px 40px 40px; }
+        @include mq(tablet) { .spacer { height:120px; max-height:120px; } }
+      }
+      .fill-gap {
+        /*width: auto;
+        @include mq(tablet) {
+          margin-left:$tablet-body-width / 2 + $gutter / $base-font-size;
+        }
+        @include mq(desktop) {
+          margin-left:$desktop-body-width / 2 + $gutter / $base-font-size;
+        }
+        height: 100%;
+        background-color: #e62117;*/
+        position:absolute;
+        width:100%;
+        height:100%;
+        background-size:auto 100%;
+        @include mq(tablet) { left:$tablet-body-width / 2 + 0.3125em; }
+        @include mq(desktop) { left:$desktop-body-width / 2 + 0.3125em; }
+        z-index:-1;
+      }
+    }
+  }
+}
+
+.spacer {
+  position:relative;
+  @include mq(mobile) { text-align:center; }
+}
+
+.sticker {
+  &.streetsign {
+    @include mq(tablet) {
+      max-width: 160%;
+      height: auto;
+      margin-left: -30%;
+      margin-top:-130px;
+    }
+    @include mq(desktop) {
+      margin-top: -150px;
+    }
+    @include mq(mobile) {
+      margin-top:-18%;
+      margin-bottom:40px;
+    }
+  }
+
+  &.date {
+    @include mq(tablet) {
+      position: absolute;
+      top: -40px;
+      height: auto;
+      z-index: 2;
+      max-width: 125%;
+    }
+  }
+
+  &.code-on {
+    @include mq(tablet) {
+      margin-top: -100px;
+      margin-bottom: 20px;
+      margin-left: -30px;
+      max-width: 110%;
+    }
+  }
+
+  &.gift-it {
+    @include mq(tablet) {
+      max-width:125%;
+      margin-left:-25%;
+      margin-top: -210px;
+      margin-bottom:50px;
+    }
+    @include mq(desktop) {
+      max-width:125%;
+      margin-left:-25%;
+      margin-bottom:50px;
+      margin-top:-250px;
+    }
+  }
+
+  @include mq(mobile) {
+    max-width:90% !important;
+    margin:0 auto;
+  }
+}
+}

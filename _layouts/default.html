@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  {% if page.is_post %}
+    {% include header.html %}
+  {% endif %}
+
+  <body>
+
+    <div class="page-content">
+      <div class="body-wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
