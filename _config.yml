@@ -16,19 +16,20 @@ permalink: /:categories/:title/
 
 # Build settings
 markdown: kramdown
-redcarpet:
- extensions: ["no_intra_emphasis", "fenced_code_blocks", "disable_indented_code_blocks", "autolink", "strikethrough", "highlight", "superscript", "tables", "footnotes", "with_toc_data"]
-highlighter: pygments
-exclude: ['utils']
+#redcarpet:
+# extensions: ["no_intra_emphasis", "fenced_code_blocks", "disable_indented_code_blocks", "autolink", "strikethrough", "highlight", "superscript", "tables", "footnotes", "with_toc_data"]
+#highlighter: pygments
+#exclude: ['utils']
 
 safe: false
 gems:
   - jekyll-redirect-from
+  - jekyll-paginate
 
 collections:
-  authors:
-  projects:
-  events:
+  resources:
+
+paginate: 5
 
 defaults:
   -
