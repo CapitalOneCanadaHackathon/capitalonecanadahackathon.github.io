@@ -13,10 +13,13 @@ images:
 Welcome to Gift the Code, a hackathon from Capital One that will help advance the cause of six local charities by giving them a technology boost!
 <br/><br/>
 
-Driven by the desire to commit as much funding as possible toward their respective causes, local charity organizations often operate on tight budgets and rarely have access to top-tier technology talent. This prevents them from taking full advantage of digital solutions that are already available. By bringing your skills, talents and unique perspective to Gift the Code, you can change this and help give participating organizations a much-needed boost.
+Driven by the desire to commit as much funding as possible toward their respective causes, local charity organizations often operate on tight budgets and rarely have access to top-tier technology talent. 
+This prevents them from taking full advantage of digital solutions that are already available. By bringing your skills, talents and unique perspective to Gift the Code, you can change this and 
+help give participating organizations a much-needed boost.
 <br/><br/>
 
-On the weekend of October 21 to 23, join over 100 other participants who are passionate about technology and innovation at BrainStation’s beautiful King and Spadina location. You’ll work together to develop solutions that help:
+On the weekend of October 21 to 23, join over 100 other participants who are passionate about technology and innovation at BrainStation’s beautiful King and Spadina location. 
+You’ll work together to develop solutions that help:
 <br/><br/>
 
 •	Improve the lives of kids with disabilities;
@@ -36,7 +39,7 @@ Fighting for different causes and providing services to diverse target groups re
 <br/>
 
 <div class="center link"><a href="https://www.hackworks.com/giftthecode" class="register-now">REGISTER</a></div>
-<br/><br/>
+
 
 <h2 class="center">MEET THE CHARITIES!</h2>
 
@@ -59,7 +62,7 @@ Fighting for different causes and providing services to diverse target groups re
 <br/><br/>
 
 Starting on Monday, September 5, we’ll be providing you with a weekly blog post about each charity, that will include information about the challenges they’ll be bringing forward at Gift the Code!
-<br/><br/>
+
 
 <h2 class="center">HOPE TO SEE YOU AT GIFT THE CODE!</h2>
 

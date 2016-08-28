@@ -2,6 +2,7 @@
 title:  Artist Tools
 visible: true
 date: 2016-08-23 00:00:02
+rid: artist-tools
 ---
 * [Photoshop](http://www.adobe.com/ca/products/photoshop/selector/design.html?promoid=ZFN4FN41)
 * [Illustrator](http://www.adobe.com/ca/products/illustrator.html)

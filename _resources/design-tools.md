@@ -2,6 +2,7 @@
 title:  Design Tools
 visible: true
 date: 2016-08-23 00:00:01
+rid: design-tools
 ---
 * [Sketch](https://www.sketchapp.com/)
 * [Sketch Tips and Tutorials](http://www.sketchappsources.com/tutorials-tips.html)
