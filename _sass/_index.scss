@@ -27,13 +27,16 @@ p {
 .red {
   // background-color:$c1-red;
   background-image:url("../assets/img/background-red.jpg");
-  background-size: 200% auto;
+  background-size: 18% auto;
+  color: #FFF;
 }
 .yellow {
   background-color:$c1-yellow;
   color:#000;
 }
-
+.cyan {
+	background-color:$c1-cyan;
+}
 a.sign-up {
   div {
     background-color:$c1-red;
@@ -59,6 +62,26 @@ a.sign-up {
   float:right;
 }
 
+
+ul.flagged {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	@include mq(mobile) {
+	  text-align:left !important;
+	  // padding-left:25px;
+	}
+}
+
+li.flagged {
+  background-image:url("../assets/img/img-lrg-flag-left.png");
+  background-repeat:no-repeat;
+  padding-left:30px;
+  padding-bottom:10px;
+  background-size:20px 11px;
+  background-position:0px 6px;
+}
+    
 /*
 try to keep this scss reuseable
 if overwrite needed, try to do it using overrides instead of changing this
@@ -175,7 +198,7 @@ section#intro {
         img { max-width:80%; }
       }
       @include mq(tablet) {
-        margin-top:150px;
+        #margin-top:150px;
         > div { margin-left:60px; }
         img { max-width:117.5%; }
       }
@@ -276,13 +299,26 @@ section#who-and-how {
       justify-content:flex-end;
     }
 
-    .who-can-enter {
+    .who-the-hack {
+    	margin-top: -11px;
+    	border-top: 5px solid white;
+    	
       @include mq(tablet) { padding:104px 0px; }
       @include mq(desktop) { padding:60px 0px; }
+      > div { padding:30px; }
     }
     .hows-it-work > div {
       padding:30px;
     }
+
+    .why-a-hack > div {
+      padding:30px;
+    }
+
+	  p {
+		margin-bottom:15px;
+	  }
+
   }
 
   .top {
@@ -309,7 +345,7 @@ section#who-and-how {
 
 section#point {
   .wrapper {
-    background-color:$c1-cyan;
+//    background-color:$c1-cyan;
   }
 
   .left {
@@ -387,6 +423,9 @@ section#charities {
 }
 
 section#details {
+
+	div.heads-up { padding-top: 30px;}
+
   p {
     font-family:"Optimist Thin";
   }
@@ -485,9 +524,9 @@ section#details {
 
   &.code-on {
     @include mq(tablet) {
-      margin-top: -100px;
+      margin-top: -170px;
       margin-bottom: 20px;
-      margin-left: -30px;
+      margin-left: -80px;
       max-width: 110%;
     }
   }

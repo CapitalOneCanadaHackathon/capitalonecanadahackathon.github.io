@@ -1,6 +1,6 @@
 ---
 title:  Charity Challenge Resources
-visible: true
+visible: false
 date: 2016-08-27 00:00:00
 rid: charity-resources
 ---
