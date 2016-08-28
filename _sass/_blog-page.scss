@@ -12,9 +12,33 @@
       }
     }
 
+  section.main {
+    margin:0 auto;
+    @include mq(tablet) { width:$tablet-body-width; }
+    @include mq(desktop) { width:$desktop-body-width; }
+    @include mq(mobile) {
+      width:100%;
+
+      .wrap {
+        padding-left:20px;
+        padding-right:20px;
+      }
+    }
+    }
+
     h1 {
       font-family: "Optimist Thin", "Helvetica Neue", Arial, sans-serif;
       font-size: 28px;
+      font-weight:700;
+      line-height: 32px;
+      margin-bottom: 23px;
+      margin-top: 23px;
+      padding-top: 20px;
+    }
+
+    h2 {
+      font-family: "Optimist Thin", "Helvetica Neue", Arial, sans-serif;
+      font-size: 22px;
       font-weight:700;
       line-height: 32px;
       margin-bottom: 23px;
