@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Holland Bloorview: Creating Worlds of Possibilities for Kids with Disabilities"
-date: 2016-08-27 09:00:00
+date: 2016-09-05 08:00:00
 theme:
 author: Capital One
 tags: >
@@ -28,7 +28,7 @@ as it progressively grew to meet the needs of the community, a name was added th
 <br />
 A lot has changed since then, including the name, but the spirit hasn’t. At the core of the Holland Bloorview Kids Rehabilitation Hospital is a shared spirit of quiet determination and compassion, 
 generosity and community. It’s Canada’s largest rehabilitation hospital focused on improving the lives of kids with disabilities, and a global leader in applied research, teaching and learning, as 
-well as client- and family-centred care. Their vision is nothing less than creating “_a world of possibility_” for kids with disabilities. 
+well as client- and family-centred care. Their vision is nothing less than creating “_a world of possibility_” for kids with disability. 
 <br />
 <br />
 Gift the Code participants’ contributions will have a positive impact on Holland Bloorview’s tech and digital ability to provide the already fantastic services offered to its patients. 
