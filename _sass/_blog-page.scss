@@ -46,7 +46,18 @@
       padding-top: 20px;
     }
 
-    p {
+    h3 {
+      font-family: "Optimist Thin", "Helvetica Neue", Arial, sans-serif;
+      font-size: 18px;
+      font-weight:700;
+      line-height: 32px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      padding-top: 5px;
+      text-decoration: underline;
+    }
+
+    p, li {
       font-family: "Optimist Thin","Helvetica Neue",Arial,sans-serif;
       font-size:18px;
       line-height: 28px;

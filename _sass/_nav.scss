@@ -123,6 +123,16 @@ section#nav {
     }
   }
 
+  img.top-left {
+    @include mq(tablet) {
+      position:absolute;
+      top:25px;
+      left:40px;
+    }
+
+    div { margin:0px; }
+  }
+  
   a.sign-up.top-right {
     @include mq(tablet) {
       position:absolute;
