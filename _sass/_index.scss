@@ -4,7 +4,7 @@ p {
 }
 
 .semibold {
-  font-family:"Optimist SemiBold";
+    font-family:"Optimist SemiBold", "Helvetica Neue Medium", "Arial Bold", sans-serif;
 }
 
 .center {
@@ -134,6 +134,25 @@ section {
   position:relative;
   margin:0px auto;
 
+  h1 {
+    margin-bottom:20px;
+    font-weight:normal;
+  	font-family: "Optimist Regular", "Helvetica Neue", Arial, sans-serif;
+    font-size:2em;
+   
+  }
+  p {
+    margin-bottom:15px;
+    font-weight:normal;
+    font-family:"Optimist Light", "Helvetica Neue Light", "Arial Narrow", sans-serif;
+    font-size:1.2em;
+  }
+  li {
+    font-weight:normal;
+    font-family:"Optimist Light", "Helvetica Neue Light", "Arial Narrow", sans-serif;
+    font-size:1.2em;
+  }
+
   &.full-width {
     width:100%;
     padding-top:$gutter;
@@ -177,11 +196,16 @@ section#intro {
   }
 
   .title {
-    font-size:2em;
+  	font-family: "Optimist Regular", "Helvetica Neue", Arial, sans-serif;
+    font-size:2.4em;
+    font-weight: normal;
     margin:40px 0px 0px 0px;
   }
   .date {
-    font-size:1.75em;
+  	font-family: "Optimist Light", "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+    font-size:2em;
+    margin-top: 40px;
   }
 
   .col-md-6 {
@@ -248,13 +272,6 @@ section#what-is-it {
     }
   }
 
-  h1 {
-    margin-bottom:20px;
-    font-weight:normal;
-  }
-  p {
-    margin-bottom:15px;
-  }
   ul {
     list-style-type:none;
     padding:0;
@@ -411,24 +428,27 @@ section#charities {
     }
   }
   .title {
-    font-weight:700;
+    font-weight:normal;
+    font-family:"Optimist SemiBold", "Helvetica Neue Medium", "Arial Bold", sans-serif;
+    font-size: 1.5em;
   }
   .link {
     color:$c1-red;
   }
   .text {
-    font-family:"Optimist Thin";
+    font-family:"Optimist Thin", "Helvetica Neue Thin", "Arial Narrow", sans-serif;
     margin-top:30px;
+    font-size: 1.2em;
+  }
+  a {
+    font-family:"Optimist SemiBold", "Helvetica Neue Medium", "Arial Bold", sans-serif;
+    font-size: 1.2em;
   }
 }
 
 section#details {
 
 	div.heads-up { padding-top: 30px;}
-
-  p {
-    font-family:"Optimist Thin";
-  }
 
   a {
     color:#fff;

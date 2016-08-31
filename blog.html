@@ -17,7 +17,10 @@ layout: blog
 						</time>
 					</header>
 					<article class="page-content">
-						{{ post.content }}
+						{{ post.excerpt }}
+				        {% if post.content contains '<!--more-->' %}
+					        <a href="{{ post.url | prepend: site.baseurl }}" class="read_more">Read More</a>
+        				{% endif %}
 					</article>
 				</div>
 			</section>
@@ -27,3 +30,5 @@ layout: blog
     </section>
     </div>
   </section>
+
+<br /><br />
