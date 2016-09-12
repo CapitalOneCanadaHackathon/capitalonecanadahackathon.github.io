@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prosper Canada: Fighting Poverty with Financial Empowerment"
-date: 2016-09-11 08:00:00
+date: 2016-09-12 05:00:00
 theme:
 author: Capital One
 tags: >
