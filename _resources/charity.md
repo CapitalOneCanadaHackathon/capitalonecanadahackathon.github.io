@@ -6,3 +6,4 @@ rid: charity-resources
 ---
 * [Holland Bloorview](/holland-bloorview/)
 * [Prosper Canada](/prosper/)
+* [Second Harvest](/second-harvest/)
