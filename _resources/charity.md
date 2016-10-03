@@ -7,4 +7,5 @@ rid: charity-resources
 * [Holland Bloorview](/holland-bloorview/)
 * [Prosper Canada](/prosper/)
 * [Second Harvest](/second-harvest/)
-* [Toronto Pflag](/pflag)
+* [Toronto Pflag](/pflag/)
+* [Women's Habitat](/womens-habitat/)
