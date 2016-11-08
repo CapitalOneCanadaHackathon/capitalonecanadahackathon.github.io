@@ -141,7 +141,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 97)
+  github-pages
   jekyll
   jekyll-redirect-from
   json
