@@ -9,7 +9,7 @@ rid: artist-tools
 * [GIMP](http://www.gimp.org/)
 * [Design Assets](https://pixlr.com/)
 * [Font Awesome (Icons)](http://fortawesome.github.io/Font-Awesome/)
-* [Subtle Patterns](http://subtlepatterns.com/)
+* [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
 * [Google Fonts](http://www.google.com/fonts)
 * [Font Squirrel](http://www.fontsquirrel.com/)
 * [Lorem Ipsum Generator](http://www.ipsum-generator.com/)

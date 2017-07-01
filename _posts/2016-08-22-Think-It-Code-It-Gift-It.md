@@ -1,12 +1,13 @@
 ---
-layout: post
+layout: post2016
+permalink: /2016/:categories/:title/
 title:  Think it. Code it. Gift it.
 date: 2016-08-22 09:00:01
 theme:
 author: Capital One
 tags: >
 category: blog
-visible: true
+visible: 2016
 images:
 ---
 Welcome to Gift the Code, a hackathon from Capital One that will help advance the cause of six local charities by giving them a technology boost!

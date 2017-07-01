@@ -2,6 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+
 @mixin mq($point) {
     @include bp($point) {@content;}
 }
@@ -16,6 +17,7 @@
     }
 }
 
+// Our variables
 $base-font-family: "Optimist", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $smaller-base-font-size: 14px;
@@ -53,8 +55,47 @@ $c1-red: #d12e32;
 $c1-green: #00a400;
 $c1-yellow: #f8cc01;
 
+.yt-video {
+  position: relative;
+  // padding-bottom: 56.25%; /* 16:9 */
+  // padding-bottom: 48.25%; /* manual adjustment to kill top/bottom border */
+  // padding-top: 25px;
+  padding-bottom: 53.25%;
+  padding-top: 27px;
+  height: 0;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    vertical-align:top;
+  }
+}
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-	"base",
-        "footer"
+        "base2016",
+        "layout2016",
+        "syntax-highlighting2016",
+        "footer2016",
+        "header2016",
+        "nav2016",
+        "index2016",
+        "blog-page2016"
 ;

@@ -1,12 +1,13 @@
 ---
-layout: post
+layout: post2016
+permalink: /2016/:categories/:title/
 title: "Prosper Canada: Fighting Poverty with Financial Empowerment"
 date: 2016-09-12 05:00:00
 theme:
 author: Capital One
 tags: >
 category: blog
-visible: true
+visible: 2016
 images:
 ---
 Founded in 1986, <a href="http://prospercanada.org/" target="_blank">Prosper Canada</a> is a national charity dedicated to expanding economic opportunity for Canadians living in poverty through program and policy innovation. 
@@ -18,7 +19,7 @@ Each week, we’ll be introducing you to another participating charity and we’
 As we get closer to the Gift the Code event date, we’ll be providing participants with resources that they can use to better develop their solutions. 
 <br />
 <br />
-[Please click here to find resources related to the tech challenges faced by Prosper Canada](/prosper/).
+[Please click here to find resources related to the tech challenges faced by Prosper Canada](/2016/prosper/).
 <br />
 <br />
 Prosper Canada works with partners in all sectors to develop and promote financial policies, programs and resources that transform lives and help Canadians prosper. 
