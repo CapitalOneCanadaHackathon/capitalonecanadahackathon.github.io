@@ -1,19 +1,20 @@
 ---
-layout: post
+layout: post2016
+permalink: /2016/:categories/:title/
 title: "Holland Bloorview: Creating Worlds of Possibilities for Kids with Disabilities"
 date: 2016-09-05 08:00:00
 theme:
 author: Capital One
 tags: >
 category: blog
-visible: true
+visible: 2016
 images:
 ---
 The Holland Bloorview Kids Rehabilitation Hospital is a world-class organization and global leader in applied research, teaching and learning, and client- and family-centred care. 
 They are one of six participating charities at Gift the Code and they’ll be presenting 3 different tech challenges to participants. Each week, we’ll be introducing you to another 
 participating charity and we’ll share the challenges that they’re facing and the problems they’re hoping to solve at the hackathon. 
 <!--more-->
-[Please click here to find resources related to the tech challenges faced by Holland Bloorview](/holland-bloorview/).
+[Please click here to find resources related to the tech challenges faced by Holland Bloorview](/2016/holland-bloorview/).
 <h2 class="center">The Holland Bloorview Kids Rehabilitation Hospital</h2>
 
 As Canada’s leading pediatric rehabilitation teaching hospital, the [Holland Bloorview Kids Rehabilitation Hospital](http://www.hollandbloorview.ca/) is dedicated to being at the forefront of clinical care, research and education. 

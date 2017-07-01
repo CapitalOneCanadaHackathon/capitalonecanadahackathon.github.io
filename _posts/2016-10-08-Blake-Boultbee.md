@@ -1,12 +1,13 @@
 ---
-layout: post
+layout: post2016
+permalink: /2016/:categories/:title/
 title: "Blake Boultbee: Supporting Youth in Troubled Waters"
 date: 2016-10-09 05:00:00
 theme:
 author: Capital One
 tags: >
 category: blog
-visible: true
+visible: 2016
 images:
 ---
 Teenagers and young adults go through an often bewildering period of emotional, intellectual and physical growth as they go through the process of fleshing out 
@@ -15,7 +16,7 @@ discourse and information. Prone to self-doubt and occasional arrogance, it’s 
 <!--more-->
 <br />
 <br />
-[Please click here to find resources related to the tech challenges faced by Blake Boultbee](/blake-boultbee/).
+[Please click here to find resources related to the tech challenges faced by Blake Boultbee](/2016/blake-boultbee/).
 <br />
 <br />
 What’s astonishing is the level of pressure they face to make life choices at a time when their brains have not yet fully formed. Scientists now know that the 
