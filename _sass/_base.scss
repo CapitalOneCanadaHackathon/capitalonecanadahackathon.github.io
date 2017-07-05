@@ -352,13 +352,13 @@ div#gtc-footer
   
     /* flow the children */
     display: -webkit-flex;
-    -webkit-flex-direction: column;
+    -webkit-flex-direction: column-reverse;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   
     div#gtc-social
     {
-      -webkit-order: 1;
+      -webkit-order: 2;
       order: 1;
       margin: 0 0 20px 0;
       img
@@ -369,7 +369,7 @@ div#gtc-footer
   
     div#gtc-legal
     {
-      -webkit-order: 2;
+      -webkit-order: 1;
       order: 2;
       margin: 0 0 0 0;
   

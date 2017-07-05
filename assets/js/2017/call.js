@@ -8,7 +8,7 @@ bgcolors[1] = "#018BBB";
 bgcolors[2] = "#004977";
 
 var messages = new Array();
-messages[0] = "We're back! Be a part of something truly inspiring.";
+messages[0] = "We&#8217;re back! Be a part of something truly inspiring.";
 messages[1] = "Use digital for good.";
 messages[2] = "Calling all tech wizards with heart.";
 
