@@ -93,6 +93,14 @@ div#gtc-header
   max-width: 100%;
   min-height: 100px;
 
+  /* flow the children */
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
   div#gtc-sign-up
   {
     color: #ffffff;
@@ -108,8 +116,6 @@ div#gtc-header
     box-shadow: 0px 3px 6.86px 0.14px rgba(0, 0, 0, 0.16);
     width: 155px;
     height: 30px;
-
-    float: right;
   }
 }
 
@@ -147,6 +153,7 @@ div#gtc-main
       color: #ffffff;
       font-size: 6em;
       padding-bottom: 50px;
+      line-height: 1.2em;
     }
 
     div#gtc-static
@@ -229,18 +236,12 @@ div#gtc-footer
        color: #ffffff;
     }
   }
-
-  div#gtc-logo
-  {
-    -webkit-order: 3;
-    order: 3;
-  }
 }
 
 /*
   Mobile Look
 */
-@media all and (max-width: 500px)
+@media all and (max-width: 750px)
 {
 
   div#main-page
@@ -268,6 +269,23 @@ div#gtc-footer
     max-width: initial;
     min-height: initial;
     margin: 0 0 25px 0;
+
+    /* flow the children */
+    /*display: -webkit-flex;
+    -webkit-flex-direction: column;
+    display: flex;
+    flex-direction: column;*/
+    display: initial;
+
+    div#gtc-sign-up {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      float: right;
+    }
+
+    div#gtc-logo {
+      margin-top: 10px;
+    }
   }
 
   div#gtc-main
@@ -305,6 +323,7 @@ div#gtc-footer
         width: initial;
         font-size: 2em;
         padding-bottom: 20px;
+        line-height: 1.2em;
       }
   
       div#gtc-static
@@ -352,9 +371,9 @@ div#gtc-footer
   
     /* flow the children */
     display: -webkit-flex;
-    -webkit-flex-direction: column-reverse;
+    -webkit-flex-direction: column;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   
     div#gtc-social
     {
