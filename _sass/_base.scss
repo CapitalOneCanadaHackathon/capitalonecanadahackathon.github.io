@@ -280,11 +280,16 @@ div#gtc-footer
     div#gtc-sign-up {
       margin-top: 25px;
       margin-bottom: 25px;
-      float: right;
     }
 
     div#gtc-logo {
-      margin-top: 10px;
+      margin-top: 25px;
+
+      img
+      {
+         width: 85%;
+         height: 85%;
+      }
     }
   }
 
@@ -310,7 +315,7 @@ div#gtc-footer
       order: 1;
       width: initial;
   
-      padding-left: 5%;
+      padding-left: 0;
   
       /* flow the children */
       display: -webkit-flex;
