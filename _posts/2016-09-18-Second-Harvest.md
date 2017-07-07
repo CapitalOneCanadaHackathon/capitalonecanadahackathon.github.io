@@ -1,12 +1,13 @@
 ---
-layout: post
+layout: post2016
+permalink: /2016/:categories/:title/
 title: "Second Harvest: Fighting Hunger while Reducing Food Waste"
 date: 2016-09-18 05:00:00
 theme:
 author: Capital One
 tags: >
 category: blog
-visible: true
+visible: 2016
 images:
 ---
 If you won $10,000 to give to a charity, what kind of an impact would you like that money to make? Perhaps you’d like to help feed the poor? 
@@ -15,7 +16,7 @@ dollars and you might rack your brain and conclude that you can merge the two ca
 <!--more-->
 <br />
 <br />
-[Please click here to find resources related to the tech challenges faced by Second Harvest](/second-harvest/).
+[Please click here to find resources related to the tech challenges faced by Second Harvest](/2016/second-harvest/).
 <br />
 <br />
 Simmering now with new ideas, you might do a bit of research and find out that based on a study in 2014, 

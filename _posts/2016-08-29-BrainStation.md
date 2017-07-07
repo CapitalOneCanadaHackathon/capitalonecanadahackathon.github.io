@@ -1,12 +1,13 @@
 ---
-layout: post
+layout: post2016
+permalink: /2016/:categories/:title/
 title: "Gift the Code is Hosted at Toronto's Cutting-Edge Tech Education Hub: BrainStation"
 date: 2016-08-29 08:00:00
 theme:
 author: Capital One
 tags: >
 category: blog
-visible: true
+visible: 2016
 images:
 ---
 Gift The Code is taking place at [BrainStation](https://www.brainstation.io/) Toronto’s downtown  King and Spadina location – an iconic, historical building that was built in 1875. It’s said that new ideas need old buildings, and BrainStation is a perfect representation of old infused with new. The former youth hostel was redesigned and modernized to create a cutting-edge, digital-technology education hub without compromising the historical character of the space. With brick walls, bright spaces and a great coffee shop, BrainStation is inviting and inspiring – the perfect venue for a hackathon!

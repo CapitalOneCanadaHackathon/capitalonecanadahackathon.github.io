@@ -9,7 +9,7 @@
 title: Gift the Code
 email: >
 description: > # this means to ignore newlines until "baseurl:"
-  Join us October 21-23 to Gift the Code to deserving charities in the Greater Toronto Area
+  Join us November 3-5 to Gift the Code to deserving charities in the Greater Toronto Area
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 permalink: /:categories/:title/
@@ -17,10 +17,6 @@ excerpt_separator: <!--more-->
 
 # Build settings
 markdown: kramdown
-#redcarpet:
-# extensions: ["no_intra_emphasis", "fenced_code_blocks", "disable_indented_code_blocks", "autolink", "strikethrough", "highlight", "superscript", "tables", "footnotes", "with_toc_data"]
-#highlighter: pygments
-#exclude: ['utils']
 
 safe: false
 gems:

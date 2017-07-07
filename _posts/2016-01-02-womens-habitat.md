@@ -1,12 +1,13 @@
 ---
-layout: post
+layout: post2016
+permalink: /2016/:categories/:title/
 title: "Women's Habitat: Helping Women and Children Overcome Violence and Abuse"
 date: 2016-10-01 05:00:00
 theme:
 author: Capital One
 tags: >
 category: blog
-visible: true
+visible: 2016
 images:
 ---
 On the <a href="https://womenshabitat.ca/" target="_blank">Women’s Habitat website</a>, a header bar sits at the top of the page – 
@@ -20,7 +21,7 @@ violence and abuse, the reasons are obvious.
 Each week, we’ll be introducing you to another participating charity and we’ll share the challenges that they’re facing and the problems they’re hoping to solve at the hackathon. 
 <br />
 <br />
-[Please click here to find resources related to the tech challenges faced by Women's Habitat](/womens-habitat/).
+[Please click here to find resources related to the tech challenges faced by Women's Habitat](/2016/womens-habitat/).
 <br />
 <br />
 The behaviour of people at risk of experiencing violence and abuse is conditioned by the simple possibility of being watched. 
