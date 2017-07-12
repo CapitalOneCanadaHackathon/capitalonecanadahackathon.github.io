@@ -238,6 +238,74 @@ div#gtc-footer
   }
 }
 
+@media all and (max-height: 768px)
+{
+
+  div#main-page
+  {
+    max-width: initial;
+    min-height: initial;
+    margin: initial;
+    transform: initial;
+    top: initial;
+    padding: 30px 35px 0 35px;
+
+  }
+
+	div#gtc-header
+	{
+	
+	  /* margin-top: 50px; */
+	  div#gtc-sign-up
+	  {
+		font-size: 1.3em;
+		width: 155px;
+		height: 30px;
+	  }
+	}
+
+	div#gtc-main
+	{ 
+	
+	  /* positional */
+      min-height: initial;
+
+	  div#gtc-call-out
+	  {
+		div#gtc-slider
+		{
+		  font-size: 4em;
+		  line-height: 1.2em;
+		}
+
+		div#gtc-static
+		{
+
+		  div#gtc-static-emph
+		  {
+			font-size: 2.1em;
+		  }
+
+		  div#gtc-static-no-miss
+		  {
+			font-size: 2em;
+		  }
+		}
+	  }
+    }
+
+	div#gtc-footer
+	{
+
+	  div#gtc-legal
+	  {
+		font-size: .8em;
+	  }
+	}
+
+
+}
+
 /*
   Mobile Look
 */
