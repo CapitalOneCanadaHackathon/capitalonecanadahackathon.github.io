@@ -16,6 +16,22 @@
     }
 }
 
+@mixin display-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin easein-transition($duration) {
+  -webkit-transition: all $duration ease-in;
+  -ms-transition: all $duration ease-in;
+  -moz-transition: all $duration ease-in;
+  -o-transition: all $duration ease-in;
+  transition: all $duration ease-in;
+}
+
 $base-font-family: "Optimist", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $smaller-base-font-size: 14px;
@@ -26,7 +42,7 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #4a4a4a;
 $background-color: #004977;
 $brand-color:      #2a7ae2;
 
@@ -55,5 +71,6 @@ $c1-yellow: #f8cc01;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-	"base"
+	"base",
+  "nav"
 ;

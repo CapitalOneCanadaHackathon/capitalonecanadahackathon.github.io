@@ -1,0 +1,130 @@
+#header {
+  height: 96px;
+  width: 100%;
+  margin-bottom: 16px;
+
+  #nav {
+    @include display-flex;
+    @include easein-transition(10ms);
+    height: 100%;
+    width: 100%;
+    padding-left: 160px;
+    padding-right: 160px;
+
+    #nav-title,
+    #nav-actions {
+      @include display-flex;
+      height: 100%;
+      width: 50%;
+
+      * {
+        @include display-flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+
+    #nav-title {
+      justify-content: flex-start;
+    }
+
+    #nav-actions {
+      justify-content: flex-end;
+
+      #hamburger {
+        @include display-flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 72px;
+      }
+    }
+  }
+}
+
+/* -- Hamburger Menu Style and Animation */
+#hamburger {
+  @include easein-transition(250ms);
+  height: 16px;
+  width: 32px;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  div {
+    @include easein-transition(250ms);
+    height: calc(18px * 0.33);
+    width: 100%;
+  }
+
+  div:first-child {
+    border-top: 3px solid $text-color;
+  }
+
+  div:last-child {
+    border-bottom: 3px solid $text-color;
+  }
+}
+
+#hamburger.animate-x {
+  height: 24px;
+
+  div:first-child {
+    border-color: white;
+    -webkit-transform-origin: left top;
+    -ms-transform: rotate(42deg); /* IE 9 */
+    -webkit-transform: rotate(42deg); /* Safari */
+    transform: rotate(42deg);
+  }
+
+  div:last-child {
+    border-color: white;
+    -webkit-transform-origin: left bottom;
+    -ms-transform: rotate(-42deg); /* IE 9 */
+    -webkit-transform: rotate(-42deg); /* Safari */
+    transform: rotate(-42deg);
+  }
+}
+
+/* Expanded Nav */
+#nav-expanded {
+  @include easein-transition(350ms);
+  height: 256px;
+  width: 100%;
+  background-color: #3a3a3a;
+  position: absolute;
+  top: -256px; /* Height of nav */
+}
+
+#nav.show-expanded-nav {
+  background-color: #3a3a3a;
+
+  a {
+    color: white;
+  }
+}
+
+#nav-expanded.show-expanded-nav {
+  animation: nav-bounce-down 350ms;
+  top: 96px;
+}
+
+/* Animations */
+@keyframes nav-bounce-down {
+  0% {
+    top: -256px;
+  }
+
+  50% {
+    top: 96px;
+  }
+
+  75% {
+    top: 60px;
+  }
+
+  100% {
+    top: 96px;
+  }
+}
