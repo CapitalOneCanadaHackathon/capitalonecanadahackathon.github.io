@@ -115,18 +115,20 @@
 }
 
 #menu-overlay {
+  @include easein-transition(250ms);
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.7;
+  opacity: 0;
   background-color: black;
-  display: none;
   z-index: 2;
 }
+
 #menu-overlay.show-expanded-nav {
-  display: block;
+  animation: nav-overlay-show 250ms;
+  opacity: 0.7;
 }
 
 /* Expanded Nav Content */
@@ -157,5 +159,16 @@
 
   100% {
     top: 96px;
+  }
+}
+
+
+@keyframes nav-overlay-show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.7;
   }
 }
