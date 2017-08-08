@@ -1,15 +1,16 @@
 #header {
   height: 96px;
   width: 100%;
-  margin-bottom: 16px;
 
   #nav {
     @include display-flex;
     @include easein-transition(10ms);
     height: 100%;
     width: 100%;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 96px;
+    padding-right: 96px;
+    position: relative;
+    z-index: 3;
 
     #nav-title,
     #nav-actions {
@@ -43,8 +44,8 @@
 
 /* -- Hamburger Menu Style and Animation */
 #hamburger {
-  @include easein-transition(250ms);
-  height: 16px;
+  @include easein-transition(100ms);
+  height: 14px;
   width: 32px;
 
   &:hover {
@@ -67,6 +68,7 @@
   }
 }
 
+/* Expand Nav Styling */
 #hamburger.animate-x {
   height: 24px;
 
@@ -87,18 +89,20 @@
   }
 }
 
-/* Expanded Nav */
 #nav-expanded {
   @include easein-transition(350ms);
   height: 256px;
   width: 100%;
-  background-color: #3a3a3a;
+  background-color: #004977;
   position: absolute;
   top: -256px; /* Height of nav */
+  padding-left: 128px;
+  padding-right: 128px;
+  z-index: 3;
 }
 
 #nav.show-expanded-nav {
-  background-color: #3a3a3a;
+  background-color: #004977;
 
   a {
     color: white;
@@ -110,6 +114,37 @@
   top: 96px;
 }
 
+#menu-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  background-color: black;
+  display: none;
+  z-index: 2;
+}
+#menu-overlay.show-expanded-nav {
+  display: block;
+}
+
+/* Expanded Nav Content */
+#nav-menu-links {
+  @include display-flex;
+  justify-content: space-around;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 85%;
+  margin: auto;
+
+  a {
+    color: white;
+    font-family: $base-font-family-light;
+    font-size: 24px;
+  }
+}
+
 /* Animations */
 @keyframes nav-bounce-down {
   0% {
@@ -117,11 +152,7 @@
   }
 
   50% {
-    top: 96px;
-  }
-
-  75% {
-    top: 60px;
+    top: 42px;
   }
 
   100% {

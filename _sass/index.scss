@@ -1,0 +1,27 @@
+#landing-page {
+  @include display-flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#hero {
+  width: 100%;
+  padding: 96px;
+}
+
+#hero-content {
+  width: 100%;
+  background-color: #004977;
+  border-radius: 2px;
+  padding: 136px 96px 136px 96px;
+
+  color: white;
+  font-family: $base-font-family-light;
+}
+
+#callback {
+  height: 250px;
+  width: 100%;
+  background-color: grey;
+  align-self: flex-end;
+}
