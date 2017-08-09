@@ -1,0 +1,37 @@
+.button {
+  @include easein-transition(250ms);
+  display: block;
+  text-align: center;
+  padding: 8px;
+  border-radius: 2px;
+  font-family: $base-font-family;
+  background-color: #fff;
+  color: $text-color;
+
+  &:hover {
+    opacity: 1;
+    box-shadow: 0px 2px 2px 3px rgba(35,35,35,0.45);
+    transform: scale(1.02);
+  }
+}
+
+.button-light {
+  background-color: #0EA218;
+  color: #fff;
+}
+
+/* Specific Button Styles */
+#hero-register-cta {
+  width: 120px;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, left top, right top, from(#018BBB), to(#0EA218));
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(left, #0EA218, #018BBB);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(left, #0EA218, #018BBB);
+  /* IE 10 */
+  background: -ms-linear-gradient(left, #0EA218, #018BBB);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(left, #0EA218, #018BBB);
+}

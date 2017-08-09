@@ -32,12 +32,12 @@ font-face
  * Links
  */
 a {
-    color: $text-color;
-    text-decoration: none;
+	@include easein-transition(200ms);
+  text-decoration: none;
 
-    &:hover {
-        color: lighten($brand-color, 15%);
-    }
+  &:hover {
+		opacity: 0.75;
+  }
 }
 
 body

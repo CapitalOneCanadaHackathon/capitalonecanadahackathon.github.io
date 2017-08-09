@@ -12,6 +12,10 @@
     position: relative;
     z-index: 3;
 
+    a {
+      color: $text-color;
+    }
+
     #nav-title,
     #nav-actions {
       @include display-flex;
@@ -122,6 +126,7 @@
   height: 100%;
   width: 100%;
   opacity: 0;
+  display: none;
   background-color: black;
   z-index: 2;
 }
@@ -129,6 +134,7 @@
 #menu-overlay.show-expanded-nav {
   animation: nav-overlay-show 250ms;
   opacity: 0.7;
+  display: block;
 }
 
 /* Expanded Nav Content */
@@ -142,7 +148,7 @@
 
   a {
     color: white;
-    font-family: $base-font-family-light;
+    font-family: $base-font-family-thin;
     font-size: 24px;
   }
 }

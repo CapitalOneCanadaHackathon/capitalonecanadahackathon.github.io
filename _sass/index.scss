@@ -6,17 +6,34 @@
 
 #hero {
   width: 100%;
-  padding: 96px;
+  padding: 32px 96px 96px 96px;
 }
 
 #hero-content {
   width: 100%;
   background-color: #004977;
   border-radius: 2px;
-  padding: 136px 96px 136px 96px;
+  padding: 116px 96px 116px 96px;
+  color: #fff;
+  font-family: $base-font-family-extra-thin;
 
-  color: white;
-  font-family: $base-font-family-light;
+  .tagline {
+    font-size: 36px;
+  }
+
+  #event-info {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+  }
+
+  #hero-register-cta {
+    margin-bottom: 16px;  
+  }
+
+  #learn-more {
+    color: #fff;
+  }
 }
 
 #callback {

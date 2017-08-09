@@ -33,7 +33,10 @@
 }
 
 $base-font-family: "Optimist", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-family-light: "Optimist Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family-thin: "Optimist Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family-extra-thin: "Optimist Extra Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family-semibold: "Optimist SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 $base-font-size:   16px;
 $smaller-base-font-size: 14px;
 $mobile-base-font-size: 13px;
@@ -73,6 +76,7 @@ $c1-yellow: #f8cc01;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"base",
+  "button",
   "nav",
   "index"
 ;
