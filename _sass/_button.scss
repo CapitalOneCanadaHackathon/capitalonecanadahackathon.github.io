@@ -4,7 +4,7 @@
   text-align: center;
   padding: 8px;
   border-radius: 2px;
-  font-family: $base-font-family;
+  font-family: $base-font-family-thin;
   background-color: #fff;
   color: $text-color;
 
@@ -22,7 +22,8 @@
 
 /* Specific Button Styles */
 #hero-register-cta {
-  width: 120px;
+  font-size: 18px;
+  width: 140px;
 
   /* Safari 4-5, Chrome 1-9 */
   background: -webkit-gradient(linear, left top, right top, from(#018BBB), to(#0EA218));

@@ -7,6 +7,7 @@
     @include easein-transition(10ms);
     height: 100%;
     width: 100%;
+    font-size: 16px;
     padding-left: 96px;
     padding-right: 96px;
     position: relative;
@@ -46,7 +47,7 @@
   }
 }
 
-/* -- Hamburger Menu Style and Animation */
+/* Hamburger Menu Style and Animation */
 #hamburger {
   @include easein-transition(100ms);
   height: 14px;
@@ -110,6 +111,12 @@
 
   a {
     color: white;
+  }
+
+  #nav-actions {
+    #nav-register {
+      display: none;
+    }
   }
 }
 
