@@ -6,16 +6,12 @@
   {% include header.html %}
 
   <body>
-
     <div class="page-content">
-      <div id="menu-overlay"></div>
       <div class="body-wrapper">
         {{ content }}
+        {% include cta.html %}
       </div>
     </div>
-
-    {% include footer.html %}
-
   </body>
 
 </html>
