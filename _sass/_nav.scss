@@ -122,7 +122,7 @@
 }
 
 #nav-expanded.show-expanded-nav {
-  animation: nav-bounce-down 350ms;
+  animation: nav-slide-down 350ms;
   top: 96px;
 }
 
@@ -162,7 +162,7 @@
 }
 
 /* Animations */
-@keyframes nav-bounce-down {
+@keyframes nav-slide-down {
   0% {
     top: -256px;
   }
