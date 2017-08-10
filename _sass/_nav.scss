@@ -1,51 +1,52 @@
 #header {
   height: 96px;
   width: 100%;
+}
 
-  #nav {
+#nav {
+  @include display-flex;
+  @include easein-transition(10ms);
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  padding-left: 96px;
+  padding-right: 96px;
+  position: relative;
+  z-index: 101;
+
+  a {
+    color: $text-color;
+  }
+
+  #nav-title,
+  #nav-actions {
     @include display-flex;
-    @include easein-transition(10ms);
     height: 100%;
-    width: 100%;
-    font-size: 16px;
-    padding-left: 96px;
-    padding-right: 96px;
-    position: relative;
-    z-index: 3;
+    width: 50%;
 
-    a {
-      color: $text-color;
-    }
-
-    #nav-title,
-    #nav-actions {
+    * {
       @include display-flex;
-      height: 100%;
-      width: 50%;
-
-      * {
-        @include display-flex;
-        flex-direction: column;
-        justify-content: center;
-      }
+      flex-direction: column;
+      justify-content: center;
     }
+  }
 
-    #nav-title {
-      justify-content: flex-start;
-    }
+  #nav-title {
+    justify-content: flex-start;
+  }
 
-    #nav-actions {
-      justify-content: flex-end;
+  #nav-actions {
+    justify-content: flex-end;
 
-      #hamburger {
-        @include display-flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-left: 72px;
-      }
+    #hamburger {
+      @include display-flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 72px;
     }
   }
 }
+
 
 /* Hamburger Menu Style and Animation */
 #hamburger {
@@ -103,7 +104,7 @@
   top: -256px; /* Height of nav */
   padding-left: 128px;
   padding-right: 128px;
-  z-index: 3;
+  z-index: 101;
 }
 
 #nav.show-expanded-nav {
@@ -135,7 +136,7 @@
   opacity: 0;
   display: none;
   background-color: black;
-  z-index: 2;
+  z-index: 100;
 }
 
 #menu-overlay.show-expanded-nav {

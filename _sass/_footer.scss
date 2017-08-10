@@ -1,0 +1,28 @@
+footer {
+
+}
+
+/* Highlight Styling, an adjunct to the footer on certain pages */
+#highlight {
+  width: 100%;
+  text-align: center;
+  background-color: #aaa;
+  color: white;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: block;
+  cursor: pointer;
+
+  h2 {
+    font-family: $base-font-family;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  p {
+    font-family: $base-font-family-extra-thin;
+    font-size: 32px;
+    margin-top: 16px;
+  }
+}
