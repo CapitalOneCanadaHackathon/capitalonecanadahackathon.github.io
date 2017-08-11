@@ -672,7 +672,7 @@ var Light = function () {
                     ill = function (n) {
                     switch (item.face) {
                         case 1:
-                            return Math.abs(Math.min(n, 0)) * 0.99;
+                            return 0;
                         case 2:
                             return Math.max(Math.abs(n), 0) * 0.89;
                         default:

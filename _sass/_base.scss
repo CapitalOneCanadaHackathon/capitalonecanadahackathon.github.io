@@ -32,7 +32,7 @@ font-face
  * Links
  */
 a {
-	@include easein-transition(200ms);
+	@include easeinout-transition(200ms);
   text-decoration: none;
 
   &:hover {
@@ -60,4 +60,20 @@ body
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+}
+
+/* Common Keyframe Animations */
+.fade-in {
+	animation: fade-in 1000ms;
+	animation-fill-mode: both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

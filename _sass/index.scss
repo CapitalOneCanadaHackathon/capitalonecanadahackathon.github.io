@@ -6,7 +6,7 @@
 
 #hero {
   min-height: 550px;
-  margin: 32px 96px 96px 96px;
+  margin: 3em 7em 7em 7em;
   position: relative;
 
   #hero-mosaic {
@@ -32,7 +32,7 @@
     z-index: 5;
 
     #tagline h1 {
-      @include easein-transition(350ms);
+      @include easeinout-transition(350ms);
       font-size: 36px;
     }
 

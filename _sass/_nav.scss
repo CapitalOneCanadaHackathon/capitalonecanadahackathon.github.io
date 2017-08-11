@@ -5,7 +5,7 @@
 
 #nav {
   @include display-flex;
-  @include easein-transition(380ms);
+  @include easeinout-transition(380ms);
   height: 100%;
   width: 100%;
   font-size: 16px;
@@ -47,10 +47,15 @@
   }
 }
 
+/* Nav animate in (Only used in index) */
+#nav.fade-in {
+  animation-duration: 1500ms;
+  animation-delay: 500ms; /* Delay until hero loads in */
+}
 
 /* Hamburger Menu Style and Animation */
 #hamburger {
-  @include easein-transition(200ms);
+  @include easeinout-transition(200ms);
   height: 14px;
   width: 32px;
 
@@ -60,7 +65,7 @@
   }
 
   div {
-    @include easein-transition(250ms);
+    @include easeinout-transition(250ms);
     height: calc(18px * 0.33);
     width: 100%;
   }
@@ -96,7 +101,7 @@
 }
 
 #nav-expanded {
-  @include easein-transition(350ms);
+  @include easeinout-transition(350ms);
   height: 256px;
   width: 100%;
   background-color: #004977;
@@ -127,7 +132,7 @@
 }
 
 #menu-overlay {
-  @include easein-transition(350ms);
+  @include easeinout-transition(500ms);
   position: absolute;
   top: 0;
   left: 0;
@@ -140,6 +145,8 @@
 }
 
 #menu-overlay.show-expanded-nav {
+  -moz-animation: nav-overlay-show;
+  -webkit-animation: nav-overlay-show;
   animation: nav-overlay-show;
   opacity: 0.7;
   display: block;
@@ -161,7 +168,7 @@
   }
 }
 
-/* Animations */
+/* Nav Animations */
 @keyframes nav-slide-down {
   0% {
     top: -256px;
@@ -178,11 +185,11 @@
 
 
 @keyframes nav-overlay-show {
-  0% {
+  from {
     opacity: 0;
   }
 
-  100% {
+  to {
     opacity: 0.7;
   }
 }
