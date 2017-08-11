@@ -1,6 +1,6 @@
 $(function() {
-  // Usage: mosaic(element, highlight, background, numTriangles)
-  new mosaic(document.getElementById('hero-mosaic'), [18, 80, 110], [25, 52, 65], 10);
+  // Usage: mosaic(element, diffuse, ambient, numTriangles)
+  new mosaic(document.getElementById('hero-mosaic'), [15, 58, 79], [25, 52, 65], 10);
 
   $('#tagline').addClass('hero-animate-in');
   $('#event-info').addClass('hero-animate-in');

@@ -25,11 +25,11 @@
 }
 
 @mixin easein-transition($duration) {
-  -webkit-transition: all $duration ease-in;
-  -ms-transition: all $duration ease-in;
-  -moz-transition: all $duration ease-in;
-  -o-transition: all $duration ease-in;
-  transition: all $duration ease-in;
+  -webkit-transition: all $duration ease-in-out;
+  -ms-transition: all $duration ease-in-out;
+  -moz-transition: all $duration ease-in-out;
+  -o-transition: all $duration ease-in-out;
+  transition: all $duration ease-in-out;
 }
 
 $base-font-family: "Optimist", "Helvetica Neue", Helvetica, Arial, sans-serif;
