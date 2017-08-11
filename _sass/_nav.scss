@@ -5,7 +5,7 @@
 
 #nav {
   @include display-flex;
-  @include easeinout-transition(380ms);
+  @include easeinout-transition(250ms);
   height: 100%;
   width: 100%;
   font-size: 16px;
@@ -101,17 +101,77 @@
 }
 
 #nav-expanded {
-  @include easeinout-transition(350ms);
-  height: 256px;
+  @include easeinout-transition(550ms);
+  height: 328px;
   width: 100%;
   background-color: #004977;
   position: absolute;
-  top: -256px; /* Height of nav */
-  padding-left: 128px;
-  padding-right: 128px;
+  top: -328px; /* Height of nav */
+  padding: 24px 104px 24px 104px;
   z-index: 101;
+  color: white;
+  font-family: $base-font-family-thin;
+
+  a {
+    color: white;
+  }
 }
 
+#nav-menu-links {
+  @include display-flex;
+  justify-content: space-around;
+  width: 85%;
+  margin: auto;
+  font-size: 28px;
+}
+
+#nav-footer,
+#nav-extras {
+  @include display-flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 95%;
+  margin: auto;
+  font-size: 12px;
+}
+
+#nav-extras {
+  padding-top: 56px;
+  padding-bottom: 32px;
+
+  #misc {
+    list-style: none;
+
+    li {
+      list-style-type: none;
+      margin-top: 14px;
+    }
+  }
+
+  #social {
+
+  }
+}
+
+#nav-footer {
+  border-top: 1px solid #eee;
+
+  #footer-links {
+    list-style: none;
+
+    li {
+      list-style-type: none;
+      display: inline-block;
+
+      &:not(first-child) {
+        margin-left: 12px;
+      }
+    }
+  }
+}
+
+/* Nav Menu Expanded Animations */
 #nav.show-expanded-nav {
   background-color: #004977;
 
@@ -127,8 +187,25 @@
 }
 
 #nav-expanded.show-expanded-nav {
-  animation: nav-slide-down;
   top: 96px;
+
+  #nav-menu-links {
+    animation: fade-in 1000ms;
+  	animation-fill-mode: both;
+    animation-delay: 300ms;
+  }
+
+  #nav-extras {
+    animation: fade-in 1000ms;
+  	animation-fill-mode: both;
+    animation-delay: 500ms;
+  }
+
+  #nav-footer {
+    animation: fade-in 1000ms;
+  	animation-fill-mode: both;
+    animation-delay: 600ms;
+  }
 }
 
 #menu-overlay {
@@ -145,51 +222,6 @@
 }
 
 #menu-overlay.show-expanded-nav {
-  -moz-animation: nav-overlay-show;
-  -webkit-animation: nav-overlay-show;
-  animation: nav-overlay-show;
   opacity: 0.7;
   display: block;
-}
-
-/* Expanded Nav Content */
-#nav-menu-links {
-  @include display-flex;
-  justify-content: space-around;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  width: 85%;
-  margin: auto;
-
-  a {
-    color: white;
-    font-family: $base-font-family-thin;
-    font-size: 24px;
-  }
-}
-
-/* Nav Animations */
-@keyframes nav-slide-down {
-  0% {
-    top: -256px;
-  }
-
-  50% {
-    top: 42px;
-  }
-
-  100% {
-    top: 96px;
-  }
-}
-
-
-@keyframes nav-overlay-show {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 0.7;
-  }
 }
