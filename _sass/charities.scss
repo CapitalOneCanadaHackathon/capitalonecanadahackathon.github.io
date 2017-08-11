@@ -1,0 +1,114 @@
+#charities-sticky-menu {
+
+  h2 {
+    font-family: $base-font-family-extra-thin;
+    font-size: 30px;
+    color: #004977;
+    margin-left: 5%;
+  }
+
+  h3 {
+    font-family: $base-font-family-extra-thin;
+    font-size: 24px;
+    color: #004977;
+    margin-left: 5%;
+  }
+
+  #charity-content {
+    width: 100%;
+    background-color: #004977;
+    border-radius: 2px;
+    padding: 116px 96px 116px 96px;
+    color: #fff;
+    font-family: $base-font-family-extra-thin;
+    margin: 8px;
+
+    .tagline {
+      font-size: 36px;
+    }
+
+    #charities-sticky-menu {
+      font-family: $base-font-family-extra-thin;
+      font-size: 24px;
+    }
+
+    //.tagline:hover{
+    //  color: red;
+    //  opacity: 0.8;
+    //}
+
+    .description {
+      font-size: 20px;
+    }
+    .charity-info {
+      font-size: 18px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+
+    .charity-info:hover p {
+      color: black;
+    }
+    &:hover {
+      //transform: scale( 1.1 );
+      box-shadow: 10px 5px 5px black;
+      //position:absolute;
+      opacity: 0.98;
+      z-index: 1;
+      //background-image: linear-gradient(-180deg, rgba(0,0,0,0) 1%, #000 10%);
+      transform: translate3d(-5px, -5px, 0);
+      transition: all 1s;
+      transition: all 1s;
+
+    }
+
+  }
+
+  #charity-alternate-content {
+    width: 100%;
+    background-color: gray;
+    border-radius: 2px;
+    padding: 116px 96px 116px 96px;
+    color: #fff;
+    font-family: $base-font-family-extra-thin;
+    margin: 8px;
+
+    .tagline {
+      font-size: 36px;
+    }
+
+    //.tagline:hover{
+    //  color: red;
+    //  opacity: 0.8;
+    //}
+    .description {
+      font-size: 20px;
+    }
+
+    .charity-alternate-info {
+      font-size: 18px;
+      margin-top: 8px;
+      margin-bottom: 32px;
+    }
+
+    .charity-alternate-info:hover p {
+      color: black;
+    }
+    &:hover {
+      //transform: scale( 1.1 );
+      box-shadow: 10px 5px 5px black;
+      //position:absolute;
+      opacity: 0.98;
+      z-index: 1;
+      //background-image: linear-gradient(-180deg, rgba(0,0,0,0) 1%, #000 10%);
+      transform: translate3d(-3px, -3px, 0);
+      transition: all 1s;
+    }
+
+    &.hover--ending {
+      //transition: box-shadow 0.5s ease;
+    }
+
+  }
+
+}
