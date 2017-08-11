@@ -8,6 +8,7 @@ $(function() {
   // Animate In hero elements
   $('#tagline').addClass('hero-animate-in');
   $('#event-info').addClass('hero-animate-in');
+  $('#hero').addClass('hero-animate-in');
   $('#hero-register-cta').addClass('hero-animate-in');
   $('#learn-more').addClass('hero-animate-in');
 });
