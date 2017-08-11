@@ -1,4 +1,6 @@
 #charities-sticky-menu {
+  min-height: 550px;
+  margin: 3em 7em 7em 7em;
 
   h2 {
     font-family: $base-font-family-extra-thin;
@@ -51,7 +53,7 @@
     }
     &:hover {
       //transform: scale( 1.1 );
-      box-shadow: 10px 5px 5px black;
+      box-shadow: 10px 10px 10px #1a3d54;
       //position:absolute;
       opacity: 0.98;
       z-index: 1;
@@ -66,7 +68,7 @@
 
   #charity-alternate-content {
     width: 100%;
-    background-color: gray;
+    background-color: #004977;
     border-radius: 2px;
     padding: 116px 96px 116px 96px;
     color: #fff;
@@ -96,7 +98,7 @@
     }
     &:hover {
       //transform: scale( 1.1 );
-      box-shadow: 10px 5px 5px black;
+      box-shadow: 10px 10px 10px #1a3d54;
       //position:absolute;
       opacity: 0.98;
       z-index: 1;
