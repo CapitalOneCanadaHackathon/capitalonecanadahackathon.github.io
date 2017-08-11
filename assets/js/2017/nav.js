@@ -21,11 +21,15 @@ $(function() {
       $('#nav').addClass('show-expanded-nav');
       $('#nav-expanded').addClass('show-expanded-nav');
       $('#menu-overlay').addClass('show-expanded-nav');
+
+      // Disable scrolling on the page while the nav is open
+      $('body').addClass('disable-scroll');
     } else {
       // TODO Lag removeClass on #nav so it doesn't look like its flashing away?
       $('#nav-expanded').removeClass('show-expanded-nav');
       $('#nav').removeClass('show-expanded-nav');
       $('#menu-overlay').removeClass('show-expanded-nav');
+      $('body').removeClass('disable-scroll');
     }
   }
 

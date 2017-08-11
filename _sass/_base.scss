@@ -62,6 +62,10 @@ body
     font-kerning: normal;
 }
 
+.disable-scroll {
+	overflow: hidden;	
+}
+
 /* Common Keyframe Animations */
 .fade-in {
 	animation: fade-in 1000ms;
