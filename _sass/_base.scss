@@ -41,6 +41,12 @@ a {
   }
 }
 
+html,
+body {
+	height: 100%;
+	min-height: 100%;
+}
+
 body
 {
     @include mq(mobile) {
@@ -62,8 +68,22 @@ body
     font-kerning: normal;
 }
 
+.page-content {
+	min-height: 100%;
+	background-color: #e7e7e7;
+}
+
+.body-wrapper {
+	height: 100%;
+	min-height: 100%;
+	width: 960px;
+	border-left: 1px solid #cdcdcd;
+	border-right: 1px solid #cdcdcd;
+	margin: 0 auto;
+}
+
 .disable-scroll {
-	overflow: hidden;	
+	overflow: hidden;
 }
 
 /* Common Keyframe Animations */

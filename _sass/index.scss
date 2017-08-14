@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 100%;
   overflow-x: none;
+  background-color: white;
 }
 
 #hero {
@@ -43,11 +44,11 @@
 
     #tagline h1 {
       @include easeinout-transition(350ms);
-      font-size: 36px;
+      font-size: 32px;
     }
 
     #event-info {
-      font-size: 18px;
+      font-size: 16px;
       margin-top: 8px;
       margin-bottom: 32px;
     }
@@ -65,9 +66,10 @@
     }
 
     #learn-more {
-      font-size: 18px;
+      font-size: 14px;
       color: #fff;
       display: inline-block;
+      margin-left: 14px;
     }
 
     #learn-more.hero-animate-in {

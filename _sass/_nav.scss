@@ -1,6 +1,8 @@
 #header {
   height: 96px;
   width: 100%;
+  background-color: white;
+  position: relative;
 }
 
 #nav {
@@ -8,15 +10,11 @@
   @include easeinout-transition(250ms);
   height: 100%;
   width: 100%;
-  font-size: 16px;
+  font-size: 14px;
   padding-left: 96px;
   padding-right: 96px;
   position: relative;
   z-index: 101;
-
-  a {
-    color: $text-color;
-  }
 
   #nav-title,
   #nav-actions {
@@ -32,7 +30,13 @@
   }
 
   #nav-title {
+    font-family: $base-font-family-semibold;
+    text-transform: uppercase;
     justify-content: flex-start;
+
+    a {
+      color: #888;
+    }
   }
 
   #nav-actions {
@@ -71,11 +75,11 @@
   }
 
   div:first-child {
-    border-top: 3px solid $text-color;
+    border-top: 3px solid #018BBB;
   }
 
   div:last-child {
-    border-bottom: 3px solid $text-color;
+    border-bottom: 3px solid #018BBB;
   }
 }
 

@@ -3,12 +3,12 @@
 
   {% include head.html %}
 
-  {% include header.html %}
-
   <body>
 
     <div class="page-content">
       <div class="body-wrapper">
+        {% include header.html %}
+        
         {{ content }}
         {% include highlight.html %}
       </div>

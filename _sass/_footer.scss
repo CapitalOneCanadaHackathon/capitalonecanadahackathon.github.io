@@ -10,7 +10,9 @@ footer {
   color: white;
   padding-top: 64px;
   padding-bottom: 64px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   cursor: pointer;
 
   h2 {
