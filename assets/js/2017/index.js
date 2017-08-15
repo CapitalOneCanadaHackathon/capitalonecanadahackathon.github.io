@@ -12,7 +12,26 @@ $(function() {
   $('#hero-register-cta').addClass('hero-animate-in');
   $('#learn-more').addClass('hero-animate-in');
 
-
+  // $(document).on('mousemove', '#hero-logo', function(e) {
+  //   var halfW = ( this.clientWidth / 2 );
+  //   var halfH = ( this.clientHeight / 2 );
+  //
+  //   var coorX = ( halfW - ( event.pageX - this.offsetLeft ) );
+  //   var coorY = ( halfH - ( event.pageY - this.offsetTop ) );
+  //
+  //   var degX  = ( ( coorY / halfH ) * 10 ) + 'deg'; // max. degree = 10
+  //   var degY  = ( ( coorX / halfW ) * -10 ) + 'deg'; // max. degree = 10
+  //
+  //   console.log('(' + coorX + ', ' + coorY + ')');
+  //
+  //   $(this).css('transform', function() {
+  //     return 'perspective( 1500px ) translate3d( 0, -2px, 0 ) scale(1.1) rotateX('+ degX +') rotateY('+ degY +')';
+  //   });
+  // });
+  //
+  // $(document).on('mouseout', '#hero-logo', function() {
+  //   $(this).removeAttr('style');
+  // });
   // Add floating particles (only usable on Landing Page)
   // addFloatingParticles($('#landing-page'), 3);
   //

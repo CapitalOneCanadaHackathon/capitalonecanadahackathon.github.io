@@ -2,11 +2,14 @@
   @include easeinout-transition(250ms);
   display: block;
   text-align: center;
-  padding: 8px 32px 8px 32px;
+  padding: 8px 16px 8px 16px;
   border-radius: 5em;
   font-family: $base-font-family-thin;
+  font-size: 12px;
   background-color: #fff;
   color: $text-color;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 
   &:hover {
     opacity: 1;
@@ -34,5 +37,6 @@
 /* Specific Button Styles */
 #hero-register-cta {
   font-size: 14px;
-  width: 150px;
+  width: 160px;
+  letter-spacing: 2px;
 }

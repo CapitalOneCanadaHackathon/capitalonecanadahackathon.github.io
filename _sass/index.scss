@@ -8,17 +8,10 @@
 
 #hero {
   min-height: 550px;
-  margin: 3em 7em 7em 7em;
+  margin: 1em 5em 3em 5em;
   position: relative;
-
-  #hero-interactive {
-    height: 300px;
-    width: auto;
-    position: absolute;
-    top: 125px;
-    right: -75px;
-    z-index: 7;
-  }
+  border-radius: 3px;
+  box-shadow: 0px 1px 5px 1px rgba(25, 25, 25,0.55);
 
   #hero-mosaic {
     height: 100%;
@@ -27,29 +20,61 @@
     top: 0;
     left: 0;
     z-index: 2;
+
+    svg {
+      border-radius: 3px;
+    }
   }
 
-  #content {
+  #hero-overlay {
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0);
-    border-radius: 2px;
-    padding: 116px 96px 116px 96px;
-    color: #fff;
-    font-family: $base-font-family-extra-thin;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 5;
+    z-index: 4;
+    border-radius: 3px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,2d2d2d+100&0.15+0,0.8+100 */
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,0.2) 0%, rgba(25,25,25,0.9) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0.2) 0%,rgba(25,25,25,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%,rgba(25,25,25,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26ffffff', endColorstr='#cc2d2d2d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+
+  #hero-content-wrapper {
+    @include display-flex;
+    height: 550px;
+    width: 100%;
+    padding-left: 56px;
+    padding-right: 56px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 3px;
+  }
+
+  #content,
+  #hero-interactive {
+    @include display-flex;
+    flex-direction: column;
+    align-self: center;
+    flex: 1;
+    z-index: 7;
+  }
+
+  #content {
+    color: #fefefe;
+    font-family: $base-font-family-extra-thin;
 
     #tagline h1 {
       @include easeinout-transition(350ms);
+      font-family: $base-font-family-extra-thin;
       font-size: 32px;
     }
 
     #event-info {
       font-size: 16px;
-      margin-top: 8px;
+      margin-top: 16px;
       margin-bottom: 32px;
     }
 
@@ -66,14 +91,39 @@
     }
 
     #learn-more {
-      font-size: 14px;
+      font-size: 12px;
       color: #fff;
       display: inline-block;
-      margin-left: 14px;
     }
 
     #learn-more.hero-animate-in {
       animation-delay: 900ms;
+    }
+  }
+
+  #hero-interactive {
+    height: 450px;
+    width: 450px;
+    position: relative;
+
+    overflow: hidden;
+    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1), box-shadow 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: perspective(600px) translate3d(0, 0, 0);
+    align-items: center;
+    max-width: 510px;
+    height: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+
+    #hero-logo {
+      height: auto;
+      width: 450px;
+    }
+
+    &:hover {
+        transform-style: preserve-3d;
+        backface-visibility: hidden;
     }
   }
 }

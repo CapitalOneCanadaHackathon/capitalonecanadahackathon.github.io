@@ -1,5 +1,5 @@
 #header {
-  height: 96px;
+  height: 88px;
   width: 100%;
   background-color: white;
   position: relative;
@@ -15,6 +15,7 @@
   padding-right: 96px;
   position: relative;
   z-index: 101;
+  background: white;
 
   #nav-title,
   #nav-actions {
@@ -27,6 +28,10 @@
       flex-direction: column;
       justify-content: center;
     }
+
+    #nav-register {
+      font-size: 11px;
+    }
   }
 
   #nav-title {
@@ -35,7 +40,7 @@
     justify-content: flex-start;
 
     a {
-      color: #888;
+      color: #aaa;
     }
   }
 
@@ -46,7 +51,7 @@
       @include display-flex;
       flex-direction: column;
       justify-content: space-between;
-      margin-left: 72px;
+      margin-left: 32px;
     }
   }
 }
@@ -60,8 +65,8 @@
 /* Hamburger Menu Style and Animation */
 #hamburger {
   @include easeinout-transition(200ms);
-  height: 14px;
-  width: 32px;
+  height: 10px;
+  width: 24px;
 
   &:hover {
     cursor: pointer;
@@ -75,20 +80,19 @@
   }
 
   div:first-child {
-    border-top: 3px solid #018BBB;
+    border-top: 2px solid #018BBB;
   }
 
   div:last-child {
-    border-bottom: 3px solid #018BBB;
+    border-bottom: 2px solid #018BBB;
   }
 }
 
 /* Expand Nav Styling */
 #hamburger.animate-x {
-  height: 24px;
+  height: 17.5px;
 
   div:first-child {
-    border-color: white;
     -webkit-transform-origin: left top;
     -ms-transform: rotate(42deg); /* IE 9 */
     -webkit-transform: rotate(42deg); /* Safari */
@@ -96,7 +100,6 @@
   }
 
   div:last-child {
-    border-color: white;
     -webkit-transform-origin: left bottom;
     -ms-transform: rotate(-42deg); /* IE 9 */
     -webkit-transform: rotate(-42deg); /* Safari */
@@ -106,38 +109,61 @@
 
 #nav-expanded {
   @include easeinout-transition(550ms);
-  height: 328px;
+  height: 412px;
   width: 100%;
-  background-color: #004977;
+  background-color: white;
   position: absolute;
-  top: -328px; /* Height of nav */
-  padding: 24px 104px 24px 104px;
+  top: -412px; /* Height of nav */
+  padding-bottom: 24px;
   z-index: 101;
   color: white;
   font-family: $base-font-family-thin;
 
-  a {
-    color: white;
+  hr {
+    height: 2px;
+    outline: none;
+    box-shadow: none;
+    margin-left: 88px;
+    margin-right: 88px;
+    border: 0.5px solid #ececec;
   }
 }
 
-#nav-menu-links {
-  @include display-flex;
-  justify-content: space-around;
-  width: 85%;
-  margin: auto;
-  font-size: 28px;
+#nav-menu-links-wrapper {
+  background-color: #004977;
+  padding: 48px 88px 48px 88px;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#004977+0,018bbb+100 */
+  background: rgb(0,73,119); /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(0,73,119,1) 0%, rgba(1,139,187,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(0,73,119,1) 0%,rgba(1,139,187,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(0,73,119,1) 0%,rgba(1,139,187,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004977', endColorstr='#018bbb',GradientType=1 ); /* IE6-9 */
+
+  #nav-menu-links {
+    font-size: 28px;
+
+    a {
+      color: white;
+
+      &:not(:first-child) {
+        margin-left: 32px;
+      }
+    }
+  }
 }
 
 #nav-footer,
 #nav-extras {
   @include display-flex;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  width: 95%;
-  margin: auto;
+  padding: 24px 88px 24px 88px;
   font-size: 12px;
+  color: #777;
+
+  a {
+    color: #777;
+  }
 }
 
 #nav-extras {
@@ -145,11 +171,12 @@
   padding-bottom: 32px;
 
   #misc {
-    list-style: none;
+    ul {
+      list-style: none;
 
-    li {
-      list-style-type: none;
-      margin-top: 14px;
+      li {
+        list-style-type: none;
+      }
     }
   }
 
@@ -164,8 +191,6 @@
 }
 
 #nav-footer {
-  border-top: 1px solid #eee;
-
   #footer-links {
     list-style: none;
 
@@ -181,22 +206,8 @@
 }
 
 /* Nav Menu Expanded Animations */
-#nav.show-expanded-nav {
-  background-color: #004977;
-
-  a {
-    color: white;
-  }
-
-  #nav-actions {
-    #nav-register {
-      display: none;
-    }
-  }
-}
-
 #nav-expanded.show-expanded-nav {
-  top: 96px;
+  top: 88px;
 
   #nav-menu-links {
     animation: fade-in 1000ms;

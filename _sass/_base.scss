@@ -76,10 +76,14 @@ body
 .body-wrapper {
 	height: 100%;
 	min-height: 100%;
-	width: 960px;
+	width: $content-width;
 	border-left: 1px solid #cdcdcd;
 	border-right: 1px solid #cdcdcd;
 	margin: 0 auto;
+
+	@media screen and (max-width: 1200px) {
+		width: 85%;
+	}
 }
 
 .disable-scroll {
