@@ -137,7 +137,7 @@
   align-items: center;
 
 /* TODO maybe refactor this into a common style? */
-  a { 
+  a {
     @include display-flex;
     flex-direction: column;
     justify-content: center;

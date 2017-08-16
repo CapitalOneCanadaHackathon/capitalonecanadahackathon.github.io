@@ -1,3 +1,75 @@
-footer {
+footer,
+#nav-footer {
+  padding: 48px 88px 24px 88px;
+  font-size: 14px;
+  color: #777;
 
+  a {
+    color: #777;
+  }
+
+  #content,
+  #legal {
+    @include display-flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  #content {
+    #links {
+      @include display-flex;
+      justify-content: space-between;
+
+      ul {
+        list-style: none;
+
+        &:last-child {
+          margin-left: 72px;
+        }
+
+        li {
+          &:not(:first-child) {
+            margin-top: 16px;
+          }
+        }
+      }
+    }
+
+    #nav-cof-logo {
+      height: 42px;
+      width: auto;
+    }
+
+    #social {
+
+    }
+  }
+
+  #legal {
+    ul {
+      list-style: none;
+
+      &:last-child {
+        margin-left: 72px;
+      }
+
+      li {
+        display: inline-block;
+
+        &:not(:first-child) {
+          margin-left: 24px;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #004977;
+  color: white;
+
+  a {
+    color: white;
+  }
 }
