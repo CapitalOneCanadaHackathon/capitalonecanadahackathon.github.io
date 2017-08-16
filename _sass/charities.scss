@@ -1,6 +1,5 @@
-#charities-sticky-menu {
-  min-height: 550px;
-  margin: 3em 7em 7em 7em;
+#charities {
+  @include content-padding;
 
   h2 {
     font-family: $base-font-family-extra-thin;
@@ -27,11 +26,6 @@
 
     .tagline {
       font-size: 36px;
-    }
-
-    #charities-sticky-menu {
-      font-family: $base-font-family-extra-thin;
-      font-size: 24px;
     }
 
     //.tagline:hover{

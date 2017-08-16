@@ -16,6 +16,10 @@
     }
 }
 
+@mixin content-padding {
+  padding: 3em 5em 3em 5em;
+}
+
 @mixin display-flex {
   display: -webkit-box;
   display: -moz-box;
@@ -83,7 +87,9 @@ $c1-yellow: #f8cc01;
 	"base",
   "button",
   "nav",
+  "page",
   "index",
   "footer",
+  "about",
   "charities"
 ;
