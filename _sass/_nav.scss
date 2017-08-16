@@ -116,11 +116,11 @@
 
 #nav-expanded {
   @include easeinout-transition(550ms);
-  height: 412px;
+  height: 138px;
   width: 100%;
   background-color: white;
   position: absolute;
-  top: -412px; /* Height of nav */
+  top: -138px; /* Height of nav */
   padding-bottom: 24px;
   z-index: 101;
   color: white;
@@ -155,22 +155,22 @@
 #nav-expanded.show-expanded-nav {
   top: 88px;
 
-  #nav-menu-links {
-    animation: fade-in 1000ms;
+  #nav-about {
+    animation: fade-in 1500ms;
   	animation-fill-mode: both;
     animation-delay: 300ms;
   }
 
-  #nav-extras {
-    animation: fade-in 1000ms;
+  #nav-charities {
+    animation: fade-in 1500ms;
   	animation-fill-mode: both;
     animation-delay: 500ms;
   }
 
-  #nav-footer {
-    animation: fade-in 1000ms;
+  #nav-blog {
+    animation: fade-in 1500ms;
   	animation-fill-mode: both;
-    animation-delay: 600ms;
+    animation-delay: 900ms;
   }
 }
 

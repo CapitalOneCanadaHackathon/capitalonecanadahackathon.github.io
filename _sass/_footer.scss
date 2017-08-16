@@ -1,11 +1,10 @@
-footer,
-#nav-footer {
+footer {
   padding: 48px 88px 24px 88px;
-  font-size: 14px;
-  color: #777;
+  background-color: #004977;
+  color: white;
 
   a {
-    color: #777;
+    color: white;
   }
 
   #content,
@@ -62,14 +61,5 @@ footer,
         }
       }
     }
-  }
-}
-
-footer {
-  background-color: #004977;
-  color: white;
-
-  a {
-    color: white;
   }
 }

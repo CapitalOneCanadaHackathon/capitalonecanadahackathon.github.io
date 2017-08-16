@@ -50,13 +50,13 @@
 
   #faq {
     .faq-content {
-      border-bottom: 1px solid #aeaeae;
+      border-bottom: 1px solid #cacaca;
 
       .faq-title {
         @include display-flex;
         padding-top: 42px;
         padding-bottom: 42px;
-        border-bottom: 1px solid #aeaeae;
+        border-bottom: 1px solid #cacaca;
         justify-content: space-between;
         align-items: center;
         cursor: pointer;
@@ -66,7 +66,7 @@
         }
 
         h3 {
-          font: 24px $base-font-family;
+          font: 24px $base-font-family-thin;
           color: lighten(#004977, 35%);
         }
 
@@ -87,6 +87,7 @@
       }
 
       .faq-answer {
+        height: 0;
         padding-top: 42px;
         padding-bottom: 42px;
       }
