@@ -1,34 +1,55 @@
 ---
-layout: blog
+layout: default
 ---
+<div id="blog" class="gtc-page">
+  <div id="page-header">
+    <h1 id="page-title">Digital for Good</h1>
+    <p id="page-subtitle">The latest on Gift the Code</p>
+  </div>
 
-  <section id="post_list">
-    <div class="page">
-    <section id="main">
-      {% for post in site.posts %}
-      {% if post.visible == true %}
-		<div class="page">
-			<section class="main">
-				<div>
-					<header class="page-header center">
-						<h1 class="center">{{ post.title }}</h1>
-						<time>
-							<p style="margin-bottom: 15px; margin-top: -20px;">{{ post.date | date: "%B %-d, %Y" }}</p>
-						</time>
-					</header>
-					<article class="page-content">
-						{{ post.excerpt }}
-				        {% if post.content contains '<!--more-->' %}
-					        <a href="{{ post.url | prepend: site.baseurl }}" class="read_more">Read More</a>
-        				{% endif %}
-					</article>
-				</div>
-			</section>
-		</div>
-      {% endif %}
-      {% endfor %}
-    </section>
+  <div id="featured">
+    <a id="blog-featured-highlight">
+      1
+    </a>
+
+    <div id="blog-featured-columned">
+      <a>
+        2
+      </a>
+
+      <a>
+        3
+      </a>
     </div>
-  </section>
 
-<br /><br />
+    <a id="blog-featured-highlight">
+      4
+    </a>
+  </div>
+
+  <div id="archived">
+    <h2 class="page-section-title">Archive</h2>
+    {% for post in site.posts %}
+    {% if post.visible == true %}
+    <div class="page">
+      <section class="main">
+        <div>
+          <header class="page-header center">
+            <h1 class="center">{{ post.title }}</h1>
+            <time>
+              <p style="margin-bottom: 15px; margin-top: -20px;">{{ post.date | date: "%B %-d, %Y" }}</p>
+            </time>
+          </header>
+          <article class="page-content">
+            {{ post.excerpt }}
+                {% if post.content contains '<!--more-->' %}
+                  <a href="{{ post.url | prepend: site.baseurl }}" class="read_more">Read More</a>
+                {% endif %}
+          </article>
+        </div>
+      </section>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
