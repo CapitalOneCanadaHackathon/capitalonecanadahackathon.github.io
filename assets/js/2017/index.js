@@ -14,6 +14,10 @@ $(function() {
   $('#hero-register-cta').addClass('hero-animate-in');
   $('#learn-more').addClass('hero-animate-in');
 
+  /*
+   * Parallax "Apple TV" effect modified from:
+   * https://webdesign.tutsplus.com/tutorials/apple-tvs-parallax-rollover-effect--cms-27233
+   */
   $(document).on('mousemove', '#hero-interactive', function(e) {
     var halfW = ( this.clientWidth / 2 );
     var halfH = ( this.clientHeight / 2 );
@@ -22,12 +26,12 @@ $(function() {
     var coorY = ( halfH - ( event.pageY - this.offsetTop ) );
 
     var degX  = ( ( coorY / halfH ) * 10 ) + 'deg'; // max. degree = 10
-    var degY  = ( ( coorX / halfW ) * -10 ) + 'deg'; // max. degree = 10
+    var degY  = ( ( coorX / halfW ) * -5 ) + 'deg'; // max. degree = 5
 
     console.log('(' + coorX + ', ' + coorY + ')');
 
     $(this).css('transform', function() {
-      return 'perspective( 1500px ) translate3d( 0, -2px, 0 ) scale(1.1) rotateX('+ degX +') rotateY('+ degY +')';
+      return 'perspective( 1500px ) translate3d( 0, -2px, 0 ) scale(1.03) rotateX('+ degX +') rotateY('+ degY +')';
     });
   });
 
