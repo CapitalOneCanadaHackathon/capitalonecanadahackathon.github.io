@@ -2,6 +2,8 @@ $(function() {
   // Usage: mosaic(element, diffuse, ambient, numTriangles)
   new mosaic(document.getElementById('hero-mosaic'), [15, 58, 79], [25, 52, 65], 10);
 
+  // Custom style for nav in index: Don't show a bottom border
+  $('#header').css('border-bottom', '0');
   // Animate in nav elements
   $('#nav').addClass('fade-in');
 

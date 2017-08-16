@@ -36,9 +36,9 @@
     border-radius: 3px;
 
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,2d2d2d+100&0.15+0,0.8+100 */
-    background: -moz-linear-gradient(-45deg, rgba(255,255,255,0.2) 0%, rgba(25,25,25,0.9) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0.2) 0%,rgba(25,25,25,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%,rgba(25,25,25,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,0) 70%, rgba(25,25,25,0.7) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0) 70%,rgba(25,25,25,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(255,255,255,0) 70%,rgba(25,25,25,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26ffffff', endColorstr='#cc2d2d2d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
 
