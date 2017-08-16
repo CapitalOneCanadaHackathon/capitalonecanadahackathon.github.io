@@ -49,6 +49,47 @@
   }
 
   #faq {
-    
+    .faq-content {
+      border-bottom: 1px solid #aeaeae;
+
+      .faq-title {
+        @include display-flex;
+        padding-top: 42px;
+        padding-bottom: 42px;
+        border-bottom: 1px solid #aeaeae;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover {
+          opacity: 0.7;
+        }
+
+        h3 {
+          font: 24px $base-font-family;
+          color: lighten(#004977, 35%);
+        }
+
+        .faq-triangle-expand {
+          @include easeinout-transition(250ms);
+          height: 0;
+          width: 0;
+          border-left: 8px solid transparent;
+        	border-right: 8px solid transparent;
+        	border-bottom: 14px solid lighten(#004977, 35%);
+
+          transform: rotate(180deg);
+        }
+
+        .faq-triangle-expand.rotate {
+          transform: none;
+        }
+      }
+
+      .faq-answer {
+        padding-top: 42px;
+        padding-bottom: 42px;
+      }
+    }
   }
 }
