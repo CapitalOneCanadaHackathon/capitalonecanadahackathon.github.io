@@ -1,6 +1,54 @@
 #about-gtc {
-  @include content-padding;
+  #mission,
+  #when-where,
+  #judges-mentors,
+  #faq {
+    @include content-padding;
+    padding-top: 1em;
+  }
 
-  
+  #when-where {
+    #info {
+      @include display-flex;
+      justify-content: space-between;
 
+      h3 {
+        font: 14px $base-font-family-semibold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+      p,
+      a {
+        font: 16px $base-font-family-thin;
+        color: lighten($text-color, 15%);
+        margin-top: 14px;
+        margin-bottom: 14px;
+      }
+
+      .about-info-important {
+        font-size: 24px;
+      }
+
+      a {
+        color: lighten(#004977, 20%);
+      }
+    }
+  }
+
+  #map {
+    height: 500px;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: #eaeaea;
+  }
+
+  #judges-mentors {
+
+  }
+
+  #faq {
+    
+  }
 }

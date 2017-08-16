@@ -2,21 +2,26 @@
   background-color: white;
 }
 
-#page-title {
-  font: 42px $base-font-family-extra-thin;
-  color: #004977;
-}
+#page-header {
+  @include content-padding;
+  padding-bottom: 0;
 
-#page-subtitle {
-  font: 20px $base-font-family-extra-thin;
-  color: #777;
-  margin-top: 10px;
-  margin-bottom: 16px;
+  #page-title {
+    font: 42px $base-font-family-extra-thin;
+    color: #004977;
+  }
+
+  #page-subtitle {
+    font: 20px $base-font-family-extra-thin;
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 16px;
+  }
 }
 
 .page-section-title {
   font: 24px $base-font-family-extra-thin;
   color: #5a5a5a;
-  margin-top: 12px;
-  margin-bottom: 16px;
+  margin-top: 24px;
+  margin-bottom: 32px;
 }
