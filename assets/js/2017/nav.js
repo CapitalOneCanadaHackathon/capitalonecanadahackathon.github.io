@@ -29,7 +29,13 @@ $(function() {
     }
   }
 
-  function hideMenu() {
-
-  }
+  // Add box-shadow on scroll
+  $(document).on('scroll', function(e) {
+    e.preventDefault();
+    if ($(this).scrollTop() != 0) {
+      $('#header').addClass('scrolling');
+    } else {
+      $('#header').removeClass('scrolling');
+    }
+  });
 });

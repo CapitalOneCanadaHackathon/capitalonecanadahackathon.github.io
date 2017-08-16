@@ -24,6 +24,11 @@
   display: flex;
 }
 
+@mixin wrapper-border {
+  border-left: 1px solid #cdcdcd;
+	border-right: 1px solid #cdcdcd;
+}
+
 @mixin easeinout-transition($duration) {
   -webkit-transition: all $duration ease-in-out;
   -ms-transition: all $duration ease-in-out;

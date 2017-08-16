@@ -2,7 +2,13 @@
   height: 88px;
   width: 100%;
   background-color: white;
-  position: relative;
+  position: fixed;
+  width: calc(#{$content-width} - 2px); /* Offset by 2px on both sides to account for wrapper-border */
+  z-index: 101;
+}
+
+#header.scrolling {
+  box-shadow: 0px 2px 3px 0px rgba(125, 125, 125, 0.5);
 }
 
 #nav {
