@@ -1,9 +1,11 @@
 $(function() {
   $('.faq-content').on('click', function() {
-    if ($('.faq-triangle-expand').hasClass('rotate')) {
-      $('.faq-triangle-expand').removeClass('rotate');  
+    if ($(this).find('.faq-triangle-expand').hasClass('rotate')) {
+      $(this).find('.faq-triangle-expand').removeClass('rotate');
+      $(this).children('.faq-answer').removeClass('faq-expand');
     } else {
-      $('.faq-triangle-expand').addClass('rotate');
+      $(this).find('.faq-triangle-expand').addClass('rotate');
+      $(this).children('.faq-answer').addClass('faq-expand');
     }
   });
 });
