@@ -48,7 +48,7 @@
     letter-spacing: 2px;
 
     a {
-      color: #aaa;
+      color: #a9a9a9;
     }
   }
 
@@ -88,11 +88,11 @@
   }
 
   div:first-child {
-    border-top: 2px solid #018BBB;
+    border-top: 2px solid #008BC1;
   }
 
   div:last-child {
-    border-bottom: 2px solid #018BBB;
+    border-bottom: 2px solid #008BC1;
   }
 }
 
@@ -130,15 +130,15 @@
 }
 
 #nav-menu-links-wrapper {
-  background-color: #004977;
+  background-color: $c1_blue;
   padding: 48px 88px 48px 88px;
 
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#004977+0,018bbb+100 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$c1_blue+0,018bbb+100 */
   background: rgb(0,73,119); /* Old browsers */
   background: -moz-linear-gradient(left, rgba(0,73,119,1) 0%, rgba(1,139,187,1) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left, rgba(0,73,119,1) 0%,rgba(1,139,187,1) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, rgba(0,73,119,1) 0%,rgba(1,139,187,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004977', endColorstr='#018bbb',GradientType=1 ); /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$c1_blue', endColorstr='#018bbb',GradientType=1 ); /* IE6-9 */
 
   #nav-menu-links {
     font-size: 28px;
@@ -179,18 +179,18 @@
 
 #menu-overlay {
   @include easeinout-transition(500ms);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
   opacity: 0;
-  display: none;
-  background-color: black;
+  visibility: hidden;
+  background-color: #131313;
   z-index: 100;
 }
 
 #menu-overlay.show-expanded-nav {
   opacity: 0.7;
-  display: block;
+  visibility: visible;
 }

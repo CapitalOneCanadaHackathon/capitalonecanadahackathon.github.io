@@ -20,18 +20,18 @@
 
 .button__primary {
   /* Fallback */
-  background-color: #04506B;
+  background-color: $c1_blue;
   color: #fff;
   /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, left top, right top, from(#04506B), to(#018BBB));
+  background: -webkit-gradient(linear, left top, right top, from($c1_blue), to(#018BBB));
   /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(left, #04506B, #018BBB);
+  background: -webkit-linear-gradient(left, $c1_blue, #018BBB);
   /* Firefox 3.6+ */
-  background: -moz-linear-gradient(left, #04506B, #018BBB);
+  background: -moz-linear-gradient(left, $c1_blue, #018BBB);
   /* IE 10 */
-  background: -ms-linear-gradient(left, #04506B, #018BBB);
+  background: -ms-linear-gradient(left, $c1_blue, #018BBB);
   /* Opera 11.10+ */
-  background: -o-linear-gradient(left, #04506B, #018BBB);
+  background: -o-linear-gradient(left, $c1_blue, #018BBB);
 }
 
 /* Specific Button Styles */

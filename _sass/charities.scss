@@ -4,20 +4,20 @@
   h2 {
     font-family: $base-font-family-extra-thin;
     font-size: 30px;
-    color: #004977;
+    color: $c1_blue;
     margin-left: 5%;
   }
 
   h3 {
     font-family: $base-font-family-extra-thin;
     font-size: 24px;
-    color: #004977;
+    color: $c1_blue;
     margin-left: 5%;
   }
 
   #charity-content {
     width: 100%;
-    background-color: #004977;
+    background-color: $c1_blue;
     border-radius: 2px;
     padding: 116px 96px 116px 96px;
     color: #fff;
@@ -62,7 +62,7 @@
 
   #charity-alternate-content {
     width: 100%;
-    background-color: #004977;
+    background-color: $c1_blue;
     border-radius: 2px;
     padding: 116px 96px 116px 96px;
     color: #fff;
