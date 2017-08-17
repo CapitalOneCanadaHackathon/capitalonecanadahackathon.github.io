@@ -6,6 +6,10 @@
   width: calc(#{$content-width} - 2px); /* Offset by 2px on both sides to account for wrapper-border */
   z-index: 101;
   border-bottom: 1px solid #eaeaea;
+
+  @media screen and (max-width: 1200px) {
+		width: calc(85% - 2px);
+	}
 }
 
 #header.scrolling {
@@ -171,9 +175,9 @@
   }
 
   #nav-blog {
-    animation: fade-in 1500ms;
+    animation: fade-in 1200ms;
   	animation-fill-mode: both;
-    animation-delay: 900ms;
+    animation-delay: 800ms;
   }
 }
 
@@ -185,12 +189,12 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  visibility: hidden;
+  display: none;
   background-color: #131313;
   z-index: 100;
 }
 
 #menu-overlay.show-expanded-nav {
   opacity: 0.7;
-  visibility: visible;
+  display: block;
 }
