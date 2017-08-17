@@ -189,12 +189,12 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  visibility: hidden;
+  display: none;
   background-color: #131313;
   z-index: 100;
 }
 
 #menu-overlay.show-expanded-nav {
   opacity: 0.7;
-  visibility: visible;
+  display: block;
 }
