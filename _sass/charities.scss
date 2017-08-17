@@ -1,110 +1,122 @@
-#charities {
-  @include content-padding;
+#charities{
+  @includecontent-padding;
 
-  h2 {
-    font-family: $base-font-family-extra-thin;
-    font-size: 30px;
-    color: $c1_blue;
-    margin-left: 5%;
+  h2{
+    font-family:$base-font-family-extra-thin;
+    font-size:30px;
+    color:$c1_blue;
+    margin-left:5%;
   }
 
-  h3 {
-    font-family: $base-font-family-extra-thin;
-    font-size: 24px;
-    color: $c1_blue;
-    margin-left: 5%;
+  h3{
+    font-family:$base-font-family-extra-thin;
+    font-size:24px;
+    color:$c1_blue;
+    margin-left:5%;
   }
 
-  #charity-content {
-    width: 100%;
-    background-color: $c1_blue;
-    border-radius: 2px;
-    padding: 116px 96px 116px 96px;
-    color: #fff;
-    font-family: $base-font-family-extra-thin;
-    margin: 8px;
+  #charity-content{
+    width:100%;
+    //background-image:linear-gradient(toleft,#2C3E504%,#4CA1AF100%,#2C3E50100%);
+    background-image:linear-gradient(-180deg,#3023AE25%,#C86DD7100%);
+    //background-image:linear-gradient(toleft,#3023AE4%,#C86DD7100%,#3023AE100%);
+    border-radius:2px;
+    padding:116px96px116px96px;
+    color:#fff;
+    font-family:$base-font-family-extra-thin;
 
-    .tagline {
-      font-size: 36px;
+    .tagline{
+      font-size:36px;
     }
 
-    //.tagline:hover{
-    //  color: red;
-    //  opacity: 0.8;
-    //}
-
-    .description {
-      font-size: 20px;
+    .description{
+      font-size:20px;
     }
-    .charity-info {
-      font-size: 18px;
-      margin-top: 8px;
-      margin-bottom: 8px;
+    .charity-info{
+      font-size:18px;
+      margin-top:8px;
+      margin-bottom:8px;
     }
 
-    .charity-info:hover p {
-      color: black;
+    .charity-info:hoverp{
+      color:black;
     }
-    &:hover {
-      //transform: scale( 1.1 );
-      box-shadow: 10px 10px 10px #1a3d54;
+    &:hover{
+      //transform:scale(1.1);
+      box-shadow:5px5px5px#1a3d54;
       //position:absolute;
-      opacity: 0.98;
-      z-index: 1;
-      //background-image: linear-gradient(-180deg, rgba(0,0,0,0) 1%, #000 10%);
-      transform: translate3d(-5px, -5px, 0);
-      transition: all 1s;
-      transition: all 1s;
+      opacity:0.95;
+      z-index:1;
+      //background-image:linear-gradient(-180deg,rgba(0,0,0,0)1%,#00010%);
+      transform:scale(1.02);
+      transition:all0.5s;
+      text-rendering:optimizeLegibility;
+      -webkit-font-smoothing:subpixel-antialiased;
 
     }
+
+
 
   }
 
-  #charity-alternate-content {
-    width: 100%;
-    background-color: $c1_blue;
-    border-radius: 2px;
-    padding: 116px 96px 116px 96px;
-    color: #fff;
-    font-family: $base-font-family-extra-thin;
-    margin: 8px;
+  #charity-alternate-content{
+    width:100%;
+    background-image:linear-gradient(-180deg,$c1_blue25%,#26a0da100%);
+    //background-image:linear-gradient(toleft,$c1_blue4%,#26a0da100%,$c1_blue100%);
+    border-radius:2px;
+    padding:116px96px116px96px;
+    color:#fff;
+    font-family:$base-font-family-extra-thin;
 
-    .tagline {
-      font-size: 36px;
+    .tagline{
+      font-size:36px;
     }
 
-    //.tagline:hover{
-    //  color: red;
-    //  opacity: 0.8;
-    //}
-    .description {
-      font-size: 20px;
+    .description{
+      font-size:20px;
     }
 
-    .charity-alternate-info {
-      font-size: 18px;
-      margin-top: 8px;
-      margin-bottom: 32px;
+    .charity-alternate-info{
+      font-size:18px;
+      margin-top:8px;
+      margin-bottom:32px;
     }
 
-    .charity-alternate-info:hover p {
-      color: black;
+    .charity-alternate-info:hoverp{
+      color:black;
     }
-    &:hover {
-      //transform: scale( 1.1 );
-      box-shadow: 10px 10px 10px #1a3d54;
-      //position:absolute;
-      opacity: 0.98;
-      z-index: 1;
-      //background-image: linear-gradient(-180deg, rgba(0,0,0,0) 1%, #000 10%);
-      transform: translate3d(-3px, -3px, 0);
-      transition: all 1s;
+    &:hover{
+
+      box-shadow:5px5px5px#1a3d54;
+
+      opacity:0.95;
+      z-index:1;
+      transform:scale(1.01);
+      //transform:translate3d(-5px,-5px,0);
+      transition:all0.5s;
+      text-rendering:optimizeLegibility;
+      -webkit-font-smoothing:subpixel-antialiased;
+      background-position:rightcenter;
     }
 
-    &.hover--ending {
-      //transition: box-shadow 0.5s ease;
+    &.hover--ending{
+      //transition:box-shadow0.5sease;
+
     }
 
+
+  }
+  .img-circle-small{
+    border-radius:50%;
+    height:75px;
+    width:75px;
+
+  }
+
+  .img-circle-large{
+    border-radius:50%;
+    height:200px;
+    width:200px;
   }
 
 }
