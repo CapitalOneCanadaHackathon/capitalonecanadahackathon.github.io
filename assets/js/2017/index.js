@@ -25,7 +25,7 @@ $(function() {
     var coorX = ( halfW - ( event.pageX - this.offsetLeft ) );
     var coorY = ( halfH - ( event.pageY - this.offsetTop ) );
 
-    var degX  = ( ( coorY / halfH ) * 10 ) + 'deg'; // max. degree = 10
+    var degX  = ( ( coorY / halfH ) * 15 ) + 'deg'; // max. degree = 10
     var degY  = ( ( coorX / halfW ) * -5 ) + 'deg'; // max. degree = 5
 
     $(this).css('transform', function() {
