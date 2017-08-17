@@ -1,5 +1,5 @@
 #charities{
-  @includecontent-padding;
+  @include content-padding;
 
   h2{
     font-family:$base-font-family-extra-thin;
@@ -18,10 +18,10 @@
   #charity-content{
     width:100%;
     //background-image:linear-gradient(toleft,#2C3E504%,#4CA1AF100%,#2C3E50100%);
-    background-image:linear-gradient(-180deg,#3023AE25%,#C86DD7100%);
+    background-image:linear-gradient(-180deg,#3023AE 25%,#C86DD7 100%);
     //background-image:linear-gradient(toleft,#3023AE4%,#C86DD7100%,#3023AE100%);
     border-radius:2px;
-    padding:116px96px116px96px;
+    padding:116px 96px 116px 96px;
     color:#fff;
     font-family:$base-font-family-extra-thin;
 
@@ -38,12 +38,12 @@
       margin-bottom:8px;
     }
 
-    .charity-info:hoverp{
+    .charity-info:hover p{
       color:black;
     }
     &:hover{
       //transform:scale(1.1);
-      box-shadow:5px5px5px#1a3d54;
+      box-shadow:5px 5px 5px #1a3d54;
       //position:absolute;
       opacity:0.95;
       z-index:1;
@@ -61,10 +61,10 @@
 
   #charity-alternate-content{
     width:100%;
-    background-image:linear-gradient(-180deg,$c1_blue25%,#26a0da100%);
+    background-image:linear-gradient(-180deg,$c1_blue 25%,#26a0da 100%);
     //background-image:linear-gradient(toleft,$c1_blue4%,#26a0da100%,$c1_blue100%);
     border-radius:2px;
-    padding:116px96px116px96px;
+    padding:116px 96px 116px 96px;
     color:#fff;
     font-family:$base-font-family-extra-thin;
 
@@ -82,12 +82,12 @@
       margin-bottom:32px;
     }
 
-    .charity-alternate-info:hoverp{
+    .charity-alternate-info:hover p{
       color:black;
     }
     &:hover{
 
-      box-shadow:5px5px5px#1a3d54;
+      box-shadow:5px 5px 5px #1a3d54;
 
       opacity:0.95;
       z-index:1;
@@ -96,7 +96,7 @@
       transition:all0.5s;
       text-rendering:optimizeLegibility;
       -webkit-font-smoothing:subpixel-antialiased;
-      background-position:rightcenter;
+      background-position:right center;
     }
 
     &.hover--ending{
