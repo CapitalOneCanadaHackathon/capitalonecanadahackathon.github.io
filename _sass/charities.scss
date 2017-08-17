@@ -15,6 +15,53 @@
     margin-left:5%;
   }
 
+  .indiv-charity-heading {
+    font-family: Optimist Extra Thin;
+    font-size: 45px;
+    color: #004977;
+    letter-spacing: 0;
+    line-height: 57px;
+    margin-bottom: 2%;
+  }
+
+  .indiv-charity-sub-heading {
+    font-family: Optimist Thin;
+    font-size: 18px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    margin-bottom: 2%;
+  }
+
+  #indiv-charity-content{
+    font-family: Optimist Extra Thin;
+    font-size: 29px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    line-height: 45px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .indiv-charity-image {
+    font-family: Optimist Extra Thin;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+  }
+
+  #charity-quote {
+    font-family: Optimist Extra Thin;
+    font-size: 39px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    line-height: 61px;
+  }
+
+  .flex-item {
+    @include display-flex;
+    flex-direction: row;
+  }
+
   #charity-content{
     width:100%;
     //background-image:linear-gradient(toleft,#2C3E504%,#4CA1AF100%,#2C3E50100%);
@@ -42,14 +89,12 @@
       color:black;
     }
     &:hover{
-      //transform:scale(1.1);
+      @include easeinout-transition(350ms);
       box-shadow: 0px 2px 2px 0px rgba(25, 25, 25, 0.5);
       //position:absolute;
       opacity:0.95;
       z-index:1;
-      //background-image:linear-gradient(-180deg,rgba(0,0,0,0)1%,#00010%);
       transform:scale(1.01);
-      transition:all 0.3s;
       text-rendering:optimizeLegibility;
       -webkit-font-smoothing:subpixel-antialiased;
 
@@ -86,21 +131,13 @@
       color:black;
     }
     &:hover{
-
+      @include easeinout-transition(350ms);
       box-shadow: 0px 2px 2px 0px rgba(25, 25, 25, 0.5);
       opacity:0.95;
       z-index:1;
       transform:scale(1.01);
-      //transform:translate3d(-5px,-5px,0);
-      transition:all 0.3s;
       text-rendering: optimizeLegibility;
       -webkit-font-smoothing:subpixel-antialiased;
-      background-position:right center;
-    }
-
-    &.hover--ending{
-      //transition:box-shadow0.5sease;
-
     }
 
 
