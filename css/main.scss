@@ -16,12 +16,21 @@
     }
 }
 
+@mixin content-padding {
+  padding: 3em 5em 3em 5em;
+}
+
 @mixin display-flex {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+}
+
+@mixin wrapper-border {
+  border-left: 1px solid #cdcdcd;
+	border-right: 1px solid #cdcdcd;
 }
 
 @mixin easeinout-transition($duration) {
@@ -78,7 +87,10 @@ $c1-yellow: #f8cc01;
 	"base",
   "button",
   "nav",
+  "page",
   "index",
   "footer",
-  "charities"
+  "about",
+  "charities",
+  "blog"
 ;

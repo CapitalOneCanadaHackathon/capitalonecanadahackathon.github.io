@@ -1,0 +1,37 @@
+#blog {
+  #featured {
+    @include content-padding;
+
+    a {
+      display: block;
+    }
+
+    #blog-featured-highlight {
+      height: 300px;
+      width: 100%;
+      background-color: #fafafa;
+    }
+
+    #blog-featured-columned {
+      @include display-flex;
+      height: 300px;
+      width: 100%;
+      flex-direction: row;
+
+      a {
+        background-color: #777;
+        flex: 1;
+      }
+    }
+
+    a:hover {
+      @include easeinout-transition(350ms);
+      box-shadow: 0px 2px 2px 0px rgba(25, 25, 25, 0.5);
+      transform: scale(1.01);
+    }
+  }
+
+  #archived {
+    @include content-padding;
+  }
+}

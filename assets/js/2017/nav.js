@@ -23,13 +23,18 @@ $(function() {
       // Disable scrolling on the page while the nav is open
       $('body').addClass('disable-scroll');
     } else {
-      // TODO Lag removeClass on #nav so it doesn't look like its flashing away?
       $('#nav-expanded,#menu-overlay').removeClass('show-expanded-nav');
       $('body').removeClass('disable-scroll');
     }
   }
 
-  function hideMenu() {
-
-  }
+  // Add box-shadow on scroll
+  $(document).on('scroll', function(e) {
+    e.preventDefault();
+    if ($(this).scrollTop() != 0) {
+      $('#header').addClass('scrolling');
+    } else {
+      $('#header').removeClass('scrolling');
+    }
+  });
 });

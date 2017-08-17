@@ -1,3 +1,83 @@
 footer {
+  padding: 48px 88px 24px 88px;
+  color: white;
 
+  background-color: #05172d;
+  color: #fff;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, top top, bottom bottom, from(#092544), to(#05172d));
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #092544, #05172d);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #092544, #05172d);
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #092544, #05172d);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #092544, #05172d);
+
+  a {
+    color: white;
+  }
+
+  #content,
+  #legal {
+    @include display-flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  #content {
+    #links {
+      @include display-flex;
+      justify-content: space-between;
+
+      ul {
+        list-style: none;
+
+        &:last-child {
+          margin-left: 72px;
+        }
+
+        li {
+          &:not(:first-child) {
+            margin-top: 16px;
+          }
+        }
+      }
+    }
+
+    #nav-cof-logo {
+      height: 42px;
+      width: auto;
+    }
+
+    #social {
+
+    }
+  }
+
+  hr {
+    border: 0;
+    background-color: #979797;
+    height: 1px;
+  }
+
+  #legal {
+    ul {
+      list-style: none;
+
+      &:last-child {
+        margin-left: 72px;
+      }
+
+      li {
+        display: inline-block;
+
+        &:not(:first-child) {
+          margin-left: 24px;
+        }
+      }
+    }
+  }
 }

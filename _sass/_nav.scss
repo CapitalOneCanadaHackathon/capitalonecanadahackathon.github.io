@@ -2,7 +2,14 @@
   height: 88px;
   width: 100%;
   background-color: white;
-  position: relative;
+  position: fixed;
+  width: calc(#{$content-width} - 2px); /* Offset by 2px on both sides to account for wrapper-border */
+  z-index: 101;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#header.scrolling {
+  box-shadow: 0px 2px 3px 0px rgba(125, 125, 125, 0.5);
 }
 
 #nav {
@@ -38,9 +45,10 @@
     font-family: $base-font-family-semibold;
     text-transform: uppercase;
     justify-content: flex-start;
+    letter-spacing: 2px;
 
     a {
-      color: #aaa;
+      color: #a9a9a9;
     }
   }
 
@@ -80,11 +88,11 @@
   }
 
   div:first-child {
-    border-top: 2px solid #018BBB;
+    border-top: 2px solid #008BC1;
   }
 
   div:last-child {
-    border-bottom: 2px solid #018BBB;
+    border-bottom: 2px solid #008BC1;
   }
 }
 
@@ -109,36 +117,28 @@
 
 #nav-expanded {
   @include easeinout-transition(550ms);
-  height: 412px;
+  height: 138px;
   width: 100%;
   background-color: white;
   position: absolute;
-  top: -412px; /* Height of nav */
+  top: -138px; /* Height of nav */
   padding-bottom: 24px;
   z-index: 101;
   color: white;
+  visibility: hidden;
   font-family: $base-font-family-thin;
-
-  hr {
-    height: 2px;
-    outline: none;
-    box-shadow: none;
-    margin-left: 88px;
-    margin-right: 88px;
-    border: 0.5px solid #ececec;
-  }
 }
 
 #nav-menu-links-wrapper {
-  background-color: #004977;
+  background-color: $c1_blue;
   padding: 48px 88px 48px 88px;
 
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#004977+0,018bbb+100 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$c1_blue+0,018bbb+100 */
   background: rgb(0,73,119); /* Old browsers */
   background: -moz-linear-gradient(left, rgba(0,73,119,1) 0%, rgba(1,139,187,1) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left, rgba(0,73,119,1) 0%,rgba(1,139,187,1) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, rgba(0,73,119,1) 0%,rgba(1,139,187,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004977', endColorstr='#018bbb',GradientType=1 ); /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$c1_blue', endColorstr='#018bbb',GradientType=1 ); /* IE6-9 */
 
   #nav-menu-links {
     font-size: 28px;
@@ -153,95 +153,44 @@
   }
 }
 
-#nav-footer,
-#nav-extras {
-  @include display-flex;
-  justify-content: space-between;
-  padding: 24px 88px 24px 88px;
-  font-size: 12px;
-  color: #777;
-
-  a {
-    color: #777;
-  }
-}
-
-#nav-extras {
-  padding-top: 56px;
-  padding-bottom: 32px;
-
-  #misc {
-    ul {
-      list-style: none;
-
-      li {
-        list-style-type: none;
-      }
-    }
-  }
-
-  #nav-cof-logo {
-    height: 42px;
-    width: auto;
-  }
-
-  #social {
-
-  }
-}
-
-#nav-footer {
-  #footer-links {
-    list-style: none;
-
-    li {
-      list-style-type: none;
-      display: inline-block;
-
-      &:not(first-child) {
-        margin-left: 12px;
-      }
-    }
-  }
-}
-
 /* Nav Menu Expanded Animations */
 #nav-expanded.show-expanded-nav {
   top: 88px;
+  visibility: visible;
 
-  #nav-menu-links {
-    animation: fade-in 1000ms;
+  #nav-about {
+    animation: fade-in 1500ms;
   	animation-fill-mode: both;
     animation-delay: 300ms;
   }
 
-  #nav-extras {
-    animation: fade-in 1000ms;
+  #nav-charities {
+    animation: fade-in 1500ms;
   	animation-fill-mode: both;
     animation-delay: 500ms;
   }
 
-  #nav-footer {
-    animation: fade-in 1000ms;
+  #nav-blog {
+    animation: fade-in 1500ms;
   	animation-fill-mode: both;
-    animation-delay: 600ms;
+    animation-delay: 900ms;
   }
 }
 
 #menu-overlay {
   @include easeinout-transition(500ms);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
   opacity: 0;
-  display: none;
-  background-color: black;
+  visibility: hidden;
+  background-color: #131313;
   z-index: 100;
 }
 
 #menu-overlay.show-expanded-nav {
   opacity: 0.7;
-  display: block;
+  visibility: visible;
 }

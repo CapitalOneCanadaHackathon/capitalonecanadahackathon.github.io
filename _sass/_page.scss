@@ -1,0 +1,27 @@
+.gtc-page {
+  background-color: white;
+}
+
+#page-header {
+  @include content-padding;
+  padding-bottom: 0;
+
+  #page-title {
+    font: 42px $base-font-family-extra-thin;
+    color: $c1_blue;
+  }
+
+  #page-subtitle {
+    font: 20px $base-font-family-extra-thin;
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 16px;
+  }
+}
+
+.page-section-title {
+  font: 24px $base-font-family-extra-thin;
+  color: #5a5a5a;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
