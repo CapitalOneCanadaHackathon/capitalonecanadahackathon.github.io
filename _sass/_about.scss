@@ -7,6 +7,16 @@
     padding-top: 1em;
   }
 
+  #mission {
+    p {
+      font: 16px $base-font-family-thin;
+      width: 85%;
+      line-height: 32px;
+      color: #7a7a7a;
+      margin-top: 16px;
+    }
+  }
+
   #when-where {
     #info {
       @include display-flex;
