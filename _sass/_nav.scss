@@ -6,6 +6,10 @@
   width: calc(#{$content-width} - 2px); /* Offset by 2px on both sides to account for wrapper-border */
   z-index: 101;
   border-bottom: 1px solid #eaeaea;
+
+  @media screen and (max-width: 1200px) {
+		width: calc(85% - 2px);
+	}
 }
 
 #header.scrolling {

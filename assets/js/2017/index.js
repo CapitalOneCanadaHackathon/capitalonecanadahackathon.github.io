@@ -28,8 +28,6 @@ $(function() {
     var degX  = ( ( coorY / halfH ) * 10 ) + 'deg'; // max. degree = 10
     var degY  = ( ( coorX / halfW ) * -5 ) + 'deg'; // max. degree = 5
 
-    console.log('(' + coorX + ', ' + coorY + ')');
-
     $(this).css('transform', function() {
       return 'perspective( 1500px ) translate3d( 0, -2px, 0 ) scale(1.03) rotateX('+ degX +') rotateY('+ degY +')';
     });
