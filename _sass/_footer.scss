@@ -74,15 +74,38 @@ footer {
       text-align: right;
       list-style: none;
 
-      &:last-child {
-        margin-left: 16px;
-      }
-
       li {
         display: inline-block;
 
         &:not(:first-child) {
           margin-left: 24px;
+        }
+      }
+    }
+  }
+}
+
+/* Responsive Styles for Footer */
+@media screen and (max-width: 960px) {
+  footer {
+    padding: 24px 64px 16px 64px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  footer {
+    padding: 24px 32px 16px 32px;
+
+    #legal {
+      flex-direction: column-reverse;
+
+      #legal-links {
+        margin-bottom: 24px;
+        margin-left: 0px;
+        text-align: center;
+
+        li {
+          margin-left: 0px;
         }
       }
     }
