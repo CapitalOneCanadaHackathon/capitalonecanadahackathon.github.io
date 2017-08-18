@@ -7,10 +7,9 @@ theme:
 author: Capital One
 tags: >
 category: blog
-visible: 2016
+visible: true
 images:
 ---
-
 At 5:30 p.m., on Friday October 21, a steady stream of participants made their way through the doors of <a href="https://brainstation.io/" target="_blank">BrainStation Toronto</a>. After registering for Capital One Canada’s first charity hackathon, they received a hoodie and a swag bag. Carrying their laptops and new belongings, they scoped out the venue’s three floors and the large tent installed on BrainStation’s patio. The Capital One creative team had decorated BrainStation with themed toss pillows, Muskoka chairs, picnic tables, small pine trees and fake grass. As the sun went down, the ambiance in the space was delightful and welcoming.
 <!--more-->
 <br />
@@ -18,7 +17,7 @@ At 5:30 p.m., on Friday October 21, a steady stream of participants made their w
 For months, Capital One and Hackworks worked on organizing a successful and memorable hackathon for both the charities and participants. As things were coordinated and created, there were periods of exhaustion and anxiety, mixed in with enthusiasm and excitement. Was the venue adequate for the Gift the Code objectives? Were the challenge statements going to be interesting for participants? Were the solutions going to interest the charities? Would there be enough food? 
 <br />
 <br />
-<img src="/assets/img/blog/2016/GiftTheCode_Blog1.jpg">
+<img src="/assets/img/blog/2016/GiftTheCode_Blog1.jpg" class="blog-image">
 <br />
 <br />
 Right off the bat, BrainStation filled up with eager participants and the enthusiasm and excitement was intoxicating. It’s important to note that this was a group of 140+ developers, graphic designers, artists and other tech-savvy citizens – young and old – who were donating their weekend to charity. 
@@ -30,7 +29,7 @@ After Friday night’s dinner, the charity lotto was held and the participants s
 The participants who joined the Gift the Code hackathon were as diverse as they were generous. There were young professionals from TWG; student teams from Ryerson University, University of Toronto, University of Waterloo, Humber College and Sheridan College; as well as Capital One employees from New York, Chicago and Virginia, among other places. What’s more, 31% of participants were women, which is above the typical percentage at hackathons.
 <br />
 <br />
-<img src="/assets/img/blog/2016/GiftTheCode_Blog5_HappyCoding.jpg">
+<img src="/assets/img/blog/2016/GiftTheCode_Blog5_HappyCoding.jpg" class="blog-image">
 <br />
 <br />
 Initially, the six partner charities weren’t quite sure what to expect from the hackathon, but they quickly recognized how rewarding of an experience it would be. Rod Cohen, Executive Director of <a href="http://bbyos.org/" target="_blank">Blake Boultbee Youth Outreach Service</a>, shared a story with everyone during the awards ceremony. One of the teams working on his charity challenges was a young group of friends who met in Toronto but had all grown up in different war-ravaged countries. Here, at Gift the Code, they spent a weekend designing a new version of the Blake Boultbee website. For Rod – who works with at-risk youth from all walks of life – this was a life-affirming, incredibly touching story. 
@@ -42,19 +41,19 @@ Initially, the six partner charities weren’t quite sure what to expect from th
 Some of the organizers were moved to tears by a team working for <a href="https://womenshabitat.ca/" target="_blank">Women’s Habitat</a> who created a confidential, online interface that could be implemented on various websites that would allow women who suffer from, or are at-risk of suffering from domestic abuse, to chat with people who can help them in an anonymous manner. <a href="https://womenshabitat.ca/news/hackathon-2016-giftthecode/" target="_blank">In a blog post</a> following the hackathon, Women’s Habitat wrote, “This weekend our eyes were opened to a new way of using technology to our advantage.” Lina Almanzan, Women’s Habitat’s Resource Systems Manager, added, “The impact that these solutions will have on our organization is huge, and drives home the fact that it’s not always about donations, but about thinking outside the box to achieve a common goal.” 
 <br />
 <br />
-<img src="/assets/img/blog/2016/GiftTheCode_Blog4_AnneJillTorontoPflag.jpg">
+<img src="/assets/img/blog/2016/GiftTheCode_Blog4_AnneJillTorontoPflag.jpg" class="blog-image">
 <br />
 <br />
 Overall, 25 different solutions emerged from a very successful weekend of hacking. To name a few, gaming apps, coaching tools, chat bots, data analytics software and newly created websites. Each charity was able to access the problem-solving abilities of diverse participants for inspiration, usable solutions and a new means of looking at their challenges.
 <br />
 <br />
-<img src="/assets/img/blog/2016/GiftTheCode_Blog2_LukeHollandBloorview.jpg">
+<img src="/assets/img/blog/2016/GiftTheCode_Blog2_LukeHollandBloorview.jpg" class="blog-image">
 <br />
 <br />
 On Sunday, after an afternoon of presentations, teams were awarded badges for achieving different results. Participants, charity representatives and organizers were smiling – the vibe was awesome and a wonderful sense of satisfaction spread across the room. 
 <br />
 <br />
-<img src="/assets/img/blog/2016/GiftTheCode_Blog3_LizProsperCanada.jpg">
+<img src="/assets/img/blog/2016/GiftTheCode_Blog3_LizProsperCanada.jpg" class="blog-image">
 <br />
 <br />
 Over the weekend, everyone had met new friends, learned about new technologies, eaten too much food and barely slept, but the resounding feeling amongst everyone there was that everything is achievable when people collaborate and are empowered to share their ideas with others.

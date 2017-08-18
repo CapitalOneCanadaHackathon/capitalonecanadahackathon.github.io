@@ -33,5 +33,12 @@
 
   #archived {
     @include content-padding;
+
+    .blog-image {
+      font-family: Optimist Extra Thin;
+      opacity: 1;
+      width: 100%;
+      height: auto;
+    }
   }
 }
