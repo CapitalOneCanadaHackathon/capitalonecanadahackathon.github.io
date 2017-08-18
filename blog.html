@@ -40,12 +40,6 @@ layout: default
               <p>{{ post.date | date: "%B %-d, %Y" }}</p>
             </time>
           </header>
-          <article class="page-content">
-            {{ post.excerpt }}
-            {% if post.content contains '<!--more-->' %}
-            <a href="{{ post.url | prepend: site.baseurl }}" class="read_more">Read More</a>
-           {% endif %}
-          </article>
         </div>
       </section>
     </div>

@@ -143,15 +143,15 @@
 }
 
 #nav-menu-links-wrapper {
-  background-color: $c1_blue;
+  background-color: #004977;
   padding: 48px 88px 48px 88px;
 
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$c1_blue+0,018bbb+100 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#004977+0,018bbb+100 */
   background: rgb(0,73,119); /* Old browsers */
   background: -moz-linear-gradient(left, rgba(0,73,119,1) 0%, rgba(1,139,187,1) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left, rgba(0,73,119,1) 0%,rgba(1,139,187,1) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to right, rgba(0,73,119,1) 0%,rgba(1,139,187,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$c1_blue', endColorstr='#018bbb',GradientType=1 ); /* IE6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004977', endColorstr='#018bbb',GradientType=1 ); /* IE6-9 */
 
   #nav-menu-links {
     font-size: 28px;

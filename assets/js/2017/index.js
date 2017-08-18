@@ -1,6 +1,6 @@
 $(function() {
   // Usage: mosaic(element, diffuse, ambient, numTriangles)
-  new mosaic(document.getElementById('hero-mosaic'), [15, 58, 79], [25, 52, 65], 10);
+  new mosaic(document.getElementById('hero-mosaic'), [0, 58, 103], [11, 64, 109], 10);
 
   // Custom style for nav in index: Don't show a bottom border
   $('#header').css('border-bottom', '0');
@@ -25,11 +25,11 @@ $(function() {
     var coorX = ( halfW - ( event.pageX - this.offsetLeft ) );
     var coorY = ( halfH - ( event.pageY - this.offsetTop ) );
 
-    var degX  = ( ( coorY / halfH ) * 15 ) + 'deg'; // max. degree = 10
+    var degX  = ( ( coorY / halfH ) * 5 ) + 'deg'; // max. degree = 10
     var degY  = ( ( coorX / halfW ) * -5 ) + 'deg'; // max. degree = 5
 
     $(this).css('transform', function() {
-      return 'perspective( 1500px ) translate3d( 0, -2px, 0 ) scale(1.03) rotateX('+ degX +') rotateY('+ degY +')';
+      return 'perspective( 1500px ) translate3d( 0, -2px, 0 ) scale(1.02) rotateX('+ degX +') rotateY('+ degY +')';
     });
   });
 

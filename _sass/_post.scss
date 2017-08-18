@@ -58,7 +58,8 @@
   #article-pullquote {
     flex-basis: 25%;
     font: 14px $base-font-family;
-    line-height: 35px;
+    color: #8a8a8a;
+    line-height: 28px;
   }
 
   #article-main-content {
@@ -78,7 +79,6 @@
     }
 
     p {
-      margin-top: 1em;
       margin-bottom: 1em;
     }
   }

@@ -1,5 +1,4 @@
 #about-gtc {
-  #mission,
   #when-where,
   #judges-mentors {
     @include content-padding;
@@ -7,12 +6,46 @@
   }
 
   #mission {
-    p {
-      font: 16px $base-font-family-thin;
-      width: 85%;
-      line-height: 32px;
-      color: #7a7a7a;
-      margin-top: 16px;
+    .page-section-title {
+      padding-top: 1em;
+      padding-left: 3em;
+    }
+
+    #mission-content-container {
+      @include display-flex;
+      flex: row;
+      padding: 3em 1em 3em 1em;
+
+      /* Fallback */
+      background-color: #004977;
+      /* Safari 4-5, Chrome 1-9 */
+      background: -webkit-gradient(linear, left top, right top, from(#004977), to(#018BBB));
+      /* Safari 5.1, Chrome 10+ */
+      background: -webkit-linear-gradient(left, #004977, #018BBB);
+      /* Firefox 3.6+ */
+      background: -moz-linear-gradient(left, #004977, #018BBB);
+      /* IE 10 */
+      background: -ms-linear-gradient(left, #004977, #018BBB);
+      /* Opera 11.10+ */
+      background: -o-linear-gradient(left, #004977, #018BBB);
+    }
+
+    #mission-logo {
+      height: 300px;
+      width: auto;
+    }
+
+    #mission-content {
+      padding-left: 48px;
+      color: #fff;
+
+      p {
+        font: 16px $base-font-family-thin;
+        width: 85%;
+        line-height: 32px;
+        color: white;
+        margin-top: 16px;
+      }
     }
   }
 
@@ -40,7 +73,7 @@
       }
 
       a {
-        color: lighten($c1_blue, 20%);
+        color: lighten(#004977, 20%);
       }
     }
   }
@@ -80,7 +113,7 @@
 
       h3 {
         font: 24px $base-font-family-thin;
-        color: lighten($c1_blue, 35%);
+        color: lighten(#004977, 35%);
       }
 
       .faq-triangle-expand {
@@ -89,7 +122,7 @@
         width: 0;
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
-        border-bottom: 14px solid lighten($c1_blue, 35%);
+        border-bottom: 14px solid lighten(#004977, 35%);
 
         transform: rotate(180deg);
       }

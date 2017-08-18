@@ -36,8 +36,9 @@ a {
   text-decoration: none;
 
 	#link-moving-chevron {
+		@include easeinout-transition(200ms);
 		display: inline-block;
-		margin-left: 16px;
+		margin-left: 12px;
 	}
 
   &:hover {
@@ -45,8 +46,7 @@ a {
 		cursor: pointer;
 
 		#link-moving-chevron {
-			@include easeinout-transition(200ms);
-			transform: translateX(24px);
+			transform: translateX(8px);
 		}
   }
 }
@@ -69,7 +69,7 @@ body
       font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     }
     color: $text-color;
-    background-color: #e7e7e7;
+    background-color: #f3f3f3;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -127,16 +127,20 @@ body
 
     h2 {
       font-family: $base-font-family;
-      font-size: 16px;
+      font-size: 14px;
       text-transform: uppercase;
       letter-spacing: 5px;
     }
 
     p {
       font-family: $base-font-family-extra-thin;
-      font-size: 24px;
+      font-size: 28px;
       margin-top: 16px;
     }
+
+		&:hover {
+			opacity: 1;
+		}
   }
 }
 

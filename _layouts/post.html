@@ -9,9 +9,11 @@ layout: default
 	    <p id="page-subtitle">{{ page.description }}</p>
 		</div>
 
+    {% if page.charitylogo %}
 		<div id="charities-logo-container">
 			<img class="charity-logo" src="{{ site.baseurl }}/assets/img/cof_logo.png" />
 		</div>
+    {% endif %}
   </div>
 
 	<article id="article-container">
