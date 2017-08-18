@@ -1,8 +1,7 @@
 #about-gtc {
   #mission,
   #when-where,
-  #judges-mentors,
-  #faq {
+  #judges-mentors {
     @include content-padding;
     padding-top: 1em;
   }
@@ -49,6 +48,7 @@
   #map {
     max-height: 450px;
     width: 100%;
+    margin-top: 1em;
 
     iframe {
       max-height: 450px;
@@ -109,6 +109,27 @@
       height: 150px;
       padding-top: 42px;
       padding-bottom: 42px;
+    }
+  }
+}
+
+/* Responsive About Styles */
+@media screen and (max-width: 840px) {
+  #when-where-flexhack {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #about-gtc {
+    #when-where {
+      #info {
+        display: block;
+
+        div {
+          padding-bottom: 24px;
+        }
+      }
     }
   }
 }
