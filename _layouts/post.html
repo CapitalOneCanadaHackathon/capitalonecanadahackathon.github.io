@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div id="gtc-article" class="gtc-page">
+<div id="gtc-article" class="gtc-page gtc-post">
   <div id="page-header">
 		<div id="page-title-container">
 	    <h1 id="page-title">{{ page.title }}</h1>
@@ -15,9 +15,22 @@ layout: default
   </div>
 
 	<article id="article-container">
-		<img id="article-hero" src="{{ site.baseurl }}/{{ page.hero }}" />
-		<div id="article-content-container">
-			{{ content }}
+		<img id="article-hero" src="{{ site.baseurl }}{{ page.hero }}" />
+
+    {% if page.pullquote %}
+		<div id="article-content-container" class="post-pullquote-flex">
+    {% else %}
+    <div id="article-content-container">
+    {% endif %}
+      {% if page.pullquote %}
+      <div id="article-pullquote" class="post-pullquote-flex">
+        {{ page.pullquote }}
+      </div>
+      {% endif %}
+
+      <div id="article-main-content">
+		     {{ content }}
+      </div>
 		</div>
 	</article>
 </div>

@@ -1,37 +1,38 @@
-#gtc-article {
+.gtc-post {
   @include content-padding;
+}
 
-  #page-header {
-    @include display-flex;
-    flex-direction: row;
-    padding-left: 0;
-    padding-right: 0;
-    margin-bottom: 2em;
+#page-header {
+  @include display-flex;
+  flex-direction: row;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 2em;
 
-    #page-title-container {
-      flex-basis: 50%;
+  #page-title-container {
+    flex-basis: 50%;
 
-      #page-title {
-        font-size: 24px;
-      }
-
-      #page-subtitle {
-        font-size: 14px;
-      }
+    #page-title {
+      font-size: 24px;
     }
 
-    #charities-logo-container {
-      flex-basis: 50%;
-      justify-self: flex-start;
-      text-align: right;
+    #page-subtitle {
+      font-size: 14px;
+    }
+  }
 
-      img {
-        height: 45px;
-        width: auto;
-      }
+  #charities-logo-container {
+    flex-basis: 50%;
+    justify-self: flex-start;
+    text-align: right;
+
+    img {
+      height: 45px;
+      width: auto;
     }
   }
 }
+
 
 /* Article Content */
 #article-hero {
@@ -40,8 +41,17 @@
   margin-bottom: 3.5em;
 }
 
-#article-content-container {
+#article-content-container.post-pullquote-flex {
   @include display-flex;
+
+  #article-main-content {
+    flex-basis: 65%;
+    padding-left: 10%;
+    padding-right: 0;
+  }
+}
+
+#article-content-container {
   font: 16px $base-font-family-thin;
   color: $text-color;
   line-height: 35px;
@@ -53,25 +63,24 @@
   }
 
   #article-main-content {
-    flex-basis: 65%;
-    padding-left: 10%;
+    /* Since we're using a CSS reset, apply bare elements' margins for posts only */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 1em;
+    }
+
+    ul {
+      margin: 1em;
+      padding: 1em;
+    }
+
+    p {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
   }
-}
-
-
-.indiv-charity-heading {
-  font-family: Optimist Extra Thin;
-  font-size: 45px;
-  color: #004977;
-  letter-spacing: 0;
-  line-height: 57px;
-  margin-bottom: 2%;
-}
-
-.indiv-charity-sub-heading {
-  font-family: Optimist Thin;
-  font-size: 18px;
-  color: $text-color;
-  letter-spacing: 0;
-  margin-bottom: 2%;
 }
