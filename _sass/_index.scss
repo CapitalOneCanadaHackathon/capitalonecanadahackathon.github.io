@@ -132,7 +132,7 @@
   }
 }
 
-#landingpage-more {
+#page-blogcta {
   @include display-flex;
   height: 250px;
   width: 100%;
@@ -223,7 +223,7 @@
 }
 
 @media screen and (max-width: 840px) {
-  #landingpage-more {
+  #page-blogcta {
     height: 150px;
 
     a {
