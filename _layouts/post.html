@@ -4,7 +4,11 @@ layout: default
 
 <div id="gtc-article" class="gtc-page gtc-post">
   <div id="page-header">
+    {% if page.charitylogo %}
+    <div id="page-title-container" class="post-charity-image-flex">
+    {% else %}
 		<div id="page-title-container">
+      {% endif %}
 	    <h1 id="page-title">{{ page.title }}</h1>
 	    <p id="page-subtitle">{{ page.description }}</p>
 		</div>
