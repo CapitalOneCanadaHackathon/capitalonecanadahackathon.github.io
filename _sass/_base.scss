@@ -122,7 +122,7 @@ body
     color: white;
     flex: 1;
     cursor: pointer;
-		background-image: url("/assets/img/2017/blog-polygon-bg.png");
+		background-image: url($baseurl + "/assets/img/2017/blog-polygon-bg.png");
 		background-position: center;
 
     h2 {
