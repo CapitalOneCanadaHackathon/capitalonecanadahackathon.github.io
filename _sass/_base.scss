@@ -104,6 +104,42 @@ body
 	overflow: hidden;
 }
 
+#page-blogcta {
+  @include display-flex;
+  height: 250px;
+  width: 100%;
+  background-color: #aaa;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    @include display-flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 72px;
+    padding-right: 64px;
+    color: white;
+    flex: 1;
+    cursor: pointer;
+		background-image: url("/assets/img/2017/blog-polygon-bg.png");
+		background-position: center;
+
+    h2 {
+      font-family: $base-font-family;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+    }
+
+    p {
+      font-family: $base-font-family-extra-thin;
+      font-size: 24px;
+      margin-top: 16px;
+    }
+  }
+}
+
 /* Common Keyframe Animations */
 .fade-in {
 	animation: fade-in 1000ms;

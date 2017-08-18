@@ -2,17 +2,22 @@
 layout: default
 ---
 
-<div class="page">
-	<section id="main">
-		<div id="charities">
-  			<header>
-    			<p class="indiv-charity-heading">{{ page.title }}</p>
-  			</header>
-			<p class="indiv-charity-sub-heading">{{ page.description }}</p>
-			<article id="indiv-charity-content">
-    			{{ content }}
-  			</article>
-  		</div>
-	</section>
+<div id="gtc-article" class="gtc-page">
+  <div id="page-header">
+		<div id="page-title-container">
+	    <h1 id="page-title">{{ page.title }}</h1>
+	    <p id="page-subtitle">{{ page.description }}</p>
+		</div>
+
+		<div id="charities-logo-container">
+			<img class="charity-logo" src="/assets/img/cof_logo.png" />
+		</div>
+  </div>
+
+	<article id="article-container">
+		<img id="article-hero" src="{{ page.hero }}" />
+		<div id="article-content-container">
+			{{ content }}
+		</div>
+	</article>
 </div>
-<br /><br />
