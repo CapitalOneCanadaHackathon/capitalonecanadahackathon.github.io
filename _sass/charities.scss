@@ -5,14 +5,14 @@
     font-family:$base-font-family-extra-thin;
     font-size:30px;
     color:$c1_blue;
-    margin-left:5%;
+    margin-left:2%;
   }
 
   h3{
     font-family:$base-font-family-extra-thin;
     font-size:24px;
     color:$c1_blue;
-    margin-left:5%;
+    margin-left:2%;
   }
 
   .indiv-charity-heading {
@@ -33,13 +33,12 @@
   }
 
   #indiv-charity-content{
-    font-family: Optimist Extra Thin;
-    font-size: 29px;
+    font: 24px $base-font-family-thin;
     color: #4A4A4A;
     letter-spacing: 0;
     line-height: 45px;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
   }
 
   .indiv-charity-image {
@@ -50,11 +49,12 @@
   }
 
   #charity-quote {
-    font-family: Optimist Extra Thin;
-    font-size: 39px;
+    font: 32px $base-font-family-thin;
     color: #4A4A4A;
     letter-spacing: 0;
-    line-height: 61px;
+    line-height: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
   }
 
   .flex-item {
@@ -104,44 +104,81 @@
 
   }
 
-  #charity-alternate-content{
-    width:100%;
-    background-image:linear-gradient(-180deg,$c1_blue 25%,#26a0da 100%);
+  #charity-two-content {
+    width: 100%;
+    background-image: linear-gradient(-180deg, $c1_blue 25%, #26a0da 100%);
     //background-image:linear-gradient(toleft,$c1_blue4%,#26a0da100%,$c1_blue100%);
-    border-radius:2px;
-    padding:116px 96px 116px 96px;
-    color:#fff;
-    font-family:$base-font-family-extra-thin;
+    border-radius: 2px;
+    padding: 116px 96px 116px 96px;
+    color: #fff;
+    font-family: $base-font-family-extra-thin;
 
-    .tagline{
-      font-size:36px;
+    .tagline {
+      font-size: 36px;
     }
 
-    .description{
-      font-size:20px;
+    .description {
+      font-size: 20px;
     }
 
-    .charity-alternate-info{
-      font-size:18px;
-      margin-top:8px;
-      margin-bottom:32px;
+    .charity-two-info {
+      font-size: 18px;
+      margin-top: 8px;
+      margin-bottom: 32px;
     }
 
-    .charity-alternate-info:hover p{
-      color:black;
+    .charity-two-info:hover p {
+      color: black;
     }
-    &:hover{
+    &:hover {
       @include easeinout-transition(350ms);
       box-shadow: 0px 2px 2px 0px rgba(25, 25, 25, 0.5);
-      opacity:0.95;
-      z-index:1;
-      transform:scale(1.01);
+      opacity: 0.95;
+      z-index: 1;
+      transform: scale(1.01);
       text-rendering: optimizeLegibility;
-      -webkit-font-smoothing:subpixel-antialiased;
+      -webkit-font-smoothing: subpixel-antialiased;
+    }
+  }
+
+    #charity-three-content {
+      width: 100%;
+      //background-image: linear-gradient(-180deg, #FF4444 25%, #DD5151 60%);
+      background-image: linear-gradient(-180deg, #E02843 0%, #ED7B96 100%);
+      border-radius: 2px;
+      padding: 116px 96px 116px 96px;
+      color: #fff;
+      font-family: $base-font-family-extra-thin;
+
+      .tagline {
+        font-size: 36px;
+      }
+
+      .description {
+        font-size: 20px;
+      }
+
+      .charity-three-info {
+        font-size: 18px;
+        margin-top: 8px;
+        margin-bottom: 32px;
+      }
+
+      .charity-three-info:hover p {
+        color: black;
+      }
+      &:hover {
+        @include easeinout-transition(350ms);
+        box-shadow: 0px 2px 2px 0px rgba(25, 25, 25, 0.5);
+        opacity: 0.95;
+        z-index: 1;
+        transform: scale(1.01);
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: subpixel-antialiased;
+      }
     }
 
 
-  }
   .img-circle-small{
     border-radius:50%;
     height:75px;
