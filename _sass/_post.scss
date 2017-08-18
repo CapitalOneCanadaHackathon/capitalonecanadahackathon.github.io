@@ -1,0 +1,77 @@
+#gtc-article {
+  @include content-padding;
+
+  #page-header {
+    @include display-flex;
+    flex-direction: row;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 2em;
+
+    #page-title-container {
+      flex-basis: 50%;
+
+      #page-title {
+        font-size: 24px;
+      }
+
+      #page-subtitle {
+        font-size: 14px;
+      }
+    }
+
+    #charities-logo-container {
+      flex-basis: 50%;
+      justify-self: flex-start;
+      text-align: right;
+
+      img {
+        height: 45px;
+        width: auto;
+      }
+    }
+  }
+}
+
+/* Article Content */
+#article-hero {
+  height: auto;
+  width: 100%;
+  margin-bottom: 3.5em;
+}
+
+#article-content-container {
+  @include display-flex;
+  font: 16px $base-font-family-thin;
+  color: $text-color;
+  line-height: 35px;
+
+  #article-pullquote {
+    flex-basis: 25%;
+    font: 14px $base-font-family;
+    line-height: 35px;
+  }
+
+  #article-main-content {
+    flex-basis: 65%;
+    padding-left: 10%;
+  }
+}
+
+
+.indiv-charity-heading {
+  font-family: Optimist Extra Thin;
+  font-size: 45px;
+  color: #004977;
+  letter-spacing: 0;
+  line-height: 57px;
+  margin-bottom: 2%;
+}
+
+.indiv-charity-sub-heading {
+  font-family: Optimist Thin;
+  font-size: 18px;
+  color: $text-color;
+  letter-spacing: 0;
+  margin-bottom: 2%;
+}
