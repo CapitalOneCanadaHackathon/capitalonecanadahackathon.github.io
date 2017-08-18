@@ -259,3 +259,23 @@
      }
   }
 }
+
+@media screen and (max-width: 480px) {
+  #hero {
+    #content {
+      #tagline h1 {
+        font-size: 24px;
+      }
+    }
+
+    #hero-interactive {
+      height: 250px;
+      width: 250px;
+
+      #hero-logo {
+        height: auto;
+        width: 245px;
+      }
+    }
+  }
+}

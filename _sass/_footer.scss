@@ -62,8 +62,11 @@ footer {
     list-style-type: none;
 
     #social-marks {
-      height: 23px;
-      width: auto;
+      img {
+        height: 42px;
+        width: auto;
+      }
+
       display: inline-block;
 
       &:not(:first-child) {
@@ -124,6 +127,16 @@ footer {
 
         li {
           margin-left: 0px;
+        }
+      }
+    }
+
+    #social-links {
+      list-style-type: none;
+
+      #social-marks {
+        img {
+          height: 38px;
         }
       }
     }

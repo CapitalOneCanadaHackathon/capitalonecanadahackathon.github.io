@@ -1,51 +1,45 @@
 #about-gtc {
   #when-where,
+  #mission,
   #judges-mentors {
     @include content-padding;
     padding-top: 1em;
   }
 
-  #mission {
-    .page-section-title {
-      padding-top: 1em;
-      padding-left: 3em;
-    }
+  #mission-content-container {
+    @include display-flex;
+    flex: row;
+    padding: 3em 1em 3em 1em;
 
-    #mission-content-container {
-      @include display-flex;
-      flex: row;
-      padding: 3em 1em 3em 1em;
+    /* Fallback */
+    background-color: #004977;
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, left top, right top, from(#004977), to(#018BBB));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(left, #004977, #018BBB);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(left, #004977, #018BBB);
+    /* IE 10 */
+    background: -ms-linear-gradient(left, #004977, #018BBB);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(left, #004977, #018BBB);
+  }
 
-      /* Fallback */
-      background-color: #004977;
-      /* Safari 4-5, Chrome 1-9 */
-      background: -webkit-gradient(linear, left top, right top, from(#004977), to(#018BBB));
-      /* Safari 5.1, Chrome 10+ */
-      background: -webkit-linear-gradient(left, #004977, #018BBB);
-      /* Firefox 3.6+ */
-      background: -moz-linear-gradient(left, #004977, #018BBB);
-      /* IE 10 */
-      background: -ms-linear-gradient(left, #004977, #018BBB);
-      /* Opera 11.10+ */
-      background: -o-linear-gradient(left, #004977, #018BBB);
-    }
+  #mission-logo {
+    height: 300px;
+    width: auto;
+  }
 
-    #mission-logo {
-      height: 300px;
-      width: auto;
-    }
+  #mission-content {
+    padding-left: 48px;
+    color: #fff;
 
-    #mission-content {
-      padding-left: 48px;
-      color: #fff;
-
-      p {
-        font: 16px $base-font-family-thin;
-        width: 85%;
-        line-height: 32px;
-        color: white;
-        margin-top: 16px;
-      }
+    p {
+      font: 16px $base-font-family-thin;
+      width: 85%;
+      line-height: 32px;
+      color: white;
+      margin-top: 16px;
     }
   }
 
@@ -147,6 +141,14 @@
 }
 
 /* Responsive About Styles */
+@media screen and (max-width: 960px) {
+  #about-gtc {
+    #mission-logo {
+      height: 250px;
+    }
+  }
+}
+
 @media screen and (max-width: 840px) {
   #when-where-flexhack {
     display: none;
@@ -155,6 +157,16 @@
 
 @media screen and (max-width: 640px) {
   #about-gtc {
+    #mission-content-container {
+      display: block;
+    }
+
+    #mission-logo {
+      height: 300px;
+      display: block;
+      margin: auto;
+    }
+
     #when-where {
       #info {
         display: block;
