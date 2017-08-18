@@ -1,38 +1,37 @@
 .gtc-post {
   @include content-padding;
-}
 
-#page-header {
-  @include display-flex;
-  flex-direction: row;
-  padding-left: 0;
-  padding-right: 0;
-  margin-bottom: 2em;
+  #page-header {
+    @include display-flex;
+    flex-direction: row;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 2em;
 
-  #page-title-container {
-    flex-basis: 50%;
+    #page-title-container {
+      flex-basis: 50%;
 
-    #page-title {
-      font-size: 24px;
+      #page-title {
+        font-size: 24px;
+      }
+
+      #page-subtitle {
+        font-size: 14px;
+      }
     }
 
-    #page-subtitle {
-      font-size: 14px;
+    #charities-logo-container {
+      flex-basis: 50%;
+      justify-self: flex-start;
+      text-align: right;
+
+      img {
+        height: 45px;
+        width: auto;
+      }
     }
   }
-
-  #charities-logo-container {
-    flex-basis: 50%;
-    justify-self: flex-start;
-    text-align: right;
-
-    img {
-      height: 45px;
-      width: auto;
-    }
-  }
 }
-
 
 /* Article Content */
 #article-hero {
