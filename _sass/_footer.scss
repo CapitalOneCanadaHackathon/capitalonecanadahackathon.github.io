@@ -1,5 +1,5 @@
 footer {
-  padding: 48px 88px 24px 88px;
+  padding: 24px 88px 16px 88px;
   color: white;
 
   background-color: #05172d;
@@ -64,11 +64,18 @@ footer {
   }
 
   #legal {
-    ul {
+    #copyright {
+      flex-basis: 35%;
+      font-size: 12px;
+    }
+
+    #legal-links {
+      flex-basis: 65%;
+      text-align: right;
       list-style: none;
 
       &:last-child {
-        margin-left: 72px;
+        margin-left: 16px;
       }
 
       li {

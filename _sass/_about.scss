@@ -46,6 +46,16 @@
     }
   }
 
+  #map {
+    max-height: 450px;
+    width: 100%;
+
+    iframe {
+      max-height: 450px;
+      width: 100%;
+    }
+  }
+
   #judges-mentors {
 
   }
