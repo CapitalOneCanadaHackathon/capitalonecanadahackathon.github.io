@@ -88,6 +88,12 @@ body
 	@media screen and (max-width: 1200px) {
 		width: 85%;
 	}
+
+	@media screen and (max-width: 960px) {
+		width: 100%;
+		padding: 0;
+		font-size: 24px;
+	}
 }
 
 .page-content {
