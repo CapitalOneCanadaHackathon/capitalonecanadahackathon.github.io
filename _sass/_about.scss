@@ -37,12 +37,6 @@
       @include display-flex;
       justify-content: space-between;
 
-      h3 {
-        font: 14px $base-font-family-semibold;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-      }
-
       p,
       a {
         font: 16px $base-font-family-extra-thin;

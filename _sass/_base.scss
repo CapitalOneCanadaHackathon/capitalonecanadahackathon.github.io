@@ -110,6 +110,12 @@ body
 	line-height: 34px;
 }
 
+.anchored-title {
+	font: 14px $base-font-family-semibold;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
 #page-blogcta {
   @include display-flex;
   height: 200px;

@@ -2,8 +2,25 @@
   #featured {
     @include content-padding;
 
-    a {
+    .highlighted-story {
+      @include display-flex;
       display: block;
+      justify-content: flex-end;
+
+      /* Safari 4-5, Chrome 1-9 */
+      background: -webkit-gradient(linear, top top, bottom bottom, from(rgba(255,255,255,0.1)), to(rgba(25,25,25,0.35)));
+      /* Safari 5.1, Chrome 10+ */
+      background: -webkit-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.35));
+      /* Firefox 3.6+ */
+      background: -moz-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.35));
+      /* IE 10 */
+      background: -ms-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.35));
+      /* Opera 11.10+ */
+      background: -o-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.35));
+
+      .anchored-title {
+        color: white;
+      }
     }
 
     #blog-featured-highlight {
