@@ -18,22 +18,22 @@ $(function() {
    * Parallax "Apple TV" effect modified from:
    * https://webdesign.tutsplus.com/tutorials/apple-tvs-parallax-rollover-effect--cms-27233
    */
-  $(document).on('mousemove', '#hero-interactive', function(e) {
+  $(document).on('mousemove', '#hero-logo', function(e) {
     var halfW = ( this.clientWidth / 2 );
     var halfH = ( this.clientHeight / 2 );
 
     var coorX = ( halfW - ( event.pageX - this.offsetLeft ) );
     var coorY = ( halfH - ( event.pageY - this.offsetTop ) );
 
-    var degX  = ( ( coorY / halfH ) * 5 ) + 'deg'; // max. degree = 10
+    var degX  = ( ( coorY / halfH ) * 10 ) + 'deg'; // max. degree = 10
     var degY  = ( ( coorX / halfW ) * -5 ) + 'deg'; // max. degree = 5
 
     $(this).css('transform', function() {
-      return 'perspective( 1500px ) translate3d( 0, -2px, 0 ) scale(1.02) rotateX('+ degX +') rotateY('+ degY +')';
+      return 'perspective( 1500px ) translate3d( 0, -2px, 0 ) scale(1.005) rotateX('+ degX +') rotateY('+ degY +')';
     });
   });
 
-  $(document).on('mouseout', '#hero-interactive', function() {
+  $(document).on('mouseout', '#hero-logo', function() {
     $(this).removeAttr('style');
   });
 });

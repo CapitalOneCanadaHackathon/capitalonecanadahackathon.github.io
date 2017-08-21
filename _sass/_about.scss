@@ -10,24 +10,12 @@
     @include display-flex;
     flex: row;
     padding: 3em 1em 3em 1em;
-
-    /* Fallback */
-    background-color: #004977;
-    /* Safari 4-5, Chrome 1-9 */
-    background: -webkit-gradient(linear, left top, right top, from(#004977), to(#018BBB));
-    /* Safari 5.1, Chrome 10+ */
-    background: -webkit-linear-gradient(left, #004977, #018BBB);
-    /* Firefox 3.6+ */
-    background: -moz-linear-gradient(left, #004977, #018BBB);
-    /* IE 10 */
-    background: -ms-linear-gradient(left, #004977, #018BBB);
-    /* Opera 11.10+ */
-    background: -o-linear-gradient(left, #004977, #018BBB);
   }
 
   #mission-logo {
     height: 300px;
     width: auto;
+    // box-shadow: 1px 1px 2px 0px rgba(25,25,25,0.35);
   }
 
   #mission-content {
@@ -38,7 +26,7 @@
       font: 16px $base-font-family-thin;
       width: 85%;
       line-height: 32px;
-      color: white;
+      color: $text-color;
       margin-top: 16px;
     }
   }
@@ -69,6 +57,18 @@
       a {
         color: lighten(#004977, 20%);
       }
+    }
+
+    #when {
+      flex-basis: 35%;
+    }
+
+    #where {
+      flex-basis: 35%;
+    }
+
+    #whoa{
+      flex-basis: 30%;
     }
   }
 
@@ -150,9 +150,9 @@
 }
 
 @media screen and (max-width: 840px) {
-  #when-where-flexhack {
-    display: none;
-  }
+  // #when-where-flexhack {
+  //   display: none;
+  // }
 }
 
 @media screen and (max-width: 640px) {

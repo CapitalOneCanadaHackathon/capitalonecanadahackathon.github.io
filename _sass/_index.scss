@@ -123,13 +123,18 @@
     align-items: center;
     max-width: 510px;
     height: auto;
-    margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
 
     #hero-logo {
       height: auto;
       width: 445px;
+    }
+
+    #hero-logo-cof {
+      height: auto;
+      width: 120px;
+      margin-top: -32px;
     }
 
     &:hover {
@@ -245,6 +250,8 @@
     margin: 1em;
 
     #content {
+      margin-top: 56px;
+
       #tagline h1 {
         font-size: 32px;
       }
