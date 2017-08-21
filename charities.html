@@ -10,7 +10,7 @@ layout: default
 
   <div id="charity-banners">
     {% for charity in site.categories.charities %}
-      <a class="charity-banner" href="{{site.baseurl}}/cee">
+      <a class="charity-banner" href="{{site.baseurl}}/{{ charity.link }}">
         <div id="{{ charity.cssId }}" class="charity-content">
           <div class="charity-logo-container">
             <img class="charity-logo" src="{{ site.baseurl }}/assets/img/2017/Facebook.png" />

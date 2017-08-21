@@ -1,5 +1,6 @@
 ---
 layout: post
+link: autism-ontario
 permalink: /:title/
 title: "Autism Ontario"
 description: "Autism Ontario is the leading source of information on autism in Ontario and one of the largest collective voices representing the autism community in Canada."
