@@ -133,7 +133,6 @@
   background-color: white;
   position: absolute;
   top: -138px; /* Height of nav */
-  padding-bottom: 24px;
   z-index: 101;
   color: white;
   visibility: hidden;
@@ -141,6 +140,7 @@
 }
 
 #nav-menu-links-wrapper {
+  height: 100%;
   background-color: #004977;
   padding: 48px 88px 48px 88px;
 
@@ -152,9 +152,10 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004977', endColorstr='#018bbb',GradientType=1 ); /* IE6-9 */
 
   #nav-menu-links {
-    font-size: 28px;
+    font-size: 24px;
 
     a {
+      font-family: $base-font-family-extra-thin;
       color: white;
 
       &:not(:first-child) {

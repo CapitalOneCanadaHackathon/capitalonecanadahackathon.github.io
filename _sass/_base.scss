@@ -104,9 +104,15 @@ body
 	overflow: hidden;
 }
 
+.pullquote {
+	font: 20px $base-font-family-extra-thin;
+	color: #a9a9a9;
+	line-height: 34px;
+}
+
 #page-blogcta {
   @include display-flex;
-  height: 250px;
+  height: 200px;
   width: 100%;
   background-color: #aaa;
   justify-content: center;
@@ -119,7 +125,6 @@ body
     height: 100%;
     padding-left: 72px;
     padding-right: 64px;
-		padding-bottom: 16px;
     color: white;
     flex: 1;
     cursor: pointer;
@@ -136,7 +141,7 @@ body
     p {
       font-family: $base-font-family-extra-thin;
       font-size: 28px;
-      margin-top: 16px;
+      margin-top: 4px;
     }
 
 		&:hover {

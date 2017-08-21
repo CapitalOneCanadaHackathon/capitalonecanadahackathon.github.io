@@ -13,10 +13,7 @@
   }
 
   #mission-pullquote {
-    flex-basis: 50%;
-    font: 16px $base-font-family;
-    color: #8a8a8a;
-    line-height: 28px;
+    flex-basis: 82%;
   }
 
   #mission-content {
@@ -25,7 +22,7 @@
 
     p {
       font: 16px $base-font-family-thin;
-      width: 85%;
+      width: 100%;
       line-height: 32px;
       color: $text-color;
 
@@ -43,18 +40,18 @@
       h3 {
         font: 14px $base-font-family-semibold;
         text-transform: uppercase;
-        letter-spacing: 2px;
+        letter-spacing: 5px;
       }
 
       p,
       a {
-        font: 16px $base-font-family-thin;
-        color: lighten($text-color, 15%);
+        font: 16px $base-font-family-extra-thin;
         margin-top: 14px;
         margin-bottom: 14px;
       }
 
       .about-info-important {
+        font-family: $base-font-family-extra-thin;
         font-size: 24px;
       }
 
@@ -71,8 +68,8 @@
       flex-basis: 35%;
     }
 
-    #whoa{
-      flex-basis: 30%;
+    #whoa {
+      flex-basis: 25%;
     }
   }
 
