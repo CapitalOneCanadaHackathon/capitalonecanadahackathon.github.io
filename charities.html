@@ -9,7 +9,8 @@ layout: default
   </div>
 
   <div id="charity-banners">
-    {% for charity in site.categories.charities %}
+    {% assign sortedCharities = site.categories.charities | sort: 'name' %}
+    {% for charity in sortedCharities %}
       <a class="charity-banner" href="{{site.baseurl}}/{{ charity.link }}">
         <div id="{{ charity.cssId }}" class="charity-content">
           <div class="charity-logo-container">
