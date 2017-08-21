@@ -8,14 +8,15 @@
 
   #mission-content-container {
     @include display-flex;
+    @include content-padding;
     flex: row;
-    padding: 3em 1em 3em 1em;
   }
 
-  #mission-logo {
-    height: 300px;
-    width: auto;
-    // box-shadow: 1px 1px 2px 0px rgba(25,25,25,0.35);
+  #mission-pullquote {
+    flex-basis: 50%;
+    font: 16px $base-font-family;
+    color: #8a8a8a;
+    line-height: 28px;
   }
 
   #mission-content {
@@ -27,7 +28,10 @@
       width: 85%;
       line-height: 32px;
       color: $text-color;
-      margin-top: 16px;
+
+      &:not(:first-child) {
+        margin-top: 24px;
+      }
     }
   }
 
@@ -60,7 +64,7 @@
     }
 
     #when {
-      flex-basis: 35%;
+      flex-basis: 30%;
     }
 
     #where {
