@@ -69,7 +69,7 @@
     #tagline h1 {
       @include easeinout-transition(350ms);
       font-family: $base-font-family-extra-thin;
-      font-size: 32px;
+      font-size: 36px;
       font-weight: lighter;
       line-height: 42px;
     }
@@ -129,6 +129,7 @@
     #hero-logo {
       height: auto;
       width: 445px;
+      margin-top: -42px;
     }
 
     #hero-logo-cof {
