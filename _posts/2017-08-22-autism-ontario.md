@@ -9,7 +9,7 @@ cssId: "charity-autism"
 tags: >
 category: charities
 name: "Autism Ontario"
-image: /assets/img/charity/cof_logo.png
+image: /assets/img/charity/cof-logo.png
 hero: /assets/img/charity/CEE_Charity_Photo.jpeg
 ---
 <div id="article-pullquote">
