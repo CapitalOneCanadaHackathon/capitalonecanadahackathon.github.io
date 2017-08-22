@@ -32,11 +32,10 @@
   z-index: 101;
   background: white;
 
-  #nav-logo,
-  #nav-actions {
+  #nav-title-container,
+  #nav-menu {
     @include display-flex;
     height: 100%;
-    width: 50%;
 
     * {
       @include display-flex;
@@ -49,23 +48,24 @@
     }
   }
 
-  #nav-logo {
-    a {
-      img {
-        height: auto;
-        width: 200px;
-      }
+  #nav-title-container {
+    flex-basis: 95%;
+    justify-content: space-between;
+
+    #nav-logo {
+      height: auto;
+      width: 200px;
     }
   }
 
-  #nav-actions {
+  #nav-menu {
+    flex-basis: 5%;
     justify-content: flex-end;
 
     #hamburger {
       @include display-flex;
       flex-direction: column;
       justify-content: space-between;
-      margin-left: 32px;
     }
   }
 
@@ -208,7 +208,38 @@
 }
 
 /* Responsive Stylings */
+@media screen and (max-width: 840px) {
+  #nav {
+    #nav-title-container {
+      flex-basis: 90%;
+    }
+
+    #nav-menu {
+      flex-basis: 10%;
+    }
+  }
+}
+
 @media screen and (max-width: 640px) {
+  #nav {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    justify-content: space-between;
+
+    #nav-title-container {
+      flex-direction: column;
+      flex-basis: 45%;
+
+      #nav-logo {
+        width: 150px;
+      }
+
+      #nav-register {
+        margin-top: 24px;
+      }
+    }
+  }
+
   #nav-menu-links-wrapper {
     #nav-menu-links {
       font-size: 26px;
