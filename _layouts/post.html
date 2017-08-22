@@ -13,12 +13,13 @@ layout: default
         <p id="page-date" class="anchored-title">{{ page.date | date: "%B %-d, %Y" }}</p>
         {% endunless %}
         <h1 id="page-title">{{ page.title }}</h1>
+          <p id="page-subtitle">{{ page.subtitle }}</p>
         <p id="page-subtitle">{{ page.description }}</p>
     	</div>
 
     {% if page.category == 'charities' %}
 		<div id="charities-logo-container">
-			<img class="charity-logo" src="{{ site.baseurl }}/assets/img/cof-logo.png" />
+			<img class="charity-logo" src="{{ site.baseurl }}{{ page.image }}" />
 		</div>
     {% endif %}
   </div>

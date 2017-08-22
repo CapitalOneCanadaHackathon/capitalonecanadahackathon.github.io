@@ -3,21 +3,23 @@ layout: post
 link: kids-help-phone
 permalink: /:title/
 title: "Kids Help Phone"
-description: "Kids Help Phone is the only 24/7 counselling and information service for young people in Canada."
+subtitle: "help us, help kids."
+mission: "A national community doing everything we can to support young people."
+description: "The only 24/7 counselling and information service for young people in Canada."
 date: 2017-08-16 00:00:00
 theme:
 cssId: "charity-kids"
 tags: >
 category: charities
 name: "Kids Help Phone"
-image: /assets/img/charity/cof-logo.png
+image: /assets/img/charity/KidsHelpPhone_BW.png
 hero: /assets/img/charity/CEE_Charity_Photo.jpeg
-pullquote: "Deeply rooted in the cultural DNA of Kids Help Phone is the approach to pioneer new ways of helping kids with the support of the most successful and sensitive members of the community. Since its foundation by leaders of Canadian industry and service providers, Kids Help Phone has benefitted from the passion and energy of leading Canadian volunteers. Continuing that tradition by accessing the incredible talent and skills of today’s technology experts in the context of a hackathon is a no-brainer as the organization meets the challenge to help kids in an increasingly complex, technological world."
+pullquote: "Since its foundation by leaders of Canadian industry and service providers, Kids Help Phone has benefitted from the passion and energy of leading Canadian volunteers. Continuing that tradition by accessing the incredible talent and skills of today’s technology experts in the context of a hackathon is a no-brainer as the organization meets the challenge to help kids in an increasingly complex, technological world."
 ---
 More than just a telephone number, Kids Help Phone is a national community working tirelessly to support young people with the issues that are most relevant to them. Its mission is to improve the well-being of children and youth in Canada by providing them with anonymous and confidential professional counselling, referrals and information in English and French through technologically based communications media.
 <br />
 <br />
-Since 1989, Kids Help Phone has been pioneering response solutions to ensure that young people in Canada are supported in moments of crisis. As technology continues to push the boundaries of digital communications, Kids Help Phone faces increasing pressure to stay accessible while still ensuring that the most effective communication channels are maintained. Since 2010, Kids Help Phone telephone counselling has increased by 127% – indicating that many young people still want to hear a voice at the other end of the line.
+Since 1989, Kids Help Phone has been pioneering response solutions to ensure that young people in Canada are supported in moments of crisis. As technology continues to push the boundaries of digital communications, Kids Help Phone faces increasing pressure to stay accessible while still ensuring that the most effective communication channels are maintained. Since 2010, Kids Help Phone telephone counselling has increased by 127% – indicating that many young people still want to hear a voice at the other end of the line. 
 <br />
 <br />
 Gift the Code will help Kids Help Phone continue to adapt to the changing tech environment in Canada and help the organization demonstrate its impact to prospective donors.

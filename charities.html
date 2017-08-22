@@ -14,13 +14,13 @@ layout: default
       <a class="charity-banner" href="{{site.baseurl}}/{{ charity.link }}">
         <div id="{{ charity.cssId }}" class="charity-content">
           <div class="charity-logo-container">
-            <img class="charity-logo" src="{{ site.baseurl }}/assets/img/2017/Facebook.png" />
+            <img class="charity-logo" src="{{ site.baseurl }}{{ charity.image }}" />
           </div>
 
           <div class="charity-info">
-            <p class="charity-name">{{ charity.name }}</p>
+            <p class="charity-name">{{ charity.title }}</p>
             <p class="charity-description">
-              {{ charity.description }}<span id="link-moving-chevron">&rsaquo;</span>
+              {{ charity.mission }}<span id="link-moving-chevron">&rsaquo;</span>
             </p>
           </div>
         </div>

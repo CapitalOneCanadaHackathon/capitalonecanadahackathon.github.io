@@ -17,7 +17,10 @@
     .charity-logo-container {
       align-self: flex-end;
     }
-
+    .charity-logo {
+      width: 275px;
+      height: auto;
+    }
     .charity-info {
       align-self: flex-end;
 
@@ -25,6 +28,7 @@
         font: 14px $base-font-family;
         text-transform: uppercase;
         letter-spacing: 2px;
+        align-self: flex-start;
       }
 
       .charity-description {
@@ -41,15 +45,30 @@
     }
   }
 
-  #charity-cee {
-    background-image: linear-gradient(-180deg,#3023AE 25%,#C86DD7 100%);
+
+  #charity-519 {
+    background-image: linear-gradient(-180deg, #3023AE 25%, #C86DD7 100%);
   }
 
   #charity-autism {
     background-image: linear-gradient(-180deg, #004977 25%, #26a0da 100%);
   }
 
-  #charity-kids {
-    background-image: linear-gradient(-180deg, #E02843 0%, #ED7B96 100%);
+  #charity-indspire {
+    background-image: linear-gradient(-180deg,#3023AE 25%,#C86DD7 100%);
   }
+
+  #charity-cee {
+    background-image: linear-gradient(-180deg, #133832 25%, #99B37D 100%);
+  }
+
+  #charity-kids {
+    //background-image: linear-gradient(-180deg, #E02843 25%, #ED7B96 100%);
+    background-image: linear-gradient(-180deg, #004977 25%, #26a0da 100%);
+  }
+
+  #charity-sistering {
+    background-image: linear-gradient(-180deg, #133832 25%, #99B37D 100%);
+  }
+
 }
