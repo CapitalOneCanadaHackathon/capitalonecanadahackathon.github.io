@@ -1,16 +1,6 @@
 .gtc-post {
   @include content-padding;
 
-  #page-header.post-charity {
-    #page-title {
-      font-size: 42px;
-    }
-
-    #page-subtitle {
-      font-size: 20px;
-    }
-  }
-
   #page-header {
     @include display-flex;
     padding-left: 0;
@@ -31,17 +21,6 @@
       #page-subtitle {
         font-size: 16px;
         margin-top: 8px;
-      }
-    }
-
-    #charities-logo-container {
-      flex-basis: 20%;
-      justify-self: flex-start;
-      text-align: right;
-
-      img {
-        height: 45px;
-        width: auto;
       }
     }
   }
@@ -77,8 +56,6 @@
   }
 
   #article-main-content {
-    width: 70%;
-    margin: auto;
     margin-top: 3.5em;
     line-height: 32px;
 
@@ -100,6 +77,66 @@
 
     p {
       margin-bottom: 1em;
+    }
+  }
+}
+
+/* Charity Specific BODY Content */
+.gtc-post {
+  #page-header.post-charity {
+    #page-title-container {
+      #page-title {
+        font-size: 42px;
+      }
+
+      #page-subtitle {
+        font-size: 20px;
+      }
+    }
+
+    #charities-logo-container {
+      flex-basis: 20%;
+      justify-self: flex-start;
+      text-align: right;
+
+      img {
+        height: auto;
+        width: 250px;
+      }
+    }
+  }
+}
+
+#charity-mission-container {
+  margin-top: 16px;
+
+  #charity-mission {
+    font: 16px $base-font-family-thin;
+    color: #898989;
+    margin-top: 8px;
+  }
+}
+
+.charity-anchored-title {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 640px) {
+  #article-content-container.post-pullquote-flex {
+    display: block;
+
+    #article-main-content {
+      width: 100%;
+      flex-basis: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  #article-content-container {
+    #article-pullquote {
+      flex-basis: 100%;
     }
   }
 }

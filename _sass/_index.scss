@@ -113,8 +113,6 @@
   }
 
   #hero-interactive {
-    height: 430px;
-    width: 430px;
     position: relative;
 
     overflow: hidden;
@@ -174,9 +172,6 @@
 @media screen and (max-width: 1200px) {
   #hero {
     #hero-interactive {
-      height: 375px;
-      width: 375px;
-
       #hero-logo {
         height: auto;
         width: 365px;
@@ -196,9 +191,6 @@
     }
 
     #hero-interactive {
-      height: 350px;
-      width: 350px;
-
       #hero-logo {
         height: auto;
         width: 345px;
@@ -237,9 +229,6 @@
     }
 
     #hero-interactive {
-      height: 325px;
-      width: 325px;
-
       #hero-logo {
         height: auto;
         width: 320px;
@@ -254,10 +243,16 @@
     margin: 1em;
 
     #content {
-      margin-top: 56px;
+      margin-top: 26px;
 
       #tagline h1 {
         font-size: 32px;
+      }
+    }
+
+    #hero-interactive {
+      #hero-logo {
+        margin-top: 8px;
       }
     }
 
@@ -280,9 +275,6 @@
     }
 
     #hero-interactive {
-      height: 250px;
-      width: 250px;
-
       #hero-logo {
         height: auto;
         width: 245px;

@@ -116,6 +116,53 @@ body
 	letter-spacing: 5px;
 }
 
+.content-accordion {
+	border-bottom: 1px solid #cacaca;
+
+	.content-accordion-title {
+		@include display-flex;
+		padding-top: 24px;
+		padding-bottom: 16px;
+		justify-content: space-between;
+		align-items: center;
+		cursor: pointer;
+
+		&:hover {
+			opacity: 0.7;
+		}
+
+		h3 {
+			font: 16px $base-font-family-thin;
+			padding-left: 16px;
+		}
+
+		.content-accordion-triangle-expand {
+			@include easeinout-transition(250ms);
+			height: 0;
+			width: 0;
+			border-top: 8px solid transparent;
+			border-left: 8px solid lighten($text-color, 35%);
+			border-bottom: 8px solid transparent;
+		}
+
+		.content-accordion-triangle-expand.rotate {
+			transform: rotate(90deg);
+		}
+	}
+
+	.content-accordion-body {
+		@include easeinout-transition(350ms);
+		height: 0;
+		overflow: hidden;
+	}
+
+	.content-accordion-body.content-accordion-expand {
+		height: 500px;
+		padding-top: 42px;
+		padding-bottom: 42px;
+	}
+}
+
 #page-blogcta {
   @include display-flex;
   height: 200px;
