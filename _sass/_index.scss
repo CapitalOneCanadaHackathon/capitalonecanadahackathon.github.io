@@ -118,8 +118,6 @@
     position: relative;
 
     overflow: hidden;
-    transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1), box-shadow 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
-    transform: perspective(600px) translate3d(0, 0, 0);
     align-items: center;
     max-width: 510px;
     height: auto;
@@ -128,8 +126,13 @@
 
     #hero-logo {
       height: auto;
-      width: 425px;
+      width: 410px;
       margin-top: -42px;
+
+      transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1), box-shadow 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+      transform: perspective(600px) translate3d(0, 0, 0);
+      transform-style: preserve-3d;
+      backface-visibility: hidden;
     }
 
     #hero-logo-cof {

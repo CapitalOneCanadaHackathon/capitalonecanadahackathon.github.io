@@ -23,11 +23,13 @@ $(function() {
     var halfW = ( this.clientWidth / 2 );
     var halfH = ( this.clientHeight / 2 );
 
-    var coorX = ( halfW - ( event.pageX - this.offsetLeft ) );
-    var coorY = ( halfH - ( event.pageY - this.offsetTop ) );
+    var coorX = ( halfW - ( event.pageX - $(this).offset().left ) );
+    var coorY = ( halfH - ( event.pageY - $(this).offset().top ) );
 
     var degX  = ( ( coorY / halfH ) * 10 ) + 'deg'; // max. degree = 10
-    var degY  = ( ( coorX / halfW ) * -5 ) + 'deg'; // max. degree = 5
+    var degY  = ( ( coorX / halfW ) * -10 ) + 'deg'; // max. degree = 5
+
+    console.log(this.offsetLeft);
 
     $(this).css('transform', function() {
       return 'perspective( 1500px ) translate3d( 0, -2px, 0 ) scale(1.005) rotateX('+ degX +') rotateY('+ degY +')';
