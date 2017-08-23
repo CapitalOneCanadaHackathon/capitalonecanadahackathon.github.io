@@ -1,6 +1,6 @@
 #blog {
   #featured {
-    @include content-padding;
+    @include content-padding-full;
 
     .highlighted-story {
       @include display-flex;
@@ -62,7 +62,7 @@
   }
 
   #archived {
-    @include content-padding;
+    @include content-padding-full;
 
     .blog-image {
       font-family: $base-font-family-extra-thin;
@@ -99,7 +99,7 @@
 }
 
 #blog-legal {
-  @include content-padding;
+  @include content-padding-full;
   font: 16px $base-font-family-thin;
   line-height: 24px;
   color: #8a8a8a;

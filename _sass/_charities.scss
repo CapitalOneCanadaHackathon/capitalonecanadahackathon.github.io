@@ -1,6 +1,6 @@
 #charities {
   #charity-banners {
-    @include content-padding;
+    @include content-padding-full;
   }
 
   .charity-content {
@@ -8,10 +8,10 @@
     @include display-flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 500px;
+    min-height: 450px;
     width: 100%;
     font-family: $base-font-family-extra-thin;
-    padding: 72px 48px 48px 64px;
+    padding: 56px 48px 48px 64px;
     color: white;
 
     .charity-logo-container {
@@ -26,7 +26,7 @@
       .charity-description {
         font-size: 21px;
         margin-top: 8px;
-        width: 50%;
+        width: 75%;
       }
     }
 

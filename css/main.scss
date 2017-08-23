@@ -16,11 +16,21 @@
     }
 }
 
-@mixin content-padding {
+@mixin content-padding-full {
   padding: 72px 96px 64px 96px;
 
   @media screen and (max-width: 640px) {
-    padding: 1em;
+    padding: 32px;
+  }
+}
+
+@mixin content-padding {
+  padding-left: 96px;
+  padding-right: 96px;
+
+  @media screen and (max-width: 640px) {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 

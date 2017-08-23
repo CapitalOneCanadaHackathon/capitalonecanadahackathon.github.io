@@ -13,11 +13,14 @@ layout: default
 
 	<article id="article-container">
 		<img id="article-hero" src="{{ site.baseurl }}{{ page.hero }}" />
-
+    {% if page.pullquote %}
 		<div id="article-content-container" class="post-pullquote-flex pullquote">
       <div id="article-pullquote" class="post-pullquote-flex">
         {{ page.pullquote }}
       </div>
+    {% else %}
+    <div id="article-content-container">
+    {% endif %}
 
       <div id="article-main-content">
 		     {{ content }}
