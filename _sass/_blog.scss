@@ -52,10 +52,35 @@
     @include content-padding;
 
     .blog-image {
-      font-family: Optimist Extra Thin;
+      font-family: $base-font-family-extra-thin;
       opacity: 1;
       width: 100%;
       height: auto;
+    }
+  }
+
+  .archive-post {
+    @include display-flex;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #979797;
+
+    .archive-post-identifier {
+      flex-basis: 25%;
+      font: 24px $base-font-family-extra-thin;
+    }
+
+    .archive-post-title {
+      flex-basis: 75%;
+      h3 {
+        font: 21px $base-font-family-thin;
+        margin-bottom: 16px;
+      }
+
+      a {
+        font: 21px $base-font-family-thin;
+        color: #018bbb;
+      }
     }
   }
 }
