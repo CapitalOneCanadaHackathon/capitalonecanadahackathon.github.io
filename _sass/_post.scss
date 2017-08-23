@@ -1,5 +1,5 @@
 .gtc-post {
-  @include content-padding;
+  padding: 3em 7em 3em 7em;
 
   #page-header {
     @include display-flex;
