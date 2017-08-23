@@ -14,7 +14,7 @@ category: charities
 name: "Sistering"
 logo: /assets/img/charity/Sistering_BW.png
 logocolor: /assets/img/charity/Sistering_COL.png
-hero: /assets/img/charity/Sistering_Charity_Photo.jpeg
+hero: /assets/img/charity/Sistering_Charity_Photo.png
 pullquote: "Gift the Code 2017 is a remarkable opportunity for Sistering to work with leading edge digital problem solvers to help the team better serve our community – participants, supporters, volunteers and donors – and realize our Vision. We are very excited and grateful. - Patricia O’Connell, Executive Director, Sistering"
 ---
 <h3 class="charity-anchored-title anchored-title">About</h3>
@@ -24,8 +24,6 @@ Sistering’s vision is a world where all women, in all our diversity, are safe,
 <li>Evolving and optimizing series to ensure impactful responses to women’s needs</li>
 <li>Influencing social and systemic change to improve the lives of vulnerable women</li>
 </ul>
-<br />
-<br />
 Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In in Parkdale, Housing and Case Support, Harm Reduction, Peer Outreach, Employment Support, Inspirations Studio and Spun Studio social enterprises, and individual and systemic advocacy. Through a number of partnerships, Sistering’s 24/7 Drop In provides on-site primary healthcare that includes a primary health clinic staffed with three family doctors and three psychiatrists, which is open three days a week with evening support; and a trauma-informed psychotherapist who offers counselling two days a week. At the Drop In, participants also have access to a settlement worker and an immigration lawyer.
 <br />
 <br />
