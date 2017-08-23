@@ -1,5 +1,5 @@
 ---
-layout: post2016
+layout: post
 permalink: /2016/:categories/:title/
 title:  Think it. Code it. Gift it.
 date: 2016-08-22 09:00:01

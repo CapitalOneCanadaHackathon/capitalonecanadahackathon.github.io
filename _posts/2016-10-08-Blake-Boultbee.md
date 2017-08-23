@@ -1,5 +1,5 @@
 ---
-layout: post2016
+layout: post
 permalink: /2016/:categories/:title/
 title: "Blake Boultbee: Supporting Youth in Troubled Waters"
 date: 2016-10-09 05:00:00

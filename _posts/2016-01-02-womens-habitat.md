@@ -1,5 +1,5 @@
 ---
-layout: post2016
+layout: post
 permalink: /2016/:categories/:title/
 title: "Women's Habitat: Helping Women and Children Overcome Violence and Abuse"
 date: 2016-10-01 05:00:00

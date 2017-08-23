@@ -184,6 +184,7 @@ body
     cursor: pointer;
 		background-image: url($baseurl + "/assets/img/2017/blog-polygon-bg.png");
 		background-position: center;
+		position: relative;
 
     h2 {
       font-family: $base-font-family;

@@ -1,5 +1,5 @@
 ---
-layout: post2016
+layout: post
 permalink: /2016/:categories/:title/
 title: "Prosper Canada: Fighting Poverty with Financial Empowerment"
 date: 2016-09-12 05:00:00

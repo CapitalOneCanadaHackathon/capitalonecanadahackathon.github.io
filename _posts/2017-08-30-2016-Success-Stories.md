@@ -1,5 +1,5 @@
 ---
-layout: post2016
+layout: post
 permalink: /:title/
 title: "Gift the Code 2016 Success Stories"
 date: 2017-08-22 10:28:00

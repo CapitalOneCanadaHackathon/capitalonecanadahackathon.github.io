@@ -71,3 +71,45 @@
   }
 
 }
+
+/* Charity Specific POST Content */
+.gtc-post {
+  #page-header.post-charity {
+    #page-title-container {
+      #page-title {
+        font-size: 42px;
+      }
+
+      #page-subtitle {
+        font-size: 20px;
+      }
+    }
+
+    #charities-logo-container {
+      flex-basis: 20%;
+      justify-self: flex-start;
+      text-align: right;
+
+      img {
+        height: auto;
+        width: 250px;
+      }
+    }
+  }
+}
+
+#charity-mission-container {
+  margin-top: 16px;
+
+  #charity-mission {
+    font: 16px $base-font-family-thin;
+    color: #898989;
+    margin-top: 8px;
+    line-height: 28px;
+  }
+}
+
+.charity-anchored-title {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

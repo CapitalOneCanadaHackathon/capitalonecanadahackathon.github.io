@@ -1,5 +1,5 @@
 ---
-layout: post2016
+layout: post
 permalink: /2016/:categories/:title/
 title: "Second Harvest: Fighting Hunger while Reducing Food Waste"
 date: 2016-09-18 05:00:00

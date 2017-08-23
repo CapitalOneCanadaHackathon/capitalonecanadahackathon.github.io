@@ -1,5 +1,5 @@
 ---
-layout: post2016
+layout: post
 permalink: /2016/:categories/:title/
 title: "Gift the Code is Hosted at Toronto's Cutting-Edge Tech Education Hub: BrainStation"
 date: 2016-08-29 08:00:00

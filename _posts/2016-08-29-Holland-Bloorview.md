@@ -1,5 +1,5 @@
 ---
-layout: post2016
+layout: post
 permalink: /2016/:categories/:title/
 title: "Holland Bloorview: Creating Worlds of Possibilities for Kids with Disabilities"
 date: 2016-09-05 08:00:00
