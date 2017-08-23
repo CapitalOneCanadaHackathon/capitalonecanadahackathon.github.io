@@ -7,7 +7,7 @@ theme:
 author: Capital One
 tags: >
 category: blog
-visible: 2016
+visible: true
 images:
 ---
 On the <a href="https://womenshabitat.ca/" target="_blank">Women’s Habitat website</a>, a header bar sits at the top of the page –

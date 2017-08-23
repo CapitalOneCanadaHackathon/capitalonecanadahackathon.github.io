@@ -7,7 +7,7 @@ theme:
 author: Capital One
 tags: >
 category: blog
-visible: 2016
+visible: true
 images:
 ---
 Gift The Code is taking place at [BrainStation](https://www.brainstation.io/) Toronto’s downtown  King and Spadina location – an iconic, historical building that was built in 1875. It’s said that new ideas need old buildings, and BrainStation is a perfect representation of old infused with new. The former youth hostel was redesigned and modernized to create a cutting-edge, digital-technology education hub without compromising the historical character of the space. With brick walls, bright spaces and a great coffee shop, BrainStation is inviting and inspiring – the perfect venue for a hackathon!
@@ -17,7 +17,7 @@ Gift The Code is taking place at [BrainStation](https://www.brainstation.io/) To
 Daniel Eidan, General Manager at BrainStation, celebrates its participation as the official location partner of Gift the Code by declaring that, "BrainStation is committed to equip the next generation of digital leaders and creators with the skills necessary to solve meaningful problems using technology. As such, BrainStation is proud to host Gift the Code and help improve digital literacy in the not-for-profit and charity sectors."
 <br />
 <br />
-Founded in in 2012, BrainStation was created in response to an industry encompassing need for new forms of tech education to keep up with the disruptive and exponential pace of technological innovation over the last two decades. The lack of digital workers capable of filling the positions required for those developments was what drove the collective of industry practitioners to launch BrainStation and provide collaborative, hands-on training for working professionals, freelancers and entrepreneurs. 
+Founded in in 2012, BrainStation was created in response to an industry encompassing need for new forms of tech education to keep up with the disruptive and exponential pace of technological innovation over the last two decades. The lack of digital workers capable of filling the positions required for those developments was what drove the collective of industry practitioners to launch BrainStation and provide collaborative, hands-on training for working professionals, freelancers and entrepreneurs.
 <br />
 <br />
 Similar to how BrainStation has set out to up-skill the next generations of creators, Capital One® Canada’s Gift the Code has set out to upgrade the digital capabilities of its participating charities.
