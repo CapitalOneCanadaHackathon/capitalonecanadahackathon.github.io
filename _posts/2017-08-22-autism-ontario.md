@@ -16,6 +16,10 @@ logo: /assets/img/charity/AutismOntario_BW.png
 logocolor: /assets/img/charity/AutismOntario_COL.png
 hero: /assets/img/charity/Autism_Charity_Photo.jpeg
 pullquote: "We know families turn to us first for support and we know that when we can make information easy to access, families feel supported.  We’re thrilled to participate in Gift the Code 2017. We  look forward to working with our outstanding team and can’t wait to see the results."
+nextLink: cee
+nextText: "CEE Centre for Young Black Professionals"
+previousLink: 519
+previousText: "The 519"
 ---
 <h3 class="charity-anchored-title anchored-title">About</h3>
 Autism Ontario is dedicated to increasing public awareness about autism and the day-to-day issues faced by individuals with autism, their families, and the professionals who journey with them. The association is guided by goals of providing information and education, supporting research, and advocating for programs and services for the autism community.

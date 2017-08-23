@@ -16,6 +16,8 @@ logo: /assets/img/charity/Sistering_BW.png
 logocolor: /assets/img/charity/Sistering_COL.png
 hero: /assets/img/charity/Sistering_Charity_Photo.png
 pullquote: "Gift the Code 2017 is a remarkable opportunity for Sistering to work with leading edge digital problem solvers to help the team better serve our community – participants, supporters, volunteers and donors – and realize our Vision. We are very excited and grateful. - Patricia O’Connell, Executive Director, Sistering"
+previousLink: kids-help-phone
+previousText: "Kids Help Phone"
 ---
 <h3 class="charity-anchored-title anchored-title">About</h3>
 Sistering’s vision is a world where all women, in all our diversity, are safe, respected, valued, treated with dignity and afforded equitable opportunities to thrive and participate in inclusive communities. Adapting to new technologies is the cornerstone of our 2017-2020 Strategic Plan, the tenets of which include:

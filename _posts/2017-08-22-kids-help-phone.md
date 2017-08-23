@@ -16,6 +16,10 @@ logo: /assets/img/charity/KidsHelpPhone_BW.png
 logocolor: /assets/img/charity/KidsHelpPhone_COL.png
 hero: /assets/img/charity/KidsHelpPhone_Charity_Photo.png
 pullquote: "Since its foundation by leaders of Canadian industry and service providers, Kids Help Phone has benefitted from the passion and energy of leading Canadian volunteers. Continuing that tradition by accessing the incredible talent and skills of today’s technology experts in the context of a hackathon is a no-brainer as the organization meets the challenge to help kids in an increasingly complex, technological world."
+nextLink: sistering
+nextText: "Sistering"
+previousLink: indspire
+previousText: "Indspire"
 ---
 <h3 class="charity-anchored-title anchored-title">About</h3>
 More than just a telephone number, Kids Help Phone is a national community working tirelessly to support young people with the issues that are most relevant to them. Its mission is to improve the well-being of children and youth in Canada by providing them with anonymous and confidential professional counselling, referrals and information in English and French through technologically based communications media.

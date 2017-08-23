@@ -50,7 +50,22 @@ layout: default
 		</div>
 	</article>
 
-  {% if page.categories contains %}
+  {% if page.nextLink or page.previousLink %}
   <!-- TODO Add Category next/previous here -->
+        <div id="page-blogcta">
+            {% if page.previousLink %}
+            <!-- TODO Add Category next/previous here -->
+                <a href="{{ site.baseurl }}/{{ page.previousLink }}" id="blog-cta">
+                    <h2>Previous</h2>
+                    <p>{{ page.previousText }} <span id="link-moving-chevron">&rsaquo;</span></p>
+                </a>
+            {% endif %}
+            {% if page.nextLink %}
+            <a href="{{ site.baseurl }}/{{ page.nextLink }}" id="blog-cta">
+                <h2>Next</h2>
+                <p>{{ page.nextText }} <span id="link-moving-chevron">&rsaquo;</span></p>
+            </a>
+            {% endif %}
+        </div>
   {% endif %}
 </div>
