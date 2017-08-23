@@ -4,48 +4,62 @@ layout: default
 <div id="blog" class="gtc-page">
   <div id="page-header">
     <h1 id="page-title">Digital for Good</h1>
-    <p id="page-subtitle">The latest on Gift the Code</p>
+    <p id="page-subtitle">The headquarters for updates, stories and hackathon talk.</p>
   </div>
 
   <div id="featured">
-    <a id="blog-featured-highlight" class="highlighted-story">
+    {% assign featuredPostCount = 4 %}
+    {% assign postCounter = 0 %}
 
-      <p class="anchored-title">Story</p>
+    {% for post in site.posts %}
+    {% if post.featured == true %}
+      {% if postCounter == featuredPostCount %}
+        {% break %}
+      {% endif %}
 
-    </a>
-
-    <div id="blog-featured-columned">
-      <a>
-        2
+      {% if postCounter == 1 %}
+      <div id="blog-featured-columned">
+        <a href="{{ post.url }}" class="highlighted-story">
+          <p class="anchored-title">Story</p>
+          <h2 class="featured-post-title">{{ post.title }} <span id="link-moving-chevron">&rsaquo;</span></h2>
+        </a>
+      {% elsif postCounter == 2 %}
+        <a class="highlighted-story">
+          <p class="anchored-title">Story</p>
+          <h2 class="featured-post-title">{{ post.title }} <span id="link-moving-chevron">&rsaquo;</span></h2>
+        </a>
+      </div>
+      {% else %}
+      <a href="{{ post.url }}" id="blog-featured-highlight" class="highlighted-story">
+        <p class="anchored-title">Story</p>
+        <h2 class="featured-post-title">{{ post.title }} <span id="link-moving-chevron">&rsaquo;</span></h2>
       </a>
+      {% endif %}
 
-      <a>
-        3
-      </a>
-    </div>
-
-    <a id="blog-featured-highlight">
-      4
-    </a>
+      {% assign postCounter = postCounter | plus: 1 %}
+    {% endif %}
+    {% endfor %}
   </div>
 
   <div id="archived">
     <h2 class="page-section-title">Archive</h2>
     {% for post in site.posts %}
-    {% if post.visible == true %}
-    <div class="page">
-      <section class="main">
-        <div>
-          <header class="page-header center">
-            <h1 class="center">{{ post.title }}</h1>
-            <time>
-              <p>{{ post.date | date: "%B %-d, %Y" }}</p>
-            </time>
-          </header>
-        </div>
-      </section>
+    {% if post.visible == true and post.featured == false or post.featured == null %}
+    <div class="archive-post">
+      <p class="archive-post-identifier">Story</p>
+
+      <div class="archive-post-title">
+        <h3>{{ post.title }}</h3>
+        <a href="{{ post.url }}" class="archive-post-url">View Story <span id="link-moving-chevron">&rsaquo;</span></a>
+      </div>
     </div>
     {% endif %}
     {% endfor %}
+  </div>
+
+  <div id="blog-legal">
+    <p>
+      The opinions expressed on this website are those of the individual and don’t necessarily represent those of Capital One. No representations or warranties are made as to any opinions, information, code, software, or any other content provided on this website.
+    </p>
   </div>
 </div>

@@ -4,8 +4,11 @@
 
     .highlighted-story {
       @include display-flex;
-      display: block;
+      flex-direction: column;
       justify-content: flex-end;
+      padding-left: 48px;
+      padding-right: 48px;
+      padding-bottom: 48px;
 
       /* Safari 4-5, Chrome 1-9 */
       background: -webkit-gradient(linear, top top, bottom bottom, from(rgba(255,255,255,0.1)), to(rgba(25,25,25,0.35)));
@@ -20,6 +23,15 @@
 
       .anchored-title {
         color: white;
+      }
+
+      .featured-post-title {
+        font: 21px $base-font-family-extra-thin;
+        color: white;
+      }
+
+      &:hover {
+        opacity: 1;
       }
     }
 
@@ -83,4 +95,11 @@
       }
     }
   }
+}
+
+#blog-legal {
+  @include content-padding;
+  font: 16px $base-font-family-thin;
+  line-height: 24px;
+  color: #8a8a8a;
 }
