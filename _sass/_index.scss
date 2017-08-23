@@ -242,6 +242,10 @@
     min-height: 300px;
     margin: 1em;
 
+    #hero-overlay {
+      background-color: rgba(25, 25, 25, 0.35);
+    }
+
     #content {
       margin-top: 26px;
 

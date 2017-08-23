@@ -161,3 +161,13 @@
     }
   }
 }
+
+@media screen and (max-width: 640px) {
+  #page-blog-nav {
+    height: 275px;
+    flex-direction: column;
+    .blog-nav {
+      width: 100%;
+    }
+  }
+}
