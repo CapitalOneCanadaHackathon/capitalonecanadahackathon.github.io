@@ -28,6 +28,7 @@
       .featured-post-title {
         font: 21px $base-font-family-extra-thin;
         color: white;
+        margin-top: 14px;
       }
 
       &:hover {
@@ -102,4 +103,20 @@
   font: 16px $base-font-family-thin;
   line-height: 24px;
   color: #8a8a8a;
+}
+
+@media screen and (max-width: 640px) {
+  #blog {
+    #featured {
+      .highlighted-story {
+        height: auto;
+        padding-top: 48px;
+      }
+
+      #blog-featured-columned {
+        height: auto;
+        display: block;
+      }
+    }
+  }
 }

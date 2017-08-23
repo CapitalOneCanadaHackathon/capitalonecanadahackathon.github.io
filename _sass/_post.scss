@@ -1,5 +1,5 @@
 .gtc-post {
-  padding: 3em 7em 3em 7em;
+  @include content-padding;
 
   #page-header {
     @include display-flex;
@@ -40,6 +40,10 @@
     flex-basis: 65%;
     padding-left: 10%;
     padding-right: 0;
+
+    a {
+      color: #018bbb;
+    }
   }
 }
 

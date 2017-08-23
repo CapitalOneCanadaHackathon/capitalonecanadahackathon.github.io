@@ -19,6 +19,13 @@
   }
 }
 
+#page-leadin-content {
+  @include content-padding;
+  font: 16px $base-font-family-thin;
+  line-height: 32px;
+  width: 75%;
+}
+
 .page-section-title {
   font: 24px $base-font-family-extra-thin;
   color: #5a5a5a;

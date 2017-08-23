@@ -11,7 +11,7 @@
     min-height: 500px;
     width: 100%;
     font-family: $base-font-family-extra-thin;
-    padding: 72px 48px 72px 84px;
+    padding: 72px 48px 48px 64px;
     color: white;
 
     .charity-logo-container {
@@ -21,24 +21,18 @@
       width: 275px;
       height: auto;
     }
+
     .charity-info {
-
-      .charity-name {
-        font: 14px $base-font-family;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        align-self: flex-start;
-      }
-
       .charity-description {
-        font-size:16px;
+        font-size: 21px;
         margin-top: 8px;
+        width: 50%;
       }
     }
 
     &:hover{
       box-shadow: 0px 2px 2px 0px rgba(25, 25, 25, 0.5);
-      transform:scale(1.05);
+      transform:scale(1.01);
       text-rendering:optimizeLegibility;
       -webkit-font-smoothing:subpixel-antialiased;
     }
@@ -70,6 +64,12 @@
     background-image: linear-gradient(-180deg, #133832 25%, #99B37D 100%);
   }
 
+  #article-main-content {
+    h3.charity-anchored-title {
+      margin-top: 64px;
+      margin-bottom: 4px;
+    }
+  }
 }
 
 /* Charity Specific POST Content */
@@ -103,13 +103,39 @@
 
   #charity-mission {
     font: 16px $base-font-family-thin;
-    color: #898989;
     margin-top: 8px;
     line-height: 28px;
   }
 }
 
-.charity-anchored-title {
-  margin-top: 16px;
-  margin-bottom: 16px;
+@media screen and (max-width: 640px) {
+  #charities {
+    .charity-content {
+      .charity-info {
+        .charity-description {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .gtc-post {
+    #page-header.post-charity {
+      flex-direction: column-reverse;
+
+
+      #page-title-container {
+        #page-title {
+          font-size: 32px;
+        }
+      }
+
+      #charities-logo-container {
+        text-align: left;
+        img {
+          width: 150px;
+        }
+      }
+    }
+  }
 }

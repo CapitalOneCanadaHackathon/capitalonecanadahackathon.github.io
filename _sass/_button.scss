@@ -33,6 +33,13 @@
   background: -o-linear-gradient(left, #0267A6, #018BBB);
 }
 
+
+.button__primary-inversed {
+  /* Fallback */
+  background-color: white;
+  color: #0267A6 !important;
+}
+
 /* Specific Button Styles */
 #hero-register-cta {
   font-size: 12px;
