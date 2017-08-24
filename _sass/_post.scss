@@ -124,12 +124,17 @@
   cursor: pointer;
   background-image: url($baseurl + "/assets/img/2017/blog-polygon-bg.png");
 
-  #blog-previous-nav {
-    flex-grow: 1;
+  #blog-previous-nav,
+  #blog-next-nav {
+    flex-basis: 100%;
   }
 
-  #blog-next-nav {
-    flex-grow: 1;
+  #blog-previous-nav.flex-asymmetrically {
+    flex-basis: 35%;
+  }
+
+  #blog-next-nav.flex-asymmetrically {
+    flex-basis: 65%;
   }
 
   a {
