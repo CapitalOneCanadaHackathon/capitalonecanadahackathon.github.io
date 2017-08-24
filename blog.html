@@ -19,20 +19,20 @@ layout: default
 
       {% if postCounter == 1 %}
       <div id="blog-featured-columned">
-        <a href="{{ post.url }}" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
           <div class="post-gradient-overlay"></div>
           <p class="anchored-title">Story</p>
           <h2 class="featured-post-title">{{ post.title }} <span id="link-moving-chevron">&rsaquo;</span></h2>
         </a>
       {% elsif postCounter == 2 %}
-        <a href="{{ post.url }}" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
           <div class="post-gradient-overlay"></div>
           <p class="anchored-title">Story</p>
           <h2 class="featured-post-title">{{ post.title }} <span id="link-moving-chevron">&rsaquo;</span></h2>
         </a>
       </div>
       {% else %}
-      <a href="{{ post.url }}" id="blog-featured-highlight" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
+      <a href="{{ site.baseurl }}{{ post.url }}" id="blog-featured-highlight" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
         <div class="post-gradient-overlay"></div>
         <p class="anchored-title">Story</p>
         <h2 class="featured-post-title">{{ post.title }} <span id="link-moving-chevron">&rsaquo;</span></h2>
@@ -53,7 +53,7 @@ layout: default
 
       <div class="archive-post-title">
         <h3>{{ post.title }}</h3>
-        <a href="{{ post.url }}" class="archive-post-url">View Story <span id="link-moving-chevron">&rsaquo;</span></a>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="archive-post-url">View Story <span id="link-moving-chevron">&rsaquo;</span></a>
       </div>
     </div>
     {% endif %}
