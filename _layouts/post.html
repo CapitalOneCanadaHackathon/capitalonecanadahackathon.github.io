@@ -3,29 +3,35 @@ layout: default
 ---
 
 <div id="gtc-blog-article" class="gtc-page gtc-post">
-  <div id="page-header">
-    <div id="page-title-container">
-      <h1 id="page-title">{{ page.title }}</h1>
-      <p id="page-subtitle">{{ page.date | date: "%B %-d, %Y" }}</p>
-  	</div>
+  {% if page.pullquote %}
+  <div class="gtc-blog-wrapper">
+  {% else %}
+  <div class="fullwidth-marginated">
+  {% endif %}
+    <div id="page-header">
+      <div id="page-title-container">
+        <h1 id="page-title">{{ page.title }}</h1>
+        <p id="page-subtitle">{{ page.date | date: "%B %-d, %Y" }}</p>
+    	</div>
+    </div>
+
+  	<article id="article-container">
+  		<img id="article-hero" src="{{ site.baseurl }}{{ page.hero }}" />
+      {% if page.pullquote %}
+  		<div id="article-content-container" class="post-pullquote-flex pullquote">
+        <div id="article-pullquote" class="post-pullquote-flex">
+          {{ page.pullquote }}
+        </div>
+      {% else %}
+      <div id="article-content-container">
+      {% endif %}
+
+        <div id="article-main-content">
+  		     {{ content }}
+        </div>
+  		</div>
+  	</article>
   </div>
-
-	<article id="article-container">
-		<img id="article-hero" src="{{ site.baseurl }}{{ page.hero }}" />
-    {% if page.pullquote %}
-		<div id="article-content-container" class="post-pullquote-flex pullquote">
-      <div id="article-pullquote" class="post-pullquote-flex">
-        {{ page.pullquote }}
-      </div>
-    {% else %}
-    <div id="article-content-container">
-    {% endif %}
-
-      <div id="article-main-content">
-		     {{ content }}
-      </div>
-		</div>
-	</article>
 </div>
 
 {% if page.next.url or page.previous.url %}

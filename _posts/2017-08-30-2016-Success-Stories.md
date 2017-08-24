@@ -9,7 +9,8 @@ tags: >
 category: blog
 visible: true
 featured: true
-images:
+featuredImage: /assets/img/blog/2017/success-stories-hero.jpg
+hero: /assets/img/blog/2017/success-stories-hero.png
 ---
 At 5:30 p.m., on Friday October 21, a steady stream of participants made their way through the doors of <a href="https://brainstation.io/" target="_blank">BrainStation Toronto</a>. After registering for Capital One Canada’s first charity hackathon, they received a hoodie and a swag bag. Carrying their laptops and new belongings, they scoped out the venue’s three floors and the large tent installed on BrainStation’s patio. The Capital One creative team had decorated BrainStation with themed toss pillows, Muskoka chairs, picnic tables, small pine trees and fake grass. As the sun went down, the ambiance in the space was delightful and welcoming.
 <!--more-->

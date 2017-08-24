@@ -1,8 +1,16 @@
 #gtc-blog-article {
-  #page-header,
-  #article-container {
-    width: 85%;
-    margin: auto;
+  .fullwidth-marginated {
+    #page-header,
+    #article-container {
+      width: 85%;
+      margin: auto;
+
+      #article-content-container {
+        #article-main-content {
+          padding-left: 32px;
+        }
+      }
+    }
   }
 }
 
@@ -47,12 +55,8 @@
   #article-main-content {
     width: 100%;
     flex-basis: 65%;
-    padding-left: 10%;
+    padding-left: 56px;
     padding-right: 0;
-
-    a {
-      color: #018bbb;
-    }
   }
 }
 
@@ -62,15 +66,22 @@
 
   #article-pullquote {
     flex-basis: 30%;
+    max-width: 30%;
+    word-wrap: break-word;
     font: 20px $base-font-family-extra-thin;
     color: #a9a9a9;
     line-height: 34px;
-    margin-top: 72px;
+    margin-top: 42px;
   }
 
   #article-main-content {
     margin-top: 32px;
     line-height: 32px;
+
+    a,
+    a:visited {
+      color: #018bbb;
+    }
 
     /* Since we're using a CSS reset, apply bare elements' margins for posts only */
     h1,
