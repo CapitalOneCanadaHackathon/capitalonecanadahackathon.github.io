@@ -8,7 +8,9 @@
 
   #mission-content-container {
     @include display-flex;
-    @include content-padding-full;
+    @include content-padding;
+    padding-top: 16px;
+    padding-bottom: 48px;
     flex: row;
   }
 

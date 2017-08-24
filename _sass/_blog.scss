@@ -1,6 +1,8 @@
 #blog {
   #featured {
-    @include content-padding-full;
+    @include content-padding;
+    padding-top: 32px;
+    padding-bottom: 64px;
 
     .highlighted-story {
       @include display-flex;
@@ -9,17 +11,25 @@
       padding-left: 48px;
       padding-right: 48px;
       padding-bottom: 48px;
+      position: relative;
 
-      /* Safari 4-5, Chrome 1-9 */
-      background: -webkit-gradient(linear, top top, bottom bottom, from(rgba(255,255,255,0.1)), to(rgba(25,25,25,0.35)));
-      /* Safari 5.1, Chrome 10+ */
-      background: -webkit-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.35));
-      /* Firefox 3.6+ */
-      background: -moz-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.35));
-      /* IE 10 */
-      background: -ms-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.35));
-      /* Opera 11.10+ */
-      background: -o-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.35));
+      .post-gradient-overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        /* Safari 4-5, Chrome 1-9 */
+        background: -webkit-gradient(linear, top top, bottom bottom, from(rgba(255,255,255,0.1)), to(rgba(25,25,25,0.35)));
+        /* Safari 5.1, Chrome 10+ */
+        background: -webkit-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.35));
+        /* Firefox 3.6+ */
+        background: -moz-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.35));
+        /* IE 10 */
+        background: -ms-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.35));
+        /* Opera 11.10+ */
+        background: -o-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.35));
+      }
 
       .anchored-title {
         color: white;
@@ -62,7 +72,9 @@
   }
 
   #archived {
-    @include content-padding-full;
+    @include content-padding;
+    padding-top: 24px;
+    padding-bottom: 64px;
 
     .blog-image {
       font-family: $base-font-family-extra-thin;
@@ -74,24 +86,24 @@
 
   .archive-post {
     @include display-flex;
-    padding-top: 48px;
-    padding-bottom: 48px;
-    border-bottom: 1px solid #979797;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #eaeaea;
 
     .archive-post-identifier {
       flex-basis: 25%;
-      font: 24px $base-font-family-extra-thin;
+      font: 16px $base-font-family-extra-thin;
     }
 
     .archive-post-title {
       flex-basis: 75%;
       h3 {
-        font: 21px $base-font-family-thin;
-        margin-bottom: 16px;
+        font: 18px $base-font-family-thin;
+        margin-bottom: 4px;
       }
 
       a {
-        font: 21px $base-font-family-thin;
+        font: 16px $base-font-family-thin;
         color: #018bbb;
       }
     }

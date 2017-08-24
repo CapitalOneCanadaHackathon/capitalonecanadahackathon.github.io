@@ -36,9 +36,7 @@ The solutions created through Gift the Code will strengthen the autism community
   </div>
 
   <p class="content-accordion-body">
-    Why?
-    <br />
-    <br />
+    <b>Why?</b>
     Each chapter of Autism Ontario organizes unique events and initiatives to engage its local community. Rather than each of these chapters managing its own digital space for its members, news and events, Autism Ontario works as a coordinating body to collect and manage all this information and data. It needs a platform that will allow both existing members and those just discovering Autism Ontario online to find and connect to their local community by searching for what’s going on in their area. The solution should be accessible on the back-end for Autism Ontario staff to manage data, and have an engaging front-end for users to find relevant information.
   </p>
 </div>
@@ -50,9 +48,7 @@ The solutions created through Gift the Code will strengthen the autism community
   </div>
 
   <p class="content-accordion-body">
-    Why?
-    <br />
-    <br />
+    <b>Why?</b>
     The information database that Autism Ontario currently uses does not allow for member profiles to be searchable by keywords. This makes it very challenging for staff to identify which members are donors, which are volunteers, and which are family members; this is a significant barrier to communicating relevant information to such a diverse audience. A solution that allows Autism Ontario to identify and segment its members will allow it to be more strategic with its initiatives and programs.
   </p>
 </div>
@@ -64,9 +60,7 @@ The solutions created through Gift the Code will strengthen the autism community
   </div>
 
   <p class="content-accordion-body">
-    Why?
-    <br />
-    <br />
+    <b>Why?</b>
     Each chapter of Autism Ontario organizes unique events and initiatives to engage its local community. Rather than each of these chapters managing its own digital space for its members, news and events, Autism Ontario works as a coordinating body to collect and manage all this information and data. It needs a platform that will allow both existing members and those just discovering Autism Ontario online to find and connect to their local community by searching for what’s going on in their area. The solution should be accessible on the back-end for Autism Ontario staff to manage data, and have an engaging front-end for users to find relevant information.
   </p>
 </div>
@@ -92,12 +86,10 @@ The solutions created through Gift the Code will strengthen the autism community
   </div>
 
   <p class="content-accordion-body">
-    Why?
-    <br />
-    <br />
+    <b>Why?</b>
     Autism Ontario has many resources that chapters can use to find success with their volunteers, events and initiatives but does not have a platform where chapters can access this information. Additionally, chapters often develop their own best practices through their unique experiences and want to share these learnings with other chapters. This solution will increase the impact that each chapter has in its local community by ensuring that information is easily accessible by any chapter.
   </p>
 </div>
 
 <br />
-<a href="http://www.autismontario.com/">http://www.autismontario.com/</a>
+<a href="http://www.autismontario.com/">www.autismontario.com</a>

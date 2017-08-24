@@ -8,10 +8,10 @@
     @include display-flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 450px;
+    min-height: 350px;
     width: 100%;
     font-family: $base-font-family-extra-thin;
-    padding: 56px 48px 48px 64px;
+    padding: 32px 48px 48px 64px;
     color: white;
 
     .charity-logo-container {
@@ -40,28 +40,33 @@
 
 
   #charity-519 {
-    background-image: linear-gradient(-180deg, #3023AE 25%, #C86DD7 100%);
+    background-image: url($baseurl + "/assets/img/2017/pattern-cyan.png");
+    background-size: cover;
   }
 
   #charity-autism {
-    background-image: linear-gradient(-180deg, #004977 25%, #26a0da 100%);
-  }
-
-  #charity-indspire {
-    background-image: linear-gradient(-180deg,#3023AE 25%,#C86DD7 100%);
+    background-image: url($baseurl + "/assets/img/2017/pattern-red.png");
+    background-size: cover;
   }
 
   #charity-cee {
-    background-image: linear-gradient(-180deg, #133832 25%, #99B37D 100%);
+    background-image: url($baseurl + "/assets/img/2017/pattern-purple.png");
+    background-size: cover;
+  }
+
+  #charity-indspire {
+    background-image: url($baseurl + "/assets/img/2017/pattern-red.png");
+    background-size: cover;
   }
 
   #charity-kids {
-    //background-image: linear-gradient(-180deg, #E02843 25%, #ED7B96 100%);
-    background-image: linear-gradient(-180deg, #004977 25%, #26a0da 100%);
+    background-image: url($baseurl + "/assets/img/2017/pattern-cyan.png");
+    background-size: cover;
   }
 
   #charity-sistering {
-    background-image: linear-gradient(-180deg, #133832 25%, #99B37D 100%);
+    background-image: url($baseurl + "/assets/img/2017/pattern-purple.png");
+    background-size: cover;
   }
 
   #article-main-content {

@@ -36,9 +36,7 @@ Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In i
   </div>
 
   <p class="content-accordion-body">
-    Why?
-    <br />
-    <br />
+    <b>Why?</b>
     Sistering works with clients who are in the midst of their recovery journey. As such, there are many situations that can be intense for staff and volunteers, and require a certain level of training for workers to be adequately prepared. In order to ensure that the investment in training volunteers is worthwhile, it is important that potential volunteers have a thorough understanding of what the opportunities will entail. This solution will give potential volunteers that understanding.
   </p>
 </div>
@@ -50,9 +48,7 @@ Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In i
   </div>
 
   <p class="content-accordion-body">
-    Why?
-    <br />
-    <br />
+    <b>Why?</b>
     There are many needs for physical items among the clients that Sistering serves, and there are many eager donors who want to donate needed items. The challenge can be making a match between what is donated and what donations are needed. This solution will improve the understanding of what items are needed, and allow donors to donate those items easily.
   </p>
 </div>
@@ -64,9 +60,7 @@ Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In i
   </div>
 
   <p class="content-accordion-body">
-    Why?
-    <br />
-    <br />
+    <b>Why?</b>
     There are many existing and prospective volunteers who reach out to Sistering inquiring about how they can be involved and support the work that Sistering is doing in Toronto. It takes valuable time for Sistering staff to share  all the upcoming events and current volunteer opportunities with each interested volunteer. This solution will present a current overview of upcoming events and volunteer opportunities. Interested volunteers can then browse at their convenience to learn about the  opportunities, and the required skills and training.
   </p>
 </div>
@@ -78,12 +72,10 @@ Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In i
   </div>
 
   <p class="content-accordion-body">
-    Why?
-    <br />
-    <br />
+    <b>Why?</b>
     There are many volunteers who help make the work of Sistering possible. Co-ordinating volunteers between all the areas where work is needed and when volunteers with the necessary skills and training are available can be a very time-consuming process. This solution will automate the process of matching qualified and available volunteers with time slots and opportunities that are available.
   </p>
 </div>
 
 <br />
-<a href="http://www.sistering.org/">http://www.sistering.org/</a>
+<a href="http://www.sistering.org/">www.sistering.org &#8599;</a>

@@ -65,11 +65,11 @@
     font: 20px $base-font-family-extra-thin;
     color: #a9a9a9;
     line-height: 34px;
-    margin-top: 3.5em;
+    margin-top: 72px;
   }
 
   #article-main-content {
-    margin-top: 3.5em;
+    margin-top: 32px;
     line-height: 32px;
 
     /* Since we're using a CSS reset, apply bare elements' margins for posts only */
@@ -89,6 +89,7 @@
     }
 
     p {
+      margin-top: 8px;
       margin-bottom: 1em;
     }
 

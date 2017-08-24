@@ -17,7 +17,7 @@
 }
 
 @mixin content-padding-full {
-  padding: 72px 96px 64px 96px;
+  padding: 64px 96px 64px 96px;
 
   @media screen and (max-width: 640px) {
     padding: 32px;

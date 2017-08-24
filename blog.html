@@ -19,18 +19,21 @@ layout: default
 
       {% if postCounter == 1 %}
       <div id="blog-featured-columned">
-        <a href="{{ post.url }}" class="highlighted-story">
+        <a href="{{ post.url }}" class="highlighted-story" style="background-image: url({{ site.baseurl }}{{ post.hero }}); background-size: cover; background-position: center center;">
+          <div class="post-gradient-overlay"></div>
           <p class="anchored-title">Story</p>
           <h2 class="featured-post-title">{{ post.title }} <span id="link-moving-chevron">&rsaquo;</span></h2>
         </a>
       {% elsif postCounter == 2 %}
-        <a class="highlighted-story">
+        <a class="highlighted-story" style="background-image: url({{ site.baseurl }}{{ post.hero }}); background-size: cover; background-position: center center;">
+          <div class="post-gradient-overlay"></div>
           <p class="anchored-title">Story</p>
           <h2 class="featured-post-title">{{ post.title }} <span id="link-moving-chevron">&rsaquo;</span></h2>
         </a>
       </div>
       {% else %}
-      <a href="{{ post.url }}" id="blog-featured-highlight" class="highlighted-story">
+      <a href="{{ post.url }}" id="blog-featured-highlight" class="highlighted-story" style="background-image: url({{ site.baseurl }}{{ post.hero }}); background-size: cover; background-position: center center;">
+        <div class="post-gradient-overlay"></div>
         <p class="anchored-title">Story</p>
         <h2 class="featured-post-title">{{ post.title }} <span id="link-moving-chevron">&rsaquo;</span></h2>
       </a>
@@ -42,11 +45,11 @@ layout: default
   </div>
 
   <div id="archived">
-    <h2 class="page-section-title">Archive</h2>
+    <h2 class="anchored-title">Archive</h2>
     {% for post in site.posts %}
     {% if post.visible == true and post.featured == false or post.featured == null %}
     <div class="archive-post">
-      <p class="archive-post-identifier">Story</p>
+      <p class="archive-post-identifier">{{ post.date | date: "%m.%-d.%Y"}}</p>
 
       <div class="archive-post-title">
         <h3>{{ post.title }}</h3>

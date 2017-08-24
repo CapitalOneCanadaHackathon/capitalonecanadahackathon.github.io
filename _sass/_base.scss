@@ -117,7 +117,7 @@ body
 }
 
 .content-accordion {
-	border-bottom: 1px solid #cacaca;
+	border-bottom: 1px solid #eaeaea;
 
 	.content-accordion-title {
 		@include display-flex;
@@ -184,7 +184,7 @@ body
     flex: 1;
     cursor: pointer;
 		background-image: url($baseurl + "/assets/img/2017/blog-polygon-bg.png");
-		background-position: center;
+		background-size: cover;
 		position: relative;
 
     h2 {

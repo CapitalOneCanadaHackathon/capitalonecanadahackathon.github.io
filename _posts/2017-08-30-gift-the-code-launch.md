@@ -8,9 +8,10 @@ tags: >
 category: blog
 visible: true
 featured: true
-hero: /assets/img/blog/2017/launch-hero.png
 ---
 
+<img src="/assets/img/blog/2017/launch-hero.png">
+<br /><br />
 TORONTO, ON – The annual Gift the Code Hackathon kicks off on Friday, November 3 to Sunday, November 5. Building on the success of the inaugural Gift the Code 2016, Capital One® Canada will again connect Toronto-based charities with UX/UI designers, coders and developers. In just 40 hours, over 150 participants passionate about problem solving will use digital for good by brainstorming, building and presenting technology solutions to solve specific digital challenges faced by the charities.
 
 Technology is the ultimate connector in today’s digital world, with the potential to unite charitable organizations with more people than ever before. However, in an effort to divert as much funding as possible to those in need, charities often delay investing in digital development. This reliance on legacy systems and practices creates a digital divide between them and their stakeholders. Gift the Code aims to change this by connecting participating organizations with a pool of much-needed tech talent, showcasing the many possibilities for charities to leverage technology.
