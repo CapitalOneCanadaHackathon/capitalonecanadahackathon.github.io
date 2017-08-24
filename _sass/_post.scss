@@ -189,8 +189,22 @@
 }
 
 @media screen and (max-width: 640px) {
+  #gtc-blog-article {
+    .fullwidth-marginated {
+      #page-header,
+      #article-container {
+        width: 100%;
+      }
+    }
+  }
+
   #page-blog-nav {
-    height: 275px;
+    height: 250px;
+    #blog-previous-nav.flex-asymmetrically,
+    #blog-next-nav.flex-asymmetrically {
+      flex-basis: 50%;
+    }
+
     flex-direction: column;
     .blog-nav {
       width: 100%;

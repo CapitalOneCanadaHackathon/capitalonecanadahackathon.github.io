@@ -191,6 +191,12 @@
   	animation-fill-mode: both;
     animation-delay: 800ms;
   }
+
+  #nav-register {
+    animation: fade-in 1200ms;
+  	animation-fill-mode: both;
+    animation-delay: 1100ms;
+  }
 }
 
 #menu-overlay {
