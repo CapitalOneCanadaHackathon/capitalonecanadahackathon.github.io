@@ -1,5 +1,14 @@
+#gtc-blog-article {
+  #page-header,
+  #article-container {
+    width: 85%;
+    margin: auto;
+  }
+}
+
 .gtc-post {
-  @include content-padding-full;
+  @include content-padding;
+  padding-bottom: 32px;
 
   #page-header {
     @include display-flex;
