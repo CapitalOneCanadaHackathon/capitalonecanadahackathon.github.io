@@ -3,7 +3,7 @@ layout: charity
 link: kids-help-phone
 permalink: /:title/
 title: "Kids Help Phone"
-subtitle: "help us, help kids."
+subtitle: "Help us, help kids."
 mission: "A national community doing everything we can to support young people."
 description: "The only 24/7 counselling and information service for young people in Canada."
 date: 2017-08-16 00:00:00
