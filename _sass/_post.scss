@@ -104,25 +104,6 @@
   }
 }
 
-@media screen and (max-width: 640px) {
-  #article-content-container.post-pullquote-flex {
-    display: block;
-
-    #article-main-content {
-      width: 100%;
-      flex-basis: 100%;
-      padding-left: 0;
-      padding-right: 0;
-    }
-  }
-
-  #article-content-container {
-    #article-pullquote {
-      flex-basis: 100%;
-    }
-  }
-}
-
 #page-blog-nav {
   @include display-flex;
   height: 200px;
@@ -184,6 +165,24 @@
 }
 
 @media screen and (max-width: 640px) {
+  #article-content-container.post-pullquote-flex {
+    display: block;
+
+    #article-main-content {
+      width: 100%;
+      flex-basis: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  #article-content-container {
+    #article-pullquote {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+
   #gtc-blog-article {
     .fullwidth-marginated {
       #page-header,

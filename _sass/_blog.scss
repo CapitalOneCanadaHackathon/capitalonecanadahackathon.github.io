@@ -140,3 +140,21 @@
     }
   }
 }
+
+@media screen and (max-width: 640px) {
+  #blog {
+    #featured {
+      padding: 16px 0px 32px 0px;
+    }
+
+    .archive-post {
+      display: block;
+      padding-top: 24px;
+      padding-bottom: 24px;
+
+      .archive-post-identifier {
+        padding-bottom: 12px;
+      }
+    }
+  }
+}
