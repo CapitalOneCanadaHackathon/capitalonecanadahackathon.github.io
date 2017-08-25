@@ -12,50 +12,126 @@ featured: true
 featuredImage: /assets/img/blog/2017/success-stories-hero.jpg
 hero: /assets/img/blog/2017/success-stories-hero.png
 ---
-At 5:30 p.m., on Friday October 21, a steady stream of participants made their way through the doors of <a href="https://brainstation.io/" target="_blank">BrainStation Toronto</a>. After registering for Capital One Canada’s first charity hackathon, they received a hoodie and a swag bag. Carrying their laptops and new belongings, they scoped out the venue’s three floors and the large tent installed on BrainStation’s patio. The Capital One creative team had decorated BrainStation with themed toss pillows, Muskoka chairs, picnic tables, small pine trees and fake grass. As the sun went down, the ambiance in the space was delightful and welcoming.
-<!--more-->
+
+## Women’s Habitat - Lina E
 <br />
+
+### 1. Who are you and what do you do?
+
+I am the Resource and Systems Manager, and I have the privilege to work with donors and volunteers on a daily basis.
+
+### 2. What was your involvement in Gift the Code 2016?
+
+I met the Gift the Code team early in the year to introduce our agency. We had a preliminary conversation about our IT needs and the possibility to participate in Gift the Code 2016. Once we were part of the project, I developed descriptions of the digital challenges we wanted to solve. I also had the opportunity to directly interact with the teams and see them present the solutions they built for us at the end of the event.
+ 
+ 
+### 3. Why did you get involved?
+
+We received support from Capital One in the past, and as a small agency, we’re always looking for creatives ways to fulfill our mission on a very limited budget. We don’t always have the money to resolve some of the challenges we face or to be innovative in the way we deliver our services. We were very excited to introduce our cause to more people by engaging different demographics and reaching younger generations.
+ 
+ 
+### 4. What was your experience like at the event? Was it different from your expectations?
+
+We were not aware of how big the event was. We knew about the preparations and efforts of Capital One, but it was a surprise. It definitely exceeded our expectations. It was a great opportunity to get exposure but also to be able to meet very caring and supportive people who want to contribute.
+ 
+ 
+### 5. What were some of the positive outcomes from the event?
+
+We were able to introduce our agency to a very diverse audience and we met other agencies that are doing great work. We were asked great questions, and we got perspective and feedback from external stakeholders. Our social media got the highest numbers ever!! On another note, Capital One was very kind to volunteer at out agency during the holiday season for the clients’ dinner, and we hope to continue working together.   
+ 
+ 
+### 6. Is there anything you want participants for this year’s hackathon to know that you wish you had known?
+
+Yes. Be ready to start the work on the weekend. All the planning, approvals, communication and budget (if any) must be done in advance. Have concrete expectations and prioritize your challenges.
+
 <br />
-For months, Capital One and Hackworks worked on organizing a successful and memorable hackathon for both the charities and participants. As things were coordinated and created, there were periods of exhaustion and anxiety, mixed in with enthusiasm and excitement. Was the venue adequate for the Gift the Code objectives? Were the challenge statements going to be interesting for participants? Were the solutions going to interest the charities? Would there be enough food?
+## Second Harvest - Jennifer Verschraegen
 <br />
+
+### 1. Who are you and what do you do?
+
+Second Harvest is Canada’s largest food rescue organization, recovering surplus food and distributing it to social service agencies that serve people in need. Through our work, we prevent the needless waste of 10 million pounds of food per year and we nourish over 200,000 food-insecure people.
+ 
+### 2. What was your involvement in Gift the Code 2016?
+
+We participated as a charity beneficiary in Gift the Code 2016. The four challenges we put forward to the hackers focused on digital solutions for manual processes.
+ 
+### 3. Why did you get involved?
+
+We got involved because Capital One is a long-time partner and supporter of Second Harvest. We also wanted to see what kinds of solutions the hackathon teams could invent for a few activities that required a lot of manual heavy-lifting around data capture and analysis, and the opportunity to do something different outside of our day-to-day activities was exciting.
+ 
+### 4. What was your experience like at the event? Was it different from your expectations?
+
+Our experience at Gift the Code was an outstanding intersection of inviting atmosphere, technical skill, ingenuity and generosity. The volunteer hackers programmed through the weekend with such tireless enthusiasm and dedication to their challenges, developing creative solutions that could increase the efficiency of our analytics and provide better user experiences. Knowing that Capital One was at the heart of this event meant that our expectations were pretty high – and as usual, the Capital One team blew expectations out of the water!
+ 
+### 5. What were some of the positive outcomes from the event?
+
+Being part of Gift the Code got us thinking outside of our usual patterns and looking to possibilities instead of operating within restrictions. That started right from when we drafted our challenge statements. We got four great solutions to the challenges we put forth – we were not expecting to have them all tackled over that weekend. Although we haven’t yet been able to put the solutions to work, we have the blueprints at our fingertips for when internal capacity allows implementation.
+ 
+### 6. Is there anything you want participants for this year’s Hackathon to know that you wish you had known?
+
+We would recommend that charity beneficiaries carefully consider their proposed challenges from end to end, and only submit those that they feel are manageable within the context of their day-to-day workload and organizational priorities. For example, engaging colleagues cross-functionally can help identify challenges whose potential solutions are within the scope of available time and resources.
+
 <br />
-![GiftTheCode Success 1]({{ site.baseurl }}/assets/img/blog/2016/GiftTheCode_Blog1.jpg){:class="blog-image"}
+## PFLAG -- Anne Creighton
 <br />
+
+Toronto Pflag was started by parents in the 1970s to support the gay community as attitudes lagged far behind the decriminalization of homosexuality in 1969. In particular, the parents wanted to help those whose parents had rejected them or failed to understand them.  
+
+Today, Toronto Pflag stills supports parents and individuals who identify as LGBTQ* and their allies. We do this directly through three community meetings each month and phone support daily from 9 a.m. to 9 p.m. In addition, we are official partners of the Toronto District School Board, offering free workshops for students in grades 2 to 12 and workplace-focused presentations.  
+
+We do this without staff. Our charity is run entirely by volunteers.
+
+In October 2016, we were one of six charities invited to participate in Capital One’s Gift the Code Hackathon. We brought to the hackathon several challenges we faced:
+
+- Reaching wider racial and social demographics
+- Recruiting more “Kick-Ass” accepting parents to join our efforts as volunteers
+- Keeping track of volunteers
+
+We had no idea what to expect.
+
+What we discovered was a huge group of big-hearted, mostly young, people who dedicated an entire weekend to helping us solve our problems. We spent the weekend with these young professionals as we tried to help them understand our mission as well as capabilities and worries about the charity. Of the four teams dedicated to us, two chose to work on a chat feature as a tool to engage a younger and more widespread audience. They also felt the anonymity of Chat might be attractive as an alternative to in-person and phone support. Both Chat teams worked hard over the weekend to get a product ready for us to see how it would work. Within the available time frame, it was not possible to finish the product.
+
+What totally amazed us was the team volunteering beyond the weekend to clean up the code and make it easier for someone else to pick it up and finish it. They worked one more weekend and several evenings after the hackathon was over. Our gratitude for these young coders and developers knows no bounds.
+
+Since then, we have started research to see how volunteer-run agencies offer Chat and to learn what demographics it reaches. Once our research is complete, we will look at the business case for going forward. We have a work plan established and an agency willing to work with us to publicize the new offering when we are ready to proceed. Gift the Code got this started.
+
+I believe the dedication we saw in the team reflected the passion we have not just for our cause, but also for making our cause personal: we talked about the children we had helped and the parents whose hearts we had touched. We talked about our own children.We cannot thank Capital One enough for the wonderful weekend itself and for the legacy it left for our charity.
 <br />
-Right off the bat, BrainStation filled up with eager participants and the enthusiasm and excitement was intoxicating. It’s important to note that this was a group of 140+ developers, graphic designers, artists and other tech-savvy citizens – young and old – who were donating their weekend to charity.
+## Prosper
 <br />
+
+It was an honour for Prosper Canada to participate in such an innovative initiative. We were impressed with the planning and execution of the hackathon. The dedication and energy of so many creative minds volunteering their time to solve our technology challenges was amazing to see. The solutions that were presented helped broaden our perspective on how technology can improve our operations and engagement with stakeholders.
+
 <br />
-After Friday night’s dinner, the charity lotto was held and the participants spent time with their respective charities, learning about their tech needs. For over half an hour, participants immersed themselves to learn about the challenges and hurdles the charities face in their day-to-day and yearly operations. Soon, everyone was off to ideate, negotiate and compromise with their teammates! The hacking had begun.
+## Holland Bloorview
 <br />
-<br />
-The participants who joined the Gift the Code hackathon were as diverse as they were generous. There were young professionals from TWG; student teams from Ryerson University, University of Toronto, University of Waterloo, Humber College and Sheridan College; as well as Capital One employees from New York, Chicago and Virginia, among other places. What’s more, 31% of participants were women, which is above the typical percentage at hackathons.
-<br />
-<br />
-![GiftTheCode Success 2]({{ site.baseurl }}/assets/img/blog/2016/GiftTheCode_Blog5_HappyCoding.jpg){:class="blog-image"}
-<br />
-<br />
-Initially, the six partner charities weren’t quite sure what to expect from the hackathon, but they quickly recognized how rewarding of an experience it would be. Rod Cohen, Executive Director of <a href="http://bbyos.org/" target="_blank">Blake Boultbee Youth Outreach Service</a>, shared a story with everyone during the awards ceremony. One of the teams working on his charity challenges was a young group of friends who met in Toronto but had all grown up in different war-ravaged countries. Here, at Gift the Code, they spent a weekend designing a new version of the Blake Boultbee website. For Rod – who works with at-risk youth from all walks of life – this was a life-affirming, incredibly touching story.
-<br />
-<br />
-<a href="http://www.secondharvest.ca/" target="_blank">Second Harvest’s</a> Director of Development, Jennifer Verschraegen, was ecstatic about the different solutions created during Gift the Code. There was an automated data management and analytics tool that would reduce administrative labour time by approximately 3 months. Likewise, there was a real-time app that would notify donors, carriers and receivers when and where food was needed and a solution that would help facilitate their fundraising activities. She expressed her gratitude to participants and emphasized how impactful this would be for Second Harvest.
-<br />
-<br />
-Some of the organizers were moved to tears by a team working for <a href="https://womenshabitat.ca/" target="_blank">Women’s Habitat</a> who created a confidential, online interface that could be implemented on various websites that would allow women who suffer from, or are at-risk of suffering from domestic abuse, to chat with people who can help them in an anonymous manner. <a href="https://womenshabitat.ca/news/hackathon-2016-giftthecode/" target="_blank">In a blog post</a> following the hackathon, Women’s Habitat wrote, “This weekend our eyes were opened to a new way of using technology to our advantage.” Lina Almanzan, Women’s Habitat’s Resource Systems Manager, added, “The impact that these solutions will have on our organization is huge, and drives home the fact that it’s not always about donations, but about thinking outside the box to achieve a common goal.”
-<br />
-<br />
-![GiftTheCode Success 3]({{ site.baseurl }}/assets/img/blog/2016/GiftTheCode_Blog4_AnneJillTorontoPflag.jpg){:class="blog-image"}
-<br />
-<br />
-Overall, 25 different solutions emerged from a very successful weekend of hacking. To name a few, gaming apps, coaching tools, chat bots, data analytics software and newly created websites. Each charity was able to access the problem-solving abilities of diverse participants for inspiration, usable solutions and a new means of looking at their challenges.
-<br />
-<br />
-![GiftTheCode Success 4]({{ site.baseurl }}/assets/img/blog/2016/GiftTheCode_Blog2_LukeHollandBloorview.jpg){:class="blog-image"}
-<br />
-<br />
-On Sunday, after an afternoon of presentations, teams were awarded badges for achieving different results. Participants, charity representatives and organizers were smiling – the vibe was awesome and a wonderful sense of satisfaction spread across the room.
-<br />
-<br />
-![GiftTheCode Success 5]({{ site.baseurl }}GiftTheCode_Blog3_LizProsperCanada.jpg){:class="blog-image"}
-<br />
-<br />
-Over the weekend, everyone had met new friends, learned about new technologies, eaten too much food and barely slept, but the resounding feeling amongst everyone there was that everything is achievable when people collaborate and are empowered to share their ideas with others.
+
+### 1. Who are you and what do you do?
+
+The Possibility Engineering and Research Lab (PEARL) at Holland Bloorview Kids Rehabilitation Hospital develops and evaluates technologies that help kids with disabilities participate more meaningfully in arts, music, physical activities, and therapies.
+ 
+ 
+### 2. What was your involvement in Gift the Code 2016?
+
+PEARL, representing Holland Bloorview, worked with teams of hackathon participants to develop a series of switch-activated, accessible mini games and a web application for creating accessible, kid-friendly surveys with the aims of improving services and making it easier to collect data in research studies.
+ 
+ 
+### 3. Why did you get involved?
+
+We got involved to take advantage of the diverse range of talent and perspective of the hackathon participants, and to raise awareness of Holland Bloorview’s role in leading research in childhood disability.
+ 
+ 
+### 4. What was your experience like at the event? Was it different from your expectations?
+
+The experience was very positive. There were many of energetic, passionate participants, and what they produced in a weekend exceeded our expectations.
+ 
+ 
+### 5. What were some of the positive outcomes from the event?
+
+We have a couple of games that have been entertaining kids in the hospital all year.
+ 
+ 
+### 6. Is there anything you want participants for this year’s Hackathon to know that you wish you had known?
+
+Make sure your problems are fully developed – participants have many questions and want to be working on something worthwhile.
