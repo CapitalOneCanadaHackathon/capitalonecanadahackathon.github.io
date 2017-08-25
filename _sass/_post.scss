@@ -134,6 +134,7 @@
   height: 200px;
   cursor: pointer;
   background-image: url($baseurl + "/assets/img/2017/blog-polygon-bg.png");
+  background-size: cover;
 
   #blog-previous-nav,
   #blog-next-nav {
