@@ -3,8 +3,8 @@ layout: charity
 link: sistering
 permalink: /:title/
 title: "Sistering"
-subtitle: "A women’s Place: Supporting women in extraordinary circumstances"
-mission: "A women’s organization that offers practical and emotional support through various programs."
+subtitle: "A Women’s Place: Supporting Women in Extraordinary Circumstances"
+mission: "A women’s organization that offers practical and emotional support through various programs"
 description: "A women’s organization that offers practical and emotional support through programs that enable women to take greater control over their lives."
 date: 2017-08-16 00:00:00
 theme:
@@ -15,7 +15,7 @@ name: "Sistering"
 logo: /assets/img/charity/Sistering_BW.png
 logocolor: /assets/img/charity/Sistering_COL.png
 hero: /assets/img/charity/Sistering_Charity_Photo.png
-pullquote: "Gift the Code 2017 is a remarkable opportunity for Sistering to work with leading edge digital problem solvers to help the team better serve our community – participants, supporters, volunteers and donors – and realize our Vision. We are very excited and grateful. - Patricia O’Connell, Executive Director, Sistering"
+pullquote: "Gift the Code 2017 is a remarkable opportunity for Sistering to work with leading edge digital problem solvers to help the team better serve our community – participants, supporters, volunteers and donors – and realize our Vision. We are very excited and grateful."
 ---
 <h3 class="charity-anchored-title anchored-title">About</h3>
 Sistering’s vision is a world where all women, in all our diversity, are safe, respected, valued, treated with dignity and afforded equitable opportunities to thrive and participate in inclusive communities. Adapting to new technologies is the cornerstone of our 2017-2020 Strategic Plan, the tenets of which include:

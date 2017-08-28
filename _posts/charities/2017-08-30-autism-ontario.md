@@ -3,8 +3,8 @@ layout: charity
 link: autism-ontario
 permalink: /:title/
 title: "Autism Ontario"
-subtitle: "See the potential"
-mission: "One of the largest collective voices representing the autism community in Canada."
+subtitle: "See the Potential"
+mission: "One of the largest collective voices representing the autism community in Canada"
 description: "The leading source of information on autism in Ontario and one of the largest collective voices representing the autism community in Canada."
 date: 2017-08-16 00:00:00
 theme:
@@ -32,7 +32,7 @@ The solutions created through Gift the Code will strengthen the autism community
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>01 Create a user-friendly solution that can manage Autism Ontario memberships and events.</h3>
+    <h3>Create a user-friendly solution that can manage Autism Ontario memberships and events.</h3>
   </div>
 
   <p class="content-accordion-body">
@@ -44,7 +44,7 @@ The solutions created through Gift the Code will strengthen the autism community
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>02 Create a solution that enables Autism Ontario to direct specific information to specific users.</h3>
+    <h3>Create a solution that enables Autism Ontario to direct specific information to specific users.</h3>
   </div>
 
   <p class="content-accordion-body">
@@ -56,7 +56,7 @@ The solutions created through Gift the Code will strengthen the autism community
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>03 Create a user-friendly solution that can manage Autism Ontario memberships and events.</h3>
+    <h3>Create a user-friendly solution that can manage Autism Ontario memberships and events.</h3>
   </div>
 
   <p class="content-accordion-body">
@@ -68,7 +68,7 @@ The solutions created through Gift the Code will strengthen the autism community
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>04 Create an interactive element to be added to the Autism Ontario website that engages visitors.</h3>
+    <h3>Create an interactive element to be added to the Autism Ontario website that engages visitors.</h3>
   </div>
 
   <p class="content-accordion-body">
@@ -82,7 +82,7 @@ The solutions created through Gift the Code will strengthen the autism community
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>05 Create a solution that allows all chapters to easily communicate and share resources.</h3>
+    <h3>Create a solution that allows all chapters to easily communicate and share resources.</h3>
   </div>
 
   <p class="content-accordion-body">
@@ -92,4 +92,4 @@ The solutions created through Gift the Code will strengthen the autism community
 </div>
 
 <br />
-<a href="http://www.autismontario.com/">www.autismontario.com</a>
+<a href="http://www.autismontario.com/">www.autismontario.com &#8599;</a>

@@ -41,6 +41,7 @@
 #article-hero {
   height: auto;
   width: 100%;
+  margin-top: 16px;
 }
 
 #article-content-container.post-pullquote-flex {
@@ -126,6 +127,10 @@
 
   a {
     color: white;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 
   .blog-nav {

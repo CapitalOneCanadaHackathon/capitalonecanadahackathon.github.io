@@ -1,7 +1,8 @@
 ---
 layout: post
 permalink: /:title/
-title: "Gift the Code 2016 Success Stories"
+title: "2016 Success Stories"
+featuredTitle: "2016 Success Stories"
 date: 2017-08-22 10:28:00
 theme:
 author: Capital One
@@ -13,7 +14,8 @@ featuredImage: /assets/img/blog/2017/success-stories-hero.jpg
 hero: /assets/img/blog/2017/success-stories-hero.png
 ---
 
-## Women’s Habitat - Lina E
+## Women’s Habitat
+Lina Almanzan
 <br />
 
 ### 1. Who are you and what do you do?
@@ -45,7 +47,8 @@ We were able to introduce our agency to a very diverse audience and we met other
 Yes. Be ready to start the work on the weekend. All the planning, approvals, communication and budget (if any) must be done in advance. Have concrete expectations and prioritize your challenges.
 
 <br />
-## Second Harvest - Jennifer Verschraegen
+## Second Harvest
+Jennifer Verschraegen
 <br />
 
 ### 1. Who are you and what do you do?
@@ -73,7 +76,8 @@ Being part of Gift the Code got us thinking outside of our usual patterns and lo
 We would recommend that charity beneficiaries carefully consider their proposed challenges from end to end, and only submit those that they feel are manageable within the context of their day-to-day workload and organizational priorities. For example, engaging colleagues cross-functionally can help identify challenges whose potential solutions are within the scope of available time and resources.
 
 <br />
-## PFLAG -- Anne Creighton
+## PFLAG
+Anne Creighton
 <br />
 
 Toronto Pflag was started by parents in the 1970s to support the gay community as attitudes lagged far behind the decriminalization of homosexuality in 1969. In particular, the parents wanted to help those whose parents had rejected them or failed to understand them.  
@@ -98,13 +102,14 @@ Since then, we have started research to see how volunteer-run agencies offer Cha
 
 I believe the dedication we saw in the team reflected the passion we have not just for our cause, but also for making our cause personal: we talked about the children we had helped and the parents whose hearts we had touched. We talked about our own children.We cannot thank Capital One enough for the wonderful weekend itself and for the legacy it left for our charity.
 <br />
-## Prosper
 <br />
+## Prosper
 
 It was an honour for Prosper Canada to participate in such an innovative initiative. We were impressed with the planning and execution of the hackathon. The dedication and energy of so many creative minds volunteering their time to solve our technology challenges was amazing to see. The solutions that were presented helped broaden our perspective on how technology can improve our operations and engagement with stakeholders.
 
 <br />
 ## Holland Bloorview
+
 <br />
 
 ### 1. Who are you and what do you do?

@@ -8,7 +8,7 @@
     @include display-flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 350px;
+    min-height: 330px;
     width: 100%;
     font-family: $base-font-family-extra-thin;
     padding: 32px 48px 48px 64px;
@@ -132,6 +132,7 @@
       #page-title-container {
         #page-title {
           font-size: 32px;
+          line-height: 38px;
         }
       }
 

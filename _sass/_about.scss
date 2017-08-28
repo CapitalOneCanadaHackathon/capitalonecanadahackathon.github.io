@@ -35,6 +35,8 @@
   }
 
   #when-where {
+    padding-bottom: 48px;
+
     #info {
       @include display-flex;
       justify-content: space-between;
@@ -83,6 +85,15 @@
   #judges-mentors {
 
   }
+}
+
+#about-divider {
+  border: 0;
+  background-color: #eaeaea;
+  opacity: 0.7;
+  height: 1px;
+  margin-left: 96px;
+  margin-right: 96px;
 }
 
 /* Responsive About Styles */

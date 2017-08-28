@@ -21,21 +21,18 @@ layout: default
       <div id="blog-featured-columned">
         <a href="{{ site.baseurl }}{{ post.url }}" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
           <div class="post-gradient-overlay"></div>
-          <p class="anchored-title">Story</p>
-          <h2 class="featured-post-title">{{ post.title }} <span id="link-moving-chevron">&rsaquo;</span></h2>
+          <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
         </a>
       {% elsif postCounter == 2 %}
         <a href="{{ site.baseurl }}{{ post.url }}" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
           <div class="post-gradient-overlay"></div>
-          <p class="anchored-title">Story</p>
-          <h2 class="featured-post-title">{{ post.title }} <span id="link-moving-chevron">&rsaquo;</span></h2>
+          <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
         </a>
       </div>
       {% else %}
       <a href="{{ site.baseurl }}{{ post.url }}" id="blog-featured-highlight" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
         <div class="post-gradient-overlay"></div>
-        <p class="anchored-title">Story</p>
-        <h2 class="featured-post-title">{{ post.title }} <span id="link-moving-chevron">&rsaquo;</span></h2>
+        <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
       </a>
       {% endif %}
 

@@ -2,6 +2,7 @@
 layout: post
 permalink: /:title/
 title: "Gift the Code expands digital possibilities for local charities through tech talent"
+featuredTitle: "Gift the Code expands digital possibilities"
 description: "Capital One Canada hosts second annual 40-hour hackathon to help charities use digital for good."
 date: 2017-08-22 10:29:00
 tags: >
