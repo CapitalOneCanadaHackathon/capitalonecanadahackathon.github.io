@@ -1,21 +1,52 @@
 ---
-layout: default_nofooter
+layout: default
 ---
 
 <div id="landing-page">
   <div id="hero">
-    <div id="hero-content">
-      <h1 id="tagline-1" class="tagline">6 Teams. 6 Charities.</h1>
-      <h1 id="tagline-2" class="tagline">1 Goal. Gift the code.</h1>
+    <!-- Gradient Overlay -->
+    <div id="hero-overlay">
+      <!-- COF Logo -->
+    </div>
 
-      <div id="event-info">
-        <p>Harbourfront Centre</p>
-        <p>November 9-11</p>
-        <p id="countdown">00:00:00</p>
+    <!-- Interactive Mosaic Background -->
+    <div id="hero-mosaic"></div>
+
+    <!-- Hero Content -->
+    <div id="hero-content-wrapper">
+      <!-- Left Side Content -->
+      <div id="content">
+        <div id="tagline">
+          <h1>6 charities.</h1>
+          <h1>150+ tech wizards.</h1>
+          <h1>1 great mission.</h1>
+        </div>
+
+        <div id="event-info">
+          <p>Ryerson's Mattamy Athletic Centre</p>
+          <p>Toronto, November 3-5, 2017</p>
+        </div>
+
+        <a href="https://www.hackworks.com/gtc17" id="hero-register-cta" class="button button__primary">Register Now</a>
+        <a id="learn-more" href="{{ site.baseurl }}/about">Learn More <span id="link-moving-chevron">&rsaquo;</span></a>
       </div>
 
-      <a href="" id="hero-register-cta" class="button button-light">Register Now</a>
-      <a id="learn-more" href="">Learn More</a>
+      <!-- Tilt-able GTC Logo -->
+      <div id="hero-interactive">
+        <img id="hero-logo" src="{{ site.baseurl }}/assets/img/2017/gtc-logo-full.png" />
+        <img id="hero-logo-cof" src="{{ site.baseurl }}/assets/img/cof-logo-white-red-boom.png" />
+      </div>
     </div>
   </div>
 </div>
+
+<div id="page-blogcta">
+  <a href="{{ site.baseurl }}/blog" id="blog-cta">
+    <h2>Blog</h2>
+    <p>Digital for Good <span id="link-moving-chevron">&rsaquo;</span></p>
+  </a>
+</div>
+
+
+<script src="{{ site.baseurl }}/assets/js/2017/mosaic.js"></script>
+<script src="{{ site.baseurl }}/assets/js/2017/index.js"></script>

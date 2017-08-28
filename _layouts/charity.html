@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<div id="gtc-article" class="gtc-page gtc-post">
+  <div id="page-header" class="post-charity">
+    <div id="page-title-container">
+      <h1 id="page-title">{{ page.title }}</h1>
+        <p id="page-subtitle">{{ page.subtitle }}</p>
+  	</div>
+		<div id="charities-logo-container">
+			<img class="charity-logo" src="{{ site.baseurl }}{{ page.logocolor }}" />
+		</div>
+  </div>
+
+	<article id="article-container">
+		<img id="article-hero" src="{{ site.baseurl }}{{ page.hero }}" />
+
+    <div id="charity-mission-container">
+      <h3 class="anchored-title">Mission</h3>
+      <p id="charity-mission">{{ page.description }}</p>
+    </div>
+
+    {% if page.pullquote %}
+		<div id="article-content-container" class="post-pullquote-flex pullquote">
+    {% else %}
+    <div id="article-content-container">
+    {% endif %}
+      {% if page.pullquote %}
+      <div id="article-pullquote" class="post-pullquote-flex">
+        {{ page.pullquote }}
+      </div>
+      {% endif %}
+
+      <div id="article-main-content">
+		     {{ content }}
+      </div>
+		</div>
+	</article>
+</div>
+
+{% if page.next.url or page.previous.url %}
+<div id="page-blog-nav">
+  <!-- Previous -->
+  {% if page.previous.url and page.previous.categories contains "charities" %}
+    {% if page.next.url and page.next.categories contains "charities" %}
+      <a href="{{ site.baseurl }}{{ page.previous.url }}" id="blog-previous-nav" class="blog-nav flex-asymmetrically">
+    {% else %}
+      <a href="{{ site.baseurl }}{{ page.previous.url }}" id="blog-previous-nav" class="blog-nav">
+    {% endif %}
+        <h2 class="anchored-title">Previous Charity</h2>
+        <p>{{ page.previous.title }} <span id="link-moving-chevron">&rsaquo;</span></p>
+    </a>
+  {% endif %}
+
+  <!-- Next -->
+  {% if page.next.url and page.next.categories contains "charities" %}
+    {% if page.previous.url and page.previous.url contains "charities" %}
+      <a href="{{ site.baseurl }}{{ page.next.url }}" id="blog-next-nav" class="blog-nav flex-asymmetrically">
+    {% else %}
+      <a href="{{ site.baseurl }}{{ page.next.url }}" id="blog-next-nav" class="blog-nav">
+    {% endif %}
+      <div class="blog-next-overlay"></div>
+      <h2 class="anchored-title">Next Charity</h2>
+      <p>{{ page.next.title }} <span id="link-moving-chevron">&rsaquo;</span></p>
+    </a>
+  {% endif %}
+</div>
+{% endif %}

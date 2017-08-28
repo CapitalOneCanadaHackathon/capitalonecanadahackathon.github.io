@@ -1,11 +1,18 @@
 $(function() {
   $('#hamburger').on('click', function() {
-    animateHamburger();
-    showMenu()
+    if (!$('#nav-expanded').hasClass('show-expanded-nav')) {
+      showMenu();
+    } else {
+      hideMenu();
+    }
   });
 
-  function animateHamburger() {
-    if (!$('#hamburger').hasClass('animate-x')) {
+  $('#menu-overlay').on('click', function() {
+    hideMenu();
+  });
+
+  function animateHamburgerAsX(state) {
+    if (state) {
       $('#hamburger').addClass('animate-x');
       $('#hamburger div:first-child').addClass('animate-x');
       $('#hamburger div:last-child').addClass('animate-x');
@@ -17,19 +24,25 @@ $(function() {
   }
 
   function showMenu() {
-    if (!$('#nav').hasClass('show-expanded-nav')) {
-      $('#nav').addClass('show-expanded-nav');
-      $('#nav-expanded').addClass('show-expanded-nav');
-      $('#menu-overlay').addClass('show-expanded-nav');
-    } else {
-      // TODO Lag removeClass on #nav so it doesn't look like its flashing away?
-      $('#nav-expanded').removeClass('show-expanded-nav');
-      $('#nav').removeClass('show-expanded-nav');
-      $('#menu-overlay').removeClass('show-expanded-nav');
-    }
+    animateHamburgerAsX(true);
+    $('#nav-expanded,#menu-overlay').addClass('show-expanded-nav');
+    // Disable scrolling on the page while the nav is open
+    $('body').addClass('disable-scroll');
   }
 
   function hideMenu() {
-
+    animateHamburgerAsX(false);
+    $('#nav-expanded,#menu-overlay').removeClass('show-expanded-nav');
+    $('body').removeClass('disable-scroll');
   }
+
+  // Add box-shadow on scroll
+  $(document).on('scroll', function(e) {
+    e.preventDefault();
+    if ($(this).scrollTop() != 0) {
+      $('#header').addClass('scrolling');
+    } else {
+      $('#header').removeClass('scrolling');
+    }
+  });
 });

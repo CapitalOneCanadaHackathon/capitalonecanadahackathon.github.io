@@ -1,5 +1,5 @@
 ---
-layout: post2016
+layout: post
 permalink: /2016/:categories/:title/
 title:  Think it. Code it. Gift it.
 date: 2016-08-22 09:00:01
@@ -7,18 +7,18 @@ theme:
 author: Capital One
 tags: >
 category: blog
-visible: 2016
+visible: true
 images:
 ---
 Welcome to Gift the Code, a hackathon from Capital One that will help advance the cause of six local charities by giving them a technology boost!
 <br/><br/>
 
-Driven by the desire to commit as much funding as possible toward their respective causes, local charity organizations often operate on tight budgets and rarely have access to top-tier technology talent. 
-This prevents them from taking full advantage of digital solutions that are already available. By bringing your skills, talents and unique perspective to Gift the Code, you can change this and 
+Driven by the desire to commit as much funding as possible toward their respective causes, local charity organizations often operate on tight budgets and rarely have access to top-tier technology talent.
+This prevents them from taking full advantage of digital solutions that are already available. By bringing your skills, talents and unique perspective to Gift the Code, you can change this and
 help give participating organizations a much-needed boost.
 <!--more-->
 <br/><br/>
-On the weekend of October 21 to 23, join over 100 other participants who are passionate about technology and innovation at BrainStation’s beautiful King and Spadina location. 
+On the weekend of October 21 to 23, join over 100 other participants who are passionate about technology and innovation at BrainStation’s beautiful King and Spadina location.
 You’ll work together to develop solutions that help:
 <br/><br/>
 

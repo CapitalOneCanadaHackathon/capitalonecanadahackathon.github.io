@@ -1,10 +1,13 @@
 <nav id="nav">
-  <div id="nav-title">
-    <a href="/">Gift the Code</a>
+  <div id="nav-title-container">
+    <a href="/"><img id="nav-logo" src="{{ site.baseurl }}/assets/img/gtc-logo.png" /></a>
+
+    <div id="nav-register">
+      <a class="button button__primary" href="https://www.hackworks.com/gtc17">Register Now</a>
+    </div>
   </div>
 
-  <div id="nav-actions">
-    <a href="/register">Register</a>
+  <div id="nav-menu">
     {% include hamburger.html %}
   </div>
 </nav>

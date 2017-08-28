@@ -1,34 +1,65 @@
 ---
-layout: blog
+layout: default
 ---
+<div id="blog" class="gtc-page">
+  <div id="page-header">
+    <h1 id="page-title">Digital for Good</h1>
+    <p id="page-subtitle">The headquarters for updates, stories and hackathon talk.</p>
+  </div>
 
-  <section id="post_list">
-    <div class="page">
-    <section id="main">
-      {% for post in site.posts %}
-      {% if post.visible == true %}
-		<div class="page">
-			<section class="main">
-				<div>
-					<header class="page-header center">
-						<h1 class="center">{{ post.title }}</h1>
-						<time>
-							<p style="margin-bottom: 15px; margin-top: -20px;">{{ post.date | date: "%B %-d, %Y" }}</p>
-						</time>
-					</header>
-					<article class="page-content">
-						{{ post.excerpt }}
-				        {% if post.content contains '<!--more-->' %}
-					        <a href="{{ post.url | prepend: site.baseurl }}" class="read_more">Read More</a>
-        				{% endif %}
-					</article>
-				</div>
-			</section>
-		</div>
+  <div id="featured">
+    {% assign featuredPostCount = 4 %}
+    {% assign postCounter = 0 %}
+
+    {% for post in site.posts %}
+    {% if post.featured == true %}
+      {% if postCounter == featuredPostCount %}
+        {% break %}
       {% endif %}
-      {% endfor %}
-    </section>
-    </div>
-  </section>
 
-<br /><br />
+      {% if postCounter == 1 %}
+      <div id="blog-featured-columned">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
+          <div class="post-gradient-overlay"></div>
+          <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
+        </a>
+      {% elsif postCounter == 2 %}
+        <a href="{{ site.baseurl }}{{ post.url }}" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
+          <div class="post-gradient-overlay"></div>
+          <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
+        </a>
+      </div>
+      {% else %}
+      <a href="{{ site.baseurl }}{{ post.url }}" id="blog-featured-highlight" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
+        <div class="post-gradient-overlay"></div>
+        <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
+      </a>
+      {% endif %}
+
+      {% assign postCounter = postCounter | plus: 1 %}
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  <div id="archived">
+    <h2 class="anchored-title">Archive</h2>
+    {% for post in site.posts %}
+    {% if post.visible == true and post.featured == false or post.featured == null %}
+    <div class="archive-post">
+      <p class="archive-post-identifier">{{ post.date | date: "%m.%-d.%Y"}}</p>
+
+      <div class="archive-post-title">
+        <h3>{{ post.title }}</h3>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="archive-post-url">View Story <span id="link-moving-chevron">&rsaquo;</span></a>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  <div id="blog-legal">
+    <p>
+      The opinions expressed on this website are those of the individual and don’t necessarily represent those of Capital One. No representations or warranties are made as to any opinions, information, code, software, or any other content provided on this website.
+    </p>
+  </div>
+</div>

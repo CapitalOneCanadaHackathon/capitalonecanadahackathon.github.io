@@ -1,0 +1,145 @@
+#about-gtc {
+  #when-where,
+  #mission,
+  #judges-mentors {
+    @include content-padding-full;
+    padding-top: 1em;
+  }
+
+  #mission-content-container {
+    @include display-flex;
+    @include content-padding;
+    padding-top: 16px;
+    padding-bottom: 48px;
+    flex: row;
+  }
+
+  #mission-pullquote {
+    flex-basis: 82%;
+  }
+
+  #mission-content {
+    padding-left: 48px;
+    color: #fff;
+
+    p {
+      font: 16px $base-font-family-thin;
+      width: 100%;
+      line-height: 32px;
+      color: $text-color;
+
+      &:not(:first-child) {
+        margin-top: 24px;
+      }
+    }
+  }
+
+  #when-where {
+    padding-bottom: 48px;
+
+    #info {
+      @include display-flex;
+      justify-content: space-between;
+
+      p,
+      a {
+        font: 16px $base-font-family-extra-thin;
+        margin-top: 14px;
+        margin-bottom: 14px;
+      }
+
+      .about-info-important {
+        font-family: $base-font-family-extra-thin;
+        font-size: 24px;
+      }
+
+      a {
+        color: lighten(#004977, 20%);
+      }
+    }
+
+    #when {
+      flex-basis: 30%;
+    }
+
+    #where {
+      flex-basis: 35%;
+    }
+
+    #whoa {
+      flex-basis: 25%;
+    }
+  }
+
+  #map {
+    max-height: 450px;
+    width: 100%;
+    margin-top: 1em;
+
+    iframe {
+      max-height: 450px;
+      width: 100%;
+    }
+  }
+
+  #judges-mentors {
+
+  }
+}
+
+#about-divider {
+  border: 0;
+  background-color: #eaeaea;
+  opacity: 0.7;
+  height: 1px;
+  margin-left: 96px;
+  margin-right: 96px;
+}
+
+/* Responsive About Styles */
+@media screen and (max-width: 960px) {
+  #about-gtc {
+    #mission-logo {
+      height: 250px;
+    }
+  }
+}
+
+@media screen and (max-width: 840px) {
+  // #when-where-flexhack {
+  //   display: none;
+  // }
+}
+
+@media screen and (max-width: 640px) {
+  #about-gtc {
+    #mission-content-container {
+      display: block;
+    }
+
+    #mission-pullquote {
+      flex-basis: 100%;
+      margin-bottom: 32px;
+    }
+
+    #mission-content {
+      padding-left: 0px;
+    }
+
+    #mission-logo {
+      height: 300px;
+      display: block;
+      margin: auto;
+    }
+
+    #when-where {
+      #info {
+        display: block;
+
+        div {
+          padding-bottom: 24px;
+        }
+      }
+    }
+  }
+}

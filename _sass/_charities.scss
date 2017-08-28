@@ -1,0 +1,166 @@
+#charities {
+  #charity-banners {
+    @include content-padding-full;
+  }
+
+  .charity-content {
+    @include easeinout-transition(250ms);
+    @include display-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 330px;
+    width: 100%;
+    font-family: $base-font-family-extra-thin;
+    padding: 32px 48px 48px 64px;
+    color: white;
+
+    .charity-logo-container {
+      align-self: flex-end;
+    }
+    .charity-logo {
+      width: 275px;
+      height: auto;
+    }
+
+    .charity-info {
+      .charity-description {
+        font-size: 21px;
+        margin-top: 8px;
+        width: 75%;
+      }
+    }
+
+    &:hover{
+      box-shadow: 0px 2px 2px 0px rgba(25, 25, 25, 0.5);
+      transform:scale(1.01);
+      text-rendering:optimizeLegibility;
+      -webkit-font-smoothing:subpixel-antialiased;
+    }
+  }
+
+
+  #charity-519 {
+    background-image: url($baseurl + "/assets/img/2017/pattern-cyan.png");
+    background-size: cover;
+  }
+
+  #charity-autism {
+    background-image: url($baseurl + "/assets/img/2017/pattern-red.png");
+    background-size: cover;
+  }
+
+  #charity-cee {
+    background-image: url($baseurl + "/assets/img/2017/pattern-purple.png");
+    background-size: cover;
+  }
+
+  #charity-indspire {
+    background-image: url($baseurl + "/assets/img/2017/pattern-red.png");
+    background-size: cover;
+  }
+
+  #charity-kids {
+    background-image: url($baseurl + "/assets/img/2017/pattern-cyan.png");
+    background-size: cover;
+  }
+
+  #charity-sistering {
+    background-image: url($baseurl + "/assets/img/2017/pattern-purple.png");
+    background-size: cover;
+  }
+
+  #article-main-content {
+    h3.charity-anchored-title {
+      margin-top: 64px;
+      margin-bottom: 4px;
+    }
+  }
+}
+
+/* Charity Specific POST Content */
+.gtc-post {
+  #page-header.post-charity {
+    #page-title-container {
+      #page-title {
+        font-size: 42px;
+      }
+
+      #page-subtitle {
+        font-size: 20px;
+      }
+    }
+
+    #charities-logo-container {
+      flex-basis: 20%;
+      justify-self: flex-start;
+      text-align: right;
+
+      img {
+        height: auto;
+        width: 250px;
+      }
+    }
+  }
+}
+
+#charity-mission-container {
+  margin-top: 16px;
+
+  #charity-mission {
+    font: 16px $base-font-family-thin;
+    margin-top: 8px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #charities {
+    #charity-banners {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .charity-content {
+      padding: 32px;
+
+      .charity-logo-container {
+        text-align: left;
+        align-self: center;
+        img {
+          width: 225px;
+        }
+      }
+
+      .charity-info {
+        justify-self: center;
+
+        .charity-description {
+          font-size: 18px;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .gtc-post {
+    #page-header.post-charity {
+      flex-direction: column-reverse;
+
+
+      #page-title-container {
+        #page-title {
+          font-size: 32px;
+          line-height: 38px;
+        }
+      }
+
+      #charities-logo-container {
+        text-align: left;
+        align-self: center;
+        img {
+          width: 150px;
+        }
+      }
+    }
+  }
+}
