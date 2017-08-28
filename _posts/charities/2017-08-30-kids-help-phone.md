@@ -32,7 +32,7 @@ Gift the Code will help Kids Help Phone continue to adapt to the changing tech e
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>01 Create a data-driven solution that will engage staff in performance-enhancing metrics.</h3>
+    <h3>Create a data-driven solution that will engage staff in performance-enhancing metrics.</h3>
   </div>
 
   <p class="content-accordion-body">
@@ -43,7 +43,7 @@ Gift the Code will help Kids Help Phone continue to adapt to the changing tech e
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>02 Create a solution that helps lead young people to web content by using new forms of digital communication.</h3>
+    <h3>Create a solution that helps lead young people to web content by using new forms of digital communication.</h3>
   </div>
 
   <p class="content-accordion-body">
@@ -54,7 +54,7 @@ Gift the Code will help Kids Help Phone continue to adapt to the changing tech e
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>03 Create an interactive element to be added to the KHP website that engages visitors.</h3>
+    <h3>Create an interactive element to be added to the KHP website that engages visitors.</h3>
   </div>
 
   <p class="content-accordion-body">
@@ -65,7 +65,7 @@ Gift the Code will help Kids Help Phone continue to adapt to the changing tech e
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>04 Create a solution that diversifies and increases the number of donors (effectively decreasing their barrier to entry).</h3>
+    <h3>Create a solution that diversifies and increases the number of donors (effectively decreasing their barrier to entry).</h3>
   </div>
 
   <p class="content-accordion-body">
@@ -76,7 +76,7 @@ Gift the Code will help Kids Help Phone continue to adapt to the changing tech e
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>05 Create a data-driven solution that demonstrates the impact that Kids Help Phone has on Canadian youth.</h3>
+    <h3>Create a data-driven solution that demonstrates the impact that Kids Help Phone has on Canadian youth.</h3>
   </div>
 
   <p class="content-accordion-body">

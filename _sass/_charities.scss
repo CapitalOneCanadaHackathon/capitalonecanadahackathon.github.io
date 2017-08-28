@@ -115,9 +115,27 @@
 
 @media screen and (max-width: 640px) {
   #charities {
+    #charity-banners {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
     .charity-content {
+      padding: 32px;
+
+      .charity-logo-container {
+        text-align: left;
+        align-self: center;
+        img {
+          width: 225px;
+        }
+      }
+
       .charity-info {
+        justify-self: center;
+
         .charity-description {
+          font-size: 18px;
           width: 100%;
         }
       }
@@ -138,6 +156,7 @@
 
       #charities-logo-container {
         text-align: left;
+        align-self: center;
         img {
           width: 150px;
         }

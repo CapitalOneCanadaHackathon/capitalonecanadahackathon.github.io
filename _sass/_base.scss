@@ -135,6 +135,7 @@ body
 			font: 16px $base-font-family-thin;
 			padding-left: 16px;
 			margin-top: 0 !important;
+			align-self: flex-start;
 		}
 
 		.content-accordion-triangle-expand {
@@ -144,6 +145,8 @@ body
 			border-top: 8px solid transparent;
 			border-left: 8px solid #018bbb;
 			border-bottom: 8px solid transparent;
+			align-self: flex-start;
+			margin-top: 2px;
 		}
 
 		.content-accordion-triangle-expand.rotate {
@@ -200,6 +203,10 @@ body
       font-family: $base-font-family-extra-thin;
       font-size: 28px;
       margin-top: 4px;
+
+			@media screen and (max-width: 640px) {
+				font-size: 22px;
+			}
     }
 
 		&:hover {

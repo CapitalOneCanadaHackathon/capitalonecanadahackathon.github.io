@@ -32,7 +32,7 @@ Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In i
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>01 Create a solution that enables interested volunteers to get a realistic understanding of what Sistering’s volunteering opportunities entail.</h3>
+    <h3>Create a solution that enables interested volunteers to get a realistic understanding of what Sistering’s volunteering opportunities entail.</h3>
   </div>
 
   <p class="content-accordion-body">
@@ -44,7 +44,7 @@ Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In i
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>02 Create a solution that enables the public to donate physical items to Sistering.</h3>
+    <h3>Create a solution that enables the public to donate physical items to Sistering.</h3>
   </div>
 
   <p class="content-accordion-body">
@@ -56,7 +56,7 @@ Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In i
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>03 Create a solution that enables Sistering to display upcoming events and current volunteer opportunities to interested volunteers.</h3>
+    <h3>Create a solution that enables Sistering to display upcoming events and current volunteer opportunities to interested volunteers.</h3>
   </div>
 
   <p class="content-accordion-body">
@@ -68,7 +68,7 @@ Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In i
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>04 Design a solution that enables Sistering to digitize the sign-up process for volunteers to work their events and other volunteer opportunities.</h3>
+    <h3>Design a solution that enables Sistering to digitize the sign-up process for volunteers to work their events and other volunteer opportunities.</h3>
   </div>
 
   <p class="content-accordion-body">

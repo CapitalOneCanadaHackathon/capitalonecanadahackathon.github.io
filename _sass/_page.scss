@@ -34,3 +34,10 @@
   margin-top: 24px;
   margin-bottom: 32px;
 }
+
+@media screen and (max-width: 640px) {
+  #page-leadin-content {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
