@@ -34,6 +34,7 @@ font-face
 a {
 	@include easeinout-transition(200ms);
   text-decoration: none;
+	word-wrap: break-word;
 
 	#link-moving-chevron {
 		@include easeinout-transition(200ms);
