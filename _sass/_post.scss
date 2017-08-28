@@ -118,11 +118,14 @@
   }
 
   #blog-previous-nav.flex-asymmetrically {
-    flex-basis: 35%;
+    flex-basis: 45%;
+    padding-left: 96px;
+    padding-right: 32px;
   }
 
   #blog-next-nav.flex-asymmetrically {
-    flex-basis: 65%;
+    flex-basis: 55%;
+    padding-right: 96px;
   }
 
   a {
