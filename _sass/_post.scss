@@ -125,13 +125,10 @@
   #blog-previous-nav,
   #blog-next-nav {
     flex-basis: 100%;
-  }
-
-  #blog-previous-nav.flex-asymmetrically {
-    flex-basis: 50%;
     padding-left: 96px;
   }
 
+  #blog-previous-nav.flex-asymmetrically,
   #blog-next-nav.flex-asymmetrically {
     flex-basis: 50%;
     padding-left: 96px;
@@ -224,6 +221,7 @@
       height: 200px;
     }
 
+    #blog-next-nav.flex-asymmetrically,
     #blog-previous-nav.flex-asymmetrically {
       padding-left: 48px;
     }
