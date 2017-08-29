@@ -34,12 +34,13 @@
     left: 0;
     z-index: 4;
     border-radius: 3px;
+    background-color: rgba(25, 25, 25, 0.15);
 
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,2d2d2d+100&0.15+0,0.8+100 */
-    background: -moz-linear-gradient(-45deg, rgba(255,255,255,0) 5%, rgba(1,23,40,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0) 5%,rgba(1,23,40,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, rgba(255,255,255,0) 5%,rgba(1,23,40,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26ffffff', endColorstr='#cc2d2d2d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    // background: -moz-linear-gradient(-45deg, rgba(255,255,255,0) 5%, rgba(1,23,40,1) 100%); /* FF3.6-15 */
+    // background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0) 5%,rgba(1,23,40,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    // background: linear-gradient(135deg, rgba(255,255,255,0) 5%,rgba(1,23,40,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26ffffff', endColorstr='#cc2d2d2d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   }
 
   #hero-content-wrapper {
@@ -229,9 +230,22 @@
     }
 
     #hero-interactive {
+      margin-top: -42px;
       #hero-logo {
         height: auto;
         width: 320px;
+        margin-top: 0px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 740px) {
+  #hero {
+    #hero-interactive {
+      #hero-logo {
+        height: auto;
+        width: 240px;
       }
     }
   }

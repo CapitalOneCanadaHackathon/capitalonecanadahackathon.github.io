@@ -81,4 +81,4 @@ Gift the Code will help Kids Help Phone continue to adapt to the changing tech e
 </div>
 
 <br />
-<a href="https://kidshelpphone.ca/">www.kidshelpphone.ca &#8599;</a>
+<a href="https://kidshelpphone.ca/">www.kidshelpphone.ca</a>

@@ -74,4 +74,4 @@ Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In i
 </div>
 
 <br />
-<a href="http://www.sistering.org/">www.sistering.org &#8599;</a>
+<a href="http://www.sistering.org/">www.sistering.org</a>

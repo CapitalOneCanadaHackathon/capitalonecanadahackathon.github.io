@@ -88,4 +88,4 @@ The solutions created through Gift the Code will strengthen the autism community
 </div>
 
 <br />
-<a href="http://www.autismontario.com/">www.autismontario.com &#8599;</a>
+<a href="http://www.autismontario.com/">www.autismontario.com</a>
