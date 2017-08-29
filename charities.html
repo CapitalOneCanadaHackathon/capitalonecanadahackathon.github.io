@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div id="charities" class="gtc-page">
+  <div id="page-header">
+      <h1 id="page-title">Charities</h1>
+      <p id="page-subtitle">The good guys we’re working for.</p>
+  </div>
+
+  <div id="page-leadin-content">
+    <p>
+      Let’s use digital for good by developing innovative tech solutions to help charities with their own unique challenges. Meet this year’s charity partners.
+    </p>
+  </div>
+
+  <div id="charity-banners">
+    {% assign sortedCharities = site.categories.charities | sort: 'name' %}
+    {% for charity in sortedCharities %}
+      <a class="charity-banner" href="{{site.baseurl}}/{{ charity.link }}">
+        <div id="{{ charity.cssId }}" class="charity-content">
+          <div class="charity-logo-container">
+            <img class="charity-logo" src="{{ site.baseurl }}{{ charity.logo }}" />
+          </div>
+
+          <div class="charity-info">
+            <p class="charity-name anchored-title">{{ charity.title }}</p>
+            <p class="charity-description">
+              {{ charity.mission }}<span id="link-moving-chevron">&rsaquo;</span>
+            </p>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+<div id="page-blogcta">
+  <a href="{{ site.baseurl }}/blog" id="blog-cta">
+    <h2>Blog</h2>
+    <p>Last year's success stories <span id="link-moving-chevron">&rsaquo;</span></p>
+  </a>
+</div>

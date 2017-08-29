@@ -1,56 +1,52 @@
 ---
-layout: holder
+layout: default
 ---
 
-<div id="main-page">
-  <div id="gtc-header">
-    <div id="gtc-logo">
-      <img src="/assets/img/2017/gtc_logo_large.png">
+<div id="landing-page">
+  <div id="hero">
+    <!-- Gradient Overlay -->
+    <div id="hero-overlay">
+      <!-- COF Logo -->
     </div>
-    <div id="gtc-sign-up" onclick="document.location='http://eepurl.com/cU1vE9'">Sign Me Up!</div>
-  </div>
-  <div id="gtc-main">
-    <div id="gtc-call-out">
-      <div id="gtc-slider">
-        We&#8217;re back! Be a part of something truly inspiring.
-      </div>
-      <div id="gtc-static">
-        <div id="gtc-static-emph">
-          Gift the Code &ndash; Toronto, Nov. 3-5, 2017
+
+    <!-- Interactive Mosaic Background -->
+    <div id="hero-mosaic"></div>
+
+    <!-- Hero Content -->
+    <div id="hero-content-wrapper">
+      <!-- Left Side Content -->
+      <div id="content">
+        <div id="tagline">
+          <h1>6 charities.</h1>
+          <h1>150+ tech wizards.</h1>
+          <h1>1 great mission.</h1>
         </div>
-        <div id="gtc-static-no-miss">
-          Don&#8217;t miss out! Follow us on social media, sign up for updates
-          and use your digital super powers for good.
+
+        <div id="event-info">
+          <p>Ryerson's Mattamy Athletic Centre</p>
+          <p>Toronto, November 3-5, 2017</p>
         </div>
+
+        <a href="https://www.hackworks.com/gtc17" id="hero-register-cta" class="button button__primary">Register Now</a>
+        <a id="learn-more" href="{{ site.baseurl }}/about">Learn More <span id="link-moving-chevron">&rsaquo;</span></a>
       </div>
-    </div>
-    <!-- div id="gtc-nav">
-      <div id="gtc-nav-right">
-        <img src="/assets/img/2017/arrow_r.png" onclick="GoRight()">
+
+      <!-- Tilt-able GTC Logo -->
+      <div id="hero-interactive">
+        <img id="hero-logo" src="{{ site.baseurl }}/assets/img/2017/gtc-logo-full.png" />
+        <img id="hero-logo-cof" src="{{ site.baseurl }}/assets/img/cof-logo-white-red-boom.png" />
       </div>
-      <div id="gtc-nav-left">
-        <img src="/assets/img/2017/arrow_l.png" onclick="GoLeft()">
-      </div>
-    </div -->
-  </div>
-  <div id="gtc-footer">
-    <div id="gtc-social">
-       <a href="https://www.facebook.com/GifttheCode/" target="_blank"><img src="/assets/img/2017/Facebook.png"></a>
-       <a href="https://twitter.com/@giftthecode" target="_blank"><img src="/assets/img/2017/Twitter.png"></a>
-       <a href="https://www.instagram.com/giftthecode/" target="_blank"><img src="/assets/img/2017/Instagram.png"></a>
-    </div>
-    <div id="gtc-legal">
-       <div id="gtc-legal-license">
-         Capital One is a registered trademark of Capital One Financial Corporation, used under license.
-       </div>
-       <div id="gtc-legal-copyright">
-         All trademarks used herein are owned by the respective entities. &copy; 2017 Capital One. All rights reserved.
-       </div>
-       <div id="gtc-legal-links">
-         <a href="http://www.capitalone.ca/about/privacy" target="_blank">Privacy Policy</a> |
-         <a href="http://www.capitalone.ca/about/terms-of-use/" target="_blank">Terms of Use</a> | 
-         Rules and Regulations
-       </div>
     </div>
   </div>
 </div>
+
+<div id="page-blogcta">
+  <a href="{{ site.baseurl }}/blog" id="blog-cta">
+    <h2>Blog</h2>
+    <p>Digital for Good <span id="link-moving-chevron">&rsaquo;</span></p>
+  </a>
+</div>
+
+
+<script src="{{ site.baseurl }}/assets/js/2017/mosaic.js"></script>
+<script src="{{ site.baseurl }}/assets/js/2017/index.js"></script>

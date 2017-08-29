@@ -1,0 +1,43 @@
+.gtc-page {
+  background-color: white;
+}
+
+#page-header {
+  @include content-padding-full;
+  padding-bottom: 0;
+
+  #page-title {
+    font: 42px $base-font-family-extra-thin;
+    line-height: 48px;
+    color: #004977;
+  }
+
+  #page-subtitle {
+    font: 20px $base-font-family-extra-thin;
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 16px;
+  }
+}
+
+#page-leadin-content {
+  font: 16px $base-font-family-thin;
+  padding-top: 16px;
+  padding-left: 96px;
+  padding-right: 96px;
+  line-height: 32px;
+}
+
+.page-section-title {
+  font: 26px $base-font-family-extra-thin;
+  color: #5a5a5a;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 640px) {
+  #page-leadin-content {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
