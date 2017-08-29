@@ -69,7 +69,7 @@ Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In i
   </div>
 
   <p class="content-accordion-body">
-    There are many volunteers who help make the work of Sistering possible. Co-ordinating volunteers between all the areas where work is needed and when volunteers with the necessary skills and training are available can be a very time-consuming process. This solution will automate the process of matching qualified and available volunteers with time slots and opportunities that are available.
+    There are many volunteers who help make the work of Sistering possible. Coordinating volunteers between all the areas where work is needed and when volunteers with the necessary skills and training are available can be a very time-consuming process. This solution will automate the process of matching qualified and available volunteers with time slots and opportunities that are available.
   </p>
 </div>
 

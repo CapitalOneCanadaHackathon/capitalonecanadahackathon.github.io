@@ -52,7 +52,7 @@ Gift the Code will help Kids Help Phone continue to adapt to the changing tech e
 <div class="content-accordion">
   <div class="content-accordion-title">
     <span class="content-accordion-triangle-expand"></span>
-    <h3>Create an interactive element to be added to the KHP website that engages visitors.</h3>
+    <h3>Create an interactive element for the KHP website that engages visitors.</h3>
   </div>
 
   <p class="content-accordion-body">
