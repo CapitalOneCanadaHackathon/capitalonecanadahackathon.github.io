@@ -11,7 +11,7 @@ category: blog
 visible: true
 featured: true
 featuredImage: /assets/img/blog/2017/success-stories-hero.jpg
-hero: /assets/img/blog/2017/success-stories-hero.png
+hero: /assets/img/blog/2017/success-stories-hero.jpg
 ---
 
 ## Women’s Habitat

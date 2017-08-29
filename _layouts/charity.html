@@ -55,7 +55,7 @@ layout: default
 
   <!-- Next -->
   {% if page.next.url and page.next.categories contains "charities" %}
-    {% if page.previous.url and page.previous.url contains "charities" %}
+    {% if page.previous.url and page.previous.categories contains "charities" %}
       <a href="{{ site.baseurl }}{{ page.next.url }}" id="blog-next-nav" class="blog-nav flex-asymmetrically">
     {% else %}
       <a href="{{ site.baseurl }}{{ page.next.url }}" id="blog-next-nav" class="blog-nav">
