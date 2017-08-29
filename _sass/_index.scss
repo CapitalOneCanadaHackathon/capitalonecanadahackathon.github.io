@@ -201,6 +201,15 @@
 }
 
 @media screen and (max-width: 840px) {
+  #hero {
+    #hero-interactive {
+      #hero-logo {
+        margin-top: -34px;
+        width: 280px;
+      }
+    }
+  }
+
   #page-blogcta {
     height: 150px;
 
@@ -230,7 +239,6 @@
     }
 
     #hero-interactive {
-      margin-top: -42px;
       #hero-logo {
         height: auto;
         width: 320px;
@@ -294,8 +302,11 @@
 
     #hero-interactive {
       #hero-logo {
-        height: auto;
-        width: 245px;
+        width: 50%;
+      }
+
+      #hero-logo-cof {
+        width: 25%;
       }
     }
   }
