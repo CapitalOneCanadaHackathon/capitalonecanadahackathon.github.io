@@ -12,7 +12,7 @@ featured: true
 hero: /assets/img/blog/2017/launch-hero.png
 ---
 
-__TORONTO, ON__ – The annual Gift the Code Hackathon kicks off on Friday, November 3 and runs until to Sunday, November 5. Building on the success of the inaugural Gift the Code 2016, Capital One Canada will again connect Toronto-based charities with UX/UI designers, coders and developers. In just 40 hours, over 150 participants passionate about problem solving will use digital for good by brainstorming, building and presenting technology solutions to solve specific digital challenges faced by the charities.
+__TORONTO, ON__ – The annual Gift the Code Hackathon kicks off on Friday, November 3 and runs until Sunday, November 5. Building on the success of the inaugural Gift the Code 2016, Capital One Canada will again connect Toronto-based charities with UX/UI designers, coders and developers. In just 40 hours, over 150 participants passionate about problem solving will use digital for good by brainstorming, building and presenting technology solutions to solve specific digital challenges faced by the charities.
 
 Technology is the ultimate connector in today’s digital world, with the potential to unite charitable organizations with more people than ever before. However, in an effort to divert as much funding as possible to those in need, charities often delay investing in digital development. This reliance on legacy systems and practices creates a digital divide between them and their stakeholders. Gift the Code aims to change this by connecting participating organizations with a pool of much-needed tech talent, showcasing the many possibilities for charities to leverage technology.
 
@@ -34,7 +34,7 @@ Charities supported during the Gift the Code Hackathon were selected based on th
 To learn more about Gift the Code or to register as a participant, visit: [giftthecode.ca](http://giftthecode.ca/).
 
 ## About Capital One Canada
-With offices in Toronto, Kitchener-Waterloo and Montreal, Capital One Canada has been offering Canadian consumers a range of competitive Mastercard credit cards since 1996. We challenge ourselves to see the world through the eyes of our customers, so we can deliver the market-leading credit products and exceptional service they’re looking for. Capital One Canada is a division of Capital One Bank, a subsidiary of Capital One Financial Corporation of McLean, Virginia (NYSE: COF). To learn more, visit: www.capitalone.ca.
+With offices in Toronto, Kitchener-Waterloo and Montreal, Capital One Canada has been offering Canadian consumers a range of competitive Mastercard credit cards since 1996. We challenge ourselves to see the world through the eyes of our customers, so we can deliver the market-leading credit products and exceptional service they’re looking for. Capital One Canada is a division of Capital One Bank, a subsidiary of Capital One Financial Corporation of McLean, Virginia (NYSE: COF). To learn more, visit: [www.capitalone.ca](https://www.capitalone.ca/).
 
 For further information:
 Sandra Decarvalho, Capital One Canada
