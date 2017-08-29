@@ -34,7 +34,8 @@
 #article-content-container.post-pullquote-flex {
   @include display-flex;
 
-  #article-main-content {
+  #article-main-content,
+  #blog-main-content {
     width: 100%;
     flex-basis: 65%;
     padding-left: 56px;
@@ -56,7 +57,21 @@
     margin-top: 42px;
   }
 
-  #article-main-content {
+  #blog-main-content {
+    /* TODO Apply this for only blog psots, add class?? */
+    h2 {
+      font: 26px $base-font-family-extra-thin;
+      color: #5a5a5a;
+    }
+
+    h3 {
+      font-family: $base-font-family-extra-thin;
+      color: #018bbb;
+    }
+  }
+
+  #article-main-content,
+  #blog-main-content {
     margin-top: 32px;
     line-height: 32px;
 
@@ -75,17 +90,6 @@
       margin-top: 16px;
       margin-bottom: 4px;
     }
-
-    /* TODO Apply this for only blog psots, add class?? */
-    // h2 {
-    //   font: 26px $base-font-family-extra-thin;
-    //   color: #5a5a5a;
-    // }
-    //
-    // h3 {
-    //   font-family: $base-font-family-extra-thin;
-    //   color: #018bbb;
-    // }
 
     ol,
     ul {
@@ -182,7 +186,8 @@
   #article-content-container.post-pullquote-flex {
     display: block;
 
-    #article-main-content {
+    #article-main-content,
+    #blog-main-content {
       width: 100%;
       flex-basis: 100%;
       padding-left: 0;
