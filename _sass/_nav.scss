@@ -50,12 +50,12 @@
 
   #nav-title-container {
     flex-basis: 95%;
-    margin-top: 3px;
     justify-content: space-between;
 
     #nav-logo {
       height: auto;
       width: 200px;
+      margin-top: 8px;
     }
   }
 
@@ -164,7 +164,7 @@
       }
     }
 
-    #nav-register {
+    #nav-menu-register {
       display: none;
     }
   }
@@ -193,7 +193,7 @@
     animation-delay: 800ms;
   }
 
-  #nav-register {
+  #nav-menu-register {
     animation: fade-in 1200ms;
   	animation-fill-mode: both;
     animation-delay: 1100ms;
@@ -266,7 +266,7 @@
         }
       }
 
-      #nav-register {
+      #nav-menu-register {
         display: block;
         margin-top: 24px;
         font-size: 12px;

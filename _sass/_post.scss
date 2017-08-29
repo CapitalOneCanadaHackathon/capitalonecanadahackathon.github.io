@@ -16,23 +16,10 @@
     @include display-flex;
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: 2em;
+    margin-bottom: 8px;
 
     #page-title-container {
       flex-basis: 80%;
-
-      #page-date {
-        margin-bottom: 8px;
-      }
-
-      #page-title {
-        font-size: 26px;
-      }
-
-      #page-subtitle {
-        font-size: 16px;
-        margin-top: 8px;
-      }
     }
   }
 }
@@ -41,7 +28,7 @@
 #article-hero {
   height: auto;
   width: 100%;
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 #article-content-container.post-pullquote-flex {
@@ -85,8 +72,20 @@
     h4,
     h5,
     h6 {
-      margin-top: 1em;
+      margin-top: 16px;
+      margin-bottom: 4px;
     }
+
+    /* TODO Apply this for only blog psots, add class?? */
+    // h2 {
+    //   font: 26px $base-font-family-extra-thin;
+    //   color: #5a5a5a;
+    // }
+    //
+    // h3 {
+    //   font-family: $base-font-family-extra-thin;
+    //   color: #018bbb;
+    // }
 
     ol,
     ul {
@@ -102,6 +101,13 @@
     img {
       width: 90%;
     }
+
+    hr {
+      border: 0;
+      background-color: #eaeaea;
+      opacity: 0.7;
+      height: 1px;
+    }
   }
 }
 
@@ -109,7 +115,7 @@
   @include display-flex;
   height: 200px;
   cursor: pointer;
-  background-image: url($baseurl + "/assets/img/2017/blog-polygon-bg.png");
+  background-image: url($baseurl + "/assets/img/2017/pattern-main.png");
   background-size: cover;
 
   #blog-previous-nav,
@@ -202,9 +208,19 @@
 
   #page-blog-nav {
     height: 250px;
+
     #blog-previous-nav.flex-asymmetrically,
     #blog-next-nav.flex-asymmetrically {
       flex-basis: 50%;
+    }
+
+    #blog-previous-nav,
+    #blog-next-nav {
+      flex-basis: 50%;
+    }
+
+    #blog-previous-nav.flex-asymmetrically {
+      padding-left: 48px;
     }
 
     flex-direction: column;

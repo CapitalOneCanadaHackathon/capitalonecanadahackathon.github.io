@@ -81,7 +81,7 @@
   #archived {
     @include content-padding;
     padding-top: 24px;
-    padding-bottom: 64px;
+    padding-bottom: 24px;
 
     .blog-image {
       font-family: $base-font-family-extra-thin;
@@ -119,9 +119,9 @@
 
 #blog-legal {
   @include content-padding;
-  padding-top: 24px;
-  font: 16px $base-font-family-thin;
-  line-height: 24px;
+  padding-top: 16px;
+  font: 12px $base-font-family-thin;
+  line-height: 16px;
   color: #8a8a8a;
 }
 
@@ -144,7 +144,7 @@
 @media screen and (max-width: 640px) {
   #blog {
     #featured {
-      padding: 16px 0px 32px 0px;
+      padding: 16px 16px 32px 16px;
     }
 
     .archive-post {

@@ -88,9 +88,9 @@
 }
 
 #about-divider {
+  /* TODO Refactor this into a class for the whole site */
   border: 0;
   background-color: #eaeaea;
-  opacity: 0.7;
   height: 1px;
   margin-left: 96px;
   margin-right: 96px;
@@ -105,13 +105,12 @@
   }
 }
 
-@media screen and (max-width: 840px) {
-  // #when-where-flexhack {
-  //   display: none;
-  // }
-}
-
 @media screen and (max-width: 640px) {
+  #about-divider {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
   #about-gtc {
     #mission-content-container {
       display: block;
@@ -133,6 +132,8 @@
     }
 
     #when-where {
+      padding-bottom: 16px;
+
       #info {
         display: block;
 

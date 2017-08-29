@@ -47,6 +47,7 @@ footer {
     #nav-cof-logo {
       height: 42px;
       width: auto;
+      margin-top: 12px;
     }
 
     #social {
@@ -80,13 +81,13 @@ footer {
 
   #legal {
     #copyright {
-      flex-basis: 50%;
+      flex-basis: 55%;
       font-size: 12px;
       opacity: 0.6;
     }
 
     #legal-links {
-      flex-basis: 50%;
+      flex-basis: 45%;
       text-align: right;
       list-style: none;
       font-size: 12px;
@@ -119,7 +120,7 @@ footer {
       #legal-links {
         margin-bottom: 24px;
         margin-left: 0px;
-        text-align: center;
+        text-align: left;
 
         li {
           margin-left: 0px;

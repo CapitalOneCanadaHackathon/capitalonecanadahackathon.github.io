@@ -11,7 +11,7 @@ layout: default
     <div id="page-header">
       <div id="page-title-container">
         <h1 id="page-title">{{ page.title }}</h1>
-        <p id="page-subtitle">{{ page.date | date: "%B %-d, %Y" }}</p>
+        <p id="page-subtitle">{{ page.date | date: "%m.%d.%Y" }}</p>
     	</div>
     </div>
 
@@ -34,38 +34,9 @@ layout: default
   </div>
 </div>
 
-{% if page.next.url or page.previous.url %}
-<div id="page-blog-nav">
-  <!-- Previous Button -->
-  {% if page.previous.url %}
-    {% unless page.previous.categories contains "charities" %}
-      {% if page.next.url and page.next.categories contains "charities" %}
-        <a href="{{ site.baseurl }}{{ page.previous.url }}" id="blog-previous-nav" class="blog-nav">
-      {% elsif page.next.url %}
-        <a href="{{ site.baseurl }}{{ page.previous.url }}" id="blog-previous-nav" class="blog-nav flex-asymmetrically">
-      {% else %}
-        <a href="{{ site.baseurl }}{{ page.previous.url }}" id="blog-previous-nav" class="blog-nav">
-      {% endif %}
-      <h2 class="anchored-title">Previous</h2>
-      <p>{{ page.previous.title }} <span id="link-moving-chevron">&rsaquo;</span></p>
-    </a>
-    {% endunless %}
-  {% endif %}
-  <!-- Next Button -->
-  {% if page.next.url %}
-    {% unless page.next.categories contains "charities" %}
-      {% if page.previous.url and page.previous.categories contains "charities" %}
-        <a href="{{ site.baseurl }}{{ page.next.url }}" id="blog-next-nav" class="blog-nav">
-      {% elsif page.previous.url %}
-        <a href="{{ site.baseurl }}{{ page.next.url }}" id="blog-next-nav" class="blog-nav flex-asymmetrically">
-      {% else %}
-        <a href="{{ site.baseurl }}{{ page.next.url }}" id="blog-next-nav" class="blog-nav">
-      {% endif %}
-      <div class="blog-next-overlay"></div>
-      <h2 class="anchored-title">Next</h2>
-      <p>{{ page.next.title }} <span id="link-moving-chevron">&rsaquo;</span></p>
-      </a>
-    {% endunless %}
-  {% endif %}
+<div id="page-blogcta">
+  <a href="{{ site.baseurl }}/blog" id="blog-cta">
+    <h2>Back to</h2>
+    <p>Digital for Good <span id="link-moving-chevron">&rsaquo;</span></p>
+  </a>
 </div>
-{% endif %}
