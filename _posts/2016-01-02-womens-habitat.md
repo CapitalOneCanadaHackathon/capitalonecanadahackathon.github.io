@@ -58,7 +58,6 @@ For Silvia Samsa, Executive Director of Women’s Habitat, Gift the Code is an o
 of systemic change for the women and children who are survivors of violence and abuse. The results from this hackathon event will have a
 direct impact on the service delivery of our programs.”
 <br />
-<br />
 <ol>
 <li>Create a solution that improves and enhances the functionality and visual appeal of our online donation system.</li>
 <li>Create a solution that updates our current systems to enable easier reporting and exports. </li>

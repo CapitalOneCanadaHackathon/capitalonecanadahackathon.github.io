@@ -14,6 +14,7 @@ The Holland Bloorview Kids Rehabilitation Hospital is a world-class organization
 They are one of six participating charities at Gift the Code and they’ll be presenting 3 different tech challenges to participants. Each week, we’ll be introducing you to another
 participating charity and we’ll share the challenges that they’re facing and the problems they’re hoping to solve at the hackathon.
 <!--more-->
+<br />
 [Please click here to find resources related to the tech challenges faced by Holland Bloorview](/2016/holland-bloorview/).
 <h2 class="center">The Holland Bloorview Kids Rehabilitation Hospital</h2>
 
@@ -34,7 +35,6 @@ well as client- and family-centred care. Their vision is nothing less than creat
 <br />
 Gift the Code participants’ contributions will have a positive impact on Holland Bloorview’s tech and digital ability to provide the already fantastic services offered to its patients.
 Over the course of the hackathon, they’ll develop solutions that:
-<br />
 <br />
 
 - Help Holland Bloorview collect more accurate and relevant feedback from the children they work with.

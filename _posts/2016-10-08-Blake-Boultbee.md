@@ -50,7 +50,6 @@ making many new friends that will contribute to making our little organization b
 <br />
 At Gift the Code, BBYOS is presenting the following challenges:
 <br />
-<br />
 <ol>
 	<li>Create a solution that improves our ability to find and leverage donors.</li>
 	<li>Create an organizational tool that will help our volunteers efficiently and resourcefully manage their commitment to Blake Boultbee.</li>

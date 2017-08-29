@@ -54,16 +54,15 @@ advice and tools they need to build their financial well-being.”
 <br />
 With this in mind, Prosper Canada is providing Gift the Code participants four different challenges to choose from during the hackathon. The challenges are as follows:
 <br />
-<br />
 <ol>
 <li>Develop an online tool that fosters a collaborative learning environment for community financial coaches serving people with low incomes.<br /><br /></li>
 <li>Develop a digital solution, using Prosper Canada’s financial literacy curriculum and resources, that will help people living on low incomes build their money management knowledge and skills.<br /><br /></li>
 <li>Use gamification to build activities into the daily lives of people living with low incomes that build their financial capabilities and well-being.<br /><br /></li>
-<li>Create an online solution that enables people to easily search and find local financial empowerment programs and services – ensuring it’s interactive, visually appealing and easy-to-maintain and update.<br /><br /></li>
+<li>Create an online solution that enables people to easily search and find local financial empowerment programs and services – ensuring it’s interactive, visually appealing and easy-to-maintain and update.<br /></li>
 </ol>
 By joining Gift the Code, you’ll have the chance to think, code, create and present solutions that will contribute to improving the living standards of low-income Canadians.
 Give back, with your unique perspective, skills and talents – your participation could provide the gift of code to Prosper Canada!
-<br />
+
 
 <div class="center link"><a href="https://www.hackworks.com/giftthecode" class="register-now">REGISTER</a></div>
 

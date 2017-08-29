@@ -54,7 +54,6 @@ approach to day-to-day challenges. The skills and experience of the hackathon pa
 <br />
 With this in mind, Second Harvest is proposing 5 challenges for Gift the Code participants:
 <br />
-<br />
 <ol>
 <li>Create a solution to convert non-financial supporters into financial supporters.</li>
 <li>Come up with a digital a solution that allows information to be more easily stored, managed, harvested and accessed by the Second Harvest team.</li>
