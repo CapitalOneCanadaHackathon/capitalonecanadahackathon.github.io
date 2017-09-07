@@ -1,7 +1,7 @@
 #blog {
   padding-bottom: 32px;
 
-  #featured {
+  #blog-posts {
     @include content-padding;
     padding-top: 32px;
     padding-bottom: 64px;
@@ -73,9 +73,13 @@
 
     a:hover {
       @include easeinout-transition(350ms);
-      box-shadow: 0px 2px 2px 0px rgba(25, 25, 25, 0.5);
+      box-shadow: 0px 2px 2px 0px rgba(55, 55, 55, 0.5);
       transform: scale(1.01);
     }
+  }
+
+  #archived-title {
+    padding-top: 88px;
   }
 
   #archived {
@@ -127,7 +131,7 @@
 
 @media screen and (max-width: 640px) {
   #blog {
-    #featured {
+    #blog-posts {
       .highlighted-story {
         height: auto;
         padding-top: 48px;
@@ -143,7 +147,7 @@
 
 @media screen and (max-width: 640px) {
   #blog {
-    #featured {
+    #blog-posts {
       padding: 16px 16px 32px 16px;
     }
 

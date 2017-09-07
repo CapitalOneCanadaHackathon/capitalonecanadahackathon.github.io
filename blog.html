@@ -7,53 +7,49 @@ layout: default
     <p id="page-subtitle">The headquarters for updates, stories and hackathon talk.</p>
   </div>
 
-  <div id="featured">
+  <div id="blog-posts">
     {% assign featuredPostCount = 4 %}
     {% assign postCounter = 0 %}
+    {% assign showArchiveTitle = true %}
 
     {% for post in site.posts %}
-    {% if post.featured == true %}
-      {% if postCounter == featuredPostCount %}
-        {% break %}
+      {% if post.visible %}
+        {% unless post.categories contains 'charities' %}
+          {% if postCounter == 1 %}
+          <div id="blog-featured-columned">
+            <a href="{{ site.baseurl }}{{ post.url }}" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
+              <div class="post-gradient-overlay"></div>
+              <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
+            </a>
+          {% elsif postCounter == 2 %}
+            <a href="{{ site.baseurl }}{{ post.url }}" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
+              <div class="post-gradient-overlay"></div>
+              <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
+            </a>
+          </div>
+          {% elsif postCounter == 0 or postCounter == 3 %}
+          <a href="{{ site.baseurl }}{{ post.url }}" id="blog-featured-highlight" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
+            <div class="post-gradient-overlay"></div>
+            <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
+          </a>
+          {% else %}
+            <!-- Archive post format -->
+            {% if showArchiveTitle == true %}
+              <h2 id="archived-title" class="anchored-title">Archive</h2>
+              {% assign showArchiveTitle = false %}
+            {% endif %}
+            <div class="archive-post">
+              <p class="archive-post-identifier">{{ post.date | date: "%m.%d.%Y" }}</p>
+
+              <div class="archive-post-title">
+                <h3>{{ post.title }}</h3>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="archive-post-url">View Story <span id="link-moving-chevron">&rsaquo;</span></a>
+              </div>
+            </div>
+          {% endif %}
+          {% assign postCounter = postCounter | plus: 1 %}
+        {% endunless %}
       {% endif %}
-
-      {% if postCounter == 1 %}
-      <div id="blog-featured-columned">
-        <a href="{{ site.baseurl }}{{ post.url }}" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
-          <div class="post-gradient-overlay"></div>
-          <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
-        </a>
-      {% elsif postCounter == 2 %}
-        <a href="{{ site.baseurl }}{{ post.url }}" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
-          <div class="post-gradient-overlay"></div>
-          <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
-        </a>
-      </div>
-      {% else %}
-      <a href="{{ site.baseurl }}{{ post.url }}" id="blog-featured-highlight" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
-        <div class="post-gradient-overlay"></div>
-        <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
-      </a>
-      {% endif %}
-
-      {% assign postCounter = postCounter | plus: 1 %}
-    {% endif %}
-    {% endfor %}
-  </div>
-
-  <div id="archived">
-    <h2 class="anchored-title">Archive</h2>
-    {% for post in site.posts %}
-    {% if post.visible == true and post.featured == false or post.featured == null %}
-    <div class="archive-post">
-      <p class="archive-post-identifier">{{ post.date | date: "%m.%d.%Y" }}</p>
-
-      <div class="archive-post-title">
-        <h3>{{ post.title }}</h3>
-        <a href="{{ site.baseurl }}{{ post.url }}" class="archive-post-url">View Story <span id="link-moving-chevron">&rsaquo;</span></a>
-      </div>
-    </div>
-    {% endif %}
     {% endfor %}
   </div>
 
