@@ -1,6 +1,7 @@
 #blog {
   padding-bottom: 32px;
 
+  #featured, /* #featured is deprecated, but keeping it here for cached versions of the site still referencing #featured */
   #blog-posts {
     @include content-padding;
     padding-top: 32px;
@@ -131,6 +132,7 @@
 
 @media screen and (max-width: 640px) {
   #blog {
+    #featured,
     #blog-posts {
       .highlighted-story {
         height: auto;
@@ -147,6 +149,7 @@
 
 @media screen and (max-width: 640px) {
   #blog {
+    #featured,
     #blog-posts {
       padding: 16px 16px 32px 16px;
     }
