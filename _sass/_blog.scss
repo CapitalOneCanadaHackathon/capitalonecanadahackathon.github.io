@@ -1,7 +1,7 @@
 #blog {
   padding-bottom: 32px;
 
-  #featured {
+  #blog-posts {
     @include content-padding;
     padding-top: 32px;
     padding-bottom: 64px;
@@ -78,6 +78,10 @@
     }
   }
 
+  #archived-title {
+    padding-top: 88px;
+  }
+
   #archived {
     @include content-padding;
     padding-top: 24px;
@@ -127,7 +131,7 @@
 
 @media screen and (max-width: 640px) {
   #blog {
-    #featured {
+    #blog-posts {
       .highlighted-story {
         height: auto;
         padding-top: 48px;
@@ -143,7 +147,7 @@
 
 @media screen and (max-width: 640px) {
   #blog {
-    #featured {
+    #blog-posts {
       padding: 16px 16px 32px 16px;
     }
 
