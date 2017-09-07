@@ -16,7 +16,10 @@ layout: default
     </div>
 
   	<article id="article-container">
+      {% if page.hero %}
   		<img id="article-hero" src="{{ site.baseurl }}{{ page.hero }}" />
+      {% endif %}
+
       {% if page.pullquote %}
   		<div id="article-content-container" class="post-pullquote-flex pullquote">
         <div id="article-pullquote" class="post-pullquote-flex">
