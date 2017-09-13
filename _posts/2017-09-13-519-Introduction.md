@@ -3,7 +3,7 @@ layout: post
 permalink: /:title/
 title: "The 519: Promoting Opportunity throughout the LGBTQ+ Community"
 featuredTitle: "The 519: Promoting Opportunity throughout the LGBTQ+ Community"
-date: 2017-09-13 09:00:00
+date: 2017-09-13 08:00:00 -0400
 theme:
 author: Capital One
 tags: >
