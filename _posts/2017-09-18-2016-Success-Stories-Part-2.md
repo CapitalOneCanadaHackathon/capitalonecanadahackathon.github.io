@@ -3,7 +3,7 @@ layout: post
 permalink: /:title/
 title: "2016 Success Stories Part 2"
 featuredTitle: "2016 Success Stories Part 2"
-date: 2017-09-18 08:00:00 -0400
+date: 2017-09-18 07:00:00 -0400
 theme:
 author: Capital One
 tags: >
