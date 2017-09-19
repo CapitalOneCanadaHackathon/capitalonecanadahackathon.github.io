@@ -1,0 +1,202 @@
+/**
+ * All common CSS elements here.
+ */
+
+a {
+	@include easeinout-transition(200ms);
+  text-decoration: none;
+	word-wrap: break-word;
+
+	#link-moving-chevron {
+		@include easeinout-transition(200ms);
+		display: inline-block;
+		margin-left: 7px;
+	}
+
+  &:hover {
+		opacity: 0.7;
+		cursor: pointer;
+
+		#link-moving-chevron {
+			transform: translateX(8px);
+		}
+  }
+}
+
+.page-divider {
+  border: 0;
+  background-color: #dadada;
+  height: 1px;
+  margin-left: 96px;
+  margin-right: 96px;
+}
+
+.disable-scroll {
+	overflow: hidden;
+}
+
+.pullquote {
+	font: 24px $base-font-family-extra-thin;
+	color: #a9a9a9;
+	line-height: 34px;
+}
+
+.anchored-title {
+	font: 14px $base-font-family-semibold;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.content-accordion {
+	border-bottom: 1px solid #dadada;
+
+	.content-accordion-title {
+		@include display-flex;
+		padding-top: 24px;
+		padding-bottom: 16px;
+		align-items: center;
+		cursor: pointer;
+		color: #018bbb;
+
+		&:hover {
+			opacity: 0.7;
+		}
+
+		h3 {
+			font: 16px $base-font-family-thin;
+			padding-left: 16px;
+			margin-top: 0 !important;
+			align-self: flex-start;
+		}
+
+		.content-accordion-triangle-expand {
+			@include easeinout-transition(250ms);
+			height: 0;
+			width: 0;
+			border-top: 8px solid transparent;
+			border-left: 8px solid #018bbb;
+			border-bottom: 8px solid transparent;
+			align-self: flex-start;
+			margin-top: 2px;
+		}
+
+		.content-accordion-triangle-expand.rotate {
+			transform: rotate(90deg);
+		}
+	}
+
+	.content-accordion-body {
+		@include easeinout-transition(350ms);
+		height: 0;
+		overflow: hidden;
+		padding-left: 20px;
+		margin-bottom: 0 !important;
+	}
+
+	.content-accordion-body.content-accordion-expand {
+		height: auto;
+		padding-top: 16px;
+		padding-bottom: 16px;
+		padding-left: 20px;
+	}
+}
+
+#page-blogcta,
+.page-blogcta {
+  @include display-flex;
+  height: 200px;
+  width: 100%;
+  background-color: #aaa;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    @include display-flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 96px;
+    padding-right: 64px;
+    color: white;
+    flex: 1;
+    cursor: pointer;
+		background-image: url($baseurl + "/assets/img/2017/pattern-main.png");
+		background-size: cover;
+		position: relative;
+
+    h2 {
+      font-family: $base-font-family;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+    }
+
+    p {
+      font-family: $base-font-family-extra-thin;
+      font-size: 28px;
+      margin-top: 4px;
+
+			@media screen and (max-width: 640px) {
+				font-size: 22px;
+			}
+    }
+
+		&:hover {
+			opacity: 1;
+		}
+  }
+}
+
+/* Common Keyframe Animations */
+.fade-in {
+	animation-duration: 1000ms;
+	animation: fade-in 1000ms;
+	animation-fill-mode: both;
+  animation-delay: 200ms;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* DEPRECATED (Delete in a future build) Hero Animations */
+.fade-in-from-bottom {
+  animation: fade-in-from-bottom 1.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes fade-in-from-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* DEPRECATED (Delete in a future build) Hero Animations */
+.hero-animate-in {
+  animation: hero-animate-in 1.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes hero-animate-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

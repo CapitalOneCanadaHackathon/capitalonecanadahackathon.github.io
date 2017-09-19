@@ -3,18 +3,18 @@ layout: default
 ---
 
 <div id="charities" class="gtc-page">
-  <div id="page-header">
+  <div id="page-header" class="fade-in">
       <h1 id="page-title">Charities</h1>
       <p id="page-subtitle">The good guys we’re working for.</p>
   </div>
 
-  <div id="page-leadin-content">
+  <div id="page-leadin-content" class="fade-in">
     <p>
       Let’s use digital for good by developing innovative tech solutions to help charities with their own unique challenges. Meet this year’s charity partners.
     </p>
   </div>
 
-  <div id="charity-banners">
+  <div id="charity-banners" class="fade-in-from-bottom">
     {% assign sortedCharities = site.categories.charities | sort: 'name' %}
     {% for charity in sortedCharities %}
       <a class="charity-banner" href="{{site.baseurl}}/{{ charity.link }}">

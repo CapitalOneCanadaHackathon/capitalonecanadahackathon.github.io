@@ -88,7 +88,7 @@
 }
 
 #about-divider {
-  /* TODO Refactor this into a class for the whole site */
+  /* Deprecated since it's now a class in common.scss */
   border: 0;
   background-color: #dadada;
   height: 1px;

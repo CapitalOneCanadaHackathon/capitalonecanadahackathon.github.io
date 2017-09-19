@@ -1,4 +1,5 @@
 footer {
+  @include easeinout-transition(250ms);
   font-family: $base-font-family-thin;
   padding: 18px 96px 16px 96px;
   color: white;
@@ -101,6 +102,11 @@ footer {
       }
     }
   }
+}
+
+footer.fade-in {
+  animation-duration: 1750ms;
+  animation-delay: 150ms;
 }
 
 /* Responsive Styles for Footer */

@@ -8,12 +8,12 @@ $(function() {
   $('#nav').addClass('fade-in');
 
   // Animate In hero elements
-  $('#tagline').addClass('hero-animate-in');
-  $('#event-info').addClass('hero-animate-in');
-  $('#hero').addClass('hero-animate-in');
-  $('#hero-interactive').addClass('hero-animate-in');
-  $('#hero-register-cta').addClass('hero-animate-in');
-  $('#learn-more').addClass('hero-animate-in');
+  $('#tagline').addClass('fade-in-from-bottom');
+  $('#event-info').addClass('fade-in-from-bottom');
+  $('#hero').addClass('fade-in-from-bottom');
+  $('#hero-interactive').addClass('fade-in-from-bottom');
+  $('#hero-register-cta').addClass('fade-in-from-bottom');
+  $('#learn-more').addClass('fade-in-from-bottom');
 
   /*
    * Parallax "Apple TV" effect modified from:

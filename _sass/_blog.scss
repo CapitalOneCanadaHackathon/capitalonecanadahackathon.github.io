@@ -7,6 +7,10 @@
     padding-top: 32px;
     padding-bottom: 64px;
 
+    .fade-in-from-bottom {
+      // animation-delay: 500ms;
+    }
+
     .highlighted-story {
       @include display-flex;
       flex-direction: column;

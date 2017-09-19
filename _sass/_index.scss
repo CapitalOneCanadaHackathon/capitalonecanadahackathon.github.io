@@ -82,7 +82,7 @@
       line-height: 32px;
     }
 
-    #event-info.hero-animate-in {
+    #event-info.fade-in-from-bottom {
       animation-delay: 500ms;
     }
 
@@ -94,7 +94,7 @@
       }
     }
 
-    #hero-register-cta.hero-animate-in {
+    #hero-register-cta.fade-in-from-bottom {
       animation-delay: 750ms;
     }
 
@@ -108,7 +108,7 @@
       }
     }
 
-    #learn-more.hero-animate-in {
+    #learn-more.fade-in-from-bottom {
       animation-delay: 900ms;
     }
   }
@@ -151,22 +151,13 @@
   }
 }
 
-/* Hero Animations */
-.hero-animate-in {
-  animation: hero-animate-in 1.5s;
-  animation-fill-mode: both;
+#hero-blogcta {
+  @include easeinout-transition(250ms);
 }
 
-@keyframes hero-animate-in {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-
-  to {
-    opacity: 1;
-    transform: none;
-  }
+#hero-blogcta.fade-in {
+  animation-duration: 1750ms;
+  animation-delay: 150ms; /* Delay until hero loads in */
 }
 
 /* Index Page Responsive Styles */
