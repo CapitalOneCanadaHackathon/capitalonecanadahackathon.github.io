@@ -18,7 +18,7 @@ hero: /assets/img/charity/Sistering_Charity_Photo.png
 pullquote: "Gift the Code 2017 is a remarkable opportunity for Sistering to work with leading edge digital problem solvers to help the team better serve our community – participants, supporters, volunteers and donors – and realize our Vision. We are very excited and grateful."
 representative: Charlotte Empey, Community Liaison
 representative_photo: /assets/img/2017/charities/charity-reps/Sis_CharlotteEmpeyc.png
-representative_bio: Currently working as Unit Director - Community Liaison, Charlotte has a long history in senior publishing roles, most recently as Editor-in-Chief of Metro English Canada.  She helps define communications goals and objectives, and identifies the audience psychographic – the key to understanding who they are and what kind of stories will move them most. Then she develops a strategic plan and manages a team of cross-platform professionals to create stories that cut through the clutter and capture hearts, minds and the collective imagination.
+representative_bio: Charlotte is currently working as Unit Director, Community Liaison. She has a long history in senior publishing roles, most recently as Editor-in-Chief of Metro English Canada. Through her work, she helps define communications goals and objectives and identifies the audience psychographic – the key to understanding who they are and what kind of stories will move them most. She also develops a strategic plan and manages a team of cross-platform professionals to create stories that cut through the clutter and capture hearts, minds and the collective imagination.
 champs:
 - item1:
   name: Jean Stewart
