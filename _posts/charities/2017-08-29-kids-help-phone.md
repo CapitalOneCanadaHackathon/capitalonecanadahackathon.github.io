@@ -22,11 +22,11 @@ representative_bio: Ted Kaiser, Vice President of Technology and Innovation, has
 champs:
 - item1:
   name: Ian Whitestone
-  photo:
+  photo: /assets/img/2017/charities/charity-champs/champ-khp-ian.png
   bio: As a Data Scientist at Capital One, I have gained significant experience building databases, ETL pipelines and data-driven products.
 - item2:
   name: Aaron Murray
-  photo:
+  photo: /assets/img/2017/charities/charity-champs/champ-khp-aaron.png
   bio: I have over 3 years of experience consulting for non-profits, helping them define strategy and implement a variety of solutions and new technologies. Since business school, I have been drawn to technical analytics roles. At Capital One, my work specializes in application analysis and improving the experience for new customers.
 ---
 <h3 class="charity-anchored-title anchored-title">About</h3>

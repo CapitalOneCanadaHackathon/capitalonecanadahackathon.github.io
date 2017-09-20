@@ -22,11 +22,11 @@ representative_bio: Charlotte is currently working as Unit Director, Community L
 champs:
 - item1:
   name: Jean Stewart
-  photo:
+  photo: /assets/img/2017/charities/charity-champs/champ-sistering-jean.png
   bio: I have extensive professional experience in the development cycle of software and a strong handle in translating business requirements into technical design. As a Developer, I am proficient in Java, database, back-end service architecture and implementation.
 - item2:
   name: Mahtab Sabet
-  photo:
+  photo: /assets/img/2017/charities/charity-champs/champ-sistering-mahtab.png
   bio: I am a Full-Stack Developer at Capital One, working primarily with Java, C# and JavaScript, as well as Angular and React for front-end work. Outside of work, I’m a passionate game developer, working with C# in Unity.
 ---
 <h3 class="charity-anchored-title anchored-title">About</h3>
