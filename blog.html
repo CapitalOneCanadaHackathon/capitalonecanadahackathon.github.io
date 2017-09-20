@@ -2,7 +2,7 @@
 layout: default
 ---
 <div id="blog" class="gtc-page">
-  <div id="page-header">
+  <div id="page-header" class="fade-in">
     <h1 id="page-title">Digital for Good</h1>
     <p id="page-subtitle">The headquarters for updates, stories and hackathon talk.</p>
   </div>
@@ -17,18 +17,18 @@ layout: default
         {% unless post.categories contains 'charities' %}
           {% if postCounter == 1 %}
           <div id="blog-featured-columned">
-            <a href="{{ site.baseurl }}{{ post.url }}" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="highlighted-story fade-in-from-bottom" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
               <div class="post-gradient-overlay"></div>
               <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
             </a>
           {% elsif postCounter == 2 %}
-            <a href="{{ site.baseurl }}{{ post.url }}" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="highlighted-story fade-in-from-bottom" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
               <div class="post-gradient-overlay"></div>
               <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
             </a>
           </div>
           {% elsif postCounter == 0 or postCounter == 3 %}
-          <a href="{{ site.baseurl }}{{ post.url }}" id="blog-featured-highlight" class="highlighted-story" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
+          <a href="{{ site.baseurl }}{{ post.url }}" id="blog-featured-highlight" class="highlighted-story fade-in-from-bottom" {% if post.featuredImage %} style="background-image: url({{ site.baseurl }}{{ post.featuredImage }}); background-size: cover; background-position: center center;" {% endif %}>
             <div class="post-gradient-overlay"></div>
             <h2 class="featured-post-title">{{ post.featuredTitle }} <span id="link-moving-chevron">&rsaquo;</span></h2>
           </a>
