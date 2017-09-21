@@ -26,7 +26,7 @@ champs:
   bio: As a Business Analyst at Capital One, I wear many hats including being a business strategist, designer of new customer experiences and a quantitative analyst. My background as an industrial engineer and my fascination with AI have also led me to develop skills in building machine learning models and high-performance computing.
 - item2:
   name: Karmandeep Batra
-  photo: /assets/img/2017/charities/charity-champs/champ-ao-karman.png
+  photo: /assets/img/2017/charities/charity-champs/champ-ao-karmandeep.png
   bio: I am currently a Product Owner at Capital One but I have several years of experience in analytics and data visualization. I enjoy product development and thrive in the process of taking ideas to market. In terms of technical skills, I have done Android/Java development for side projects, and I use SQL and statistical tools like SAS in my day-to-day work.
 
 ---

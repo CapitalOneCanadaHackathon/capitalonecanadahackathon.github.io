@@ -39,6 +39,38 @@ layout: default
 	</article>
 </div>
 
+<hr class="page-divider">
+
+<div id="charity-reps">
+  <div id="charity-reps-offset-hack"></div>
+  <div class="charity-reps-container">
+    <div class="charity-rep-card">
+      <img class="charity-rep-image" src="{{ site.baseurl }}{{ page.representative_photo }}" />
+      <div class="charity-rep-about-container">
+        <h4 class="charity-rep-title">{{ page.title }} Representative</h4>
+        <p class="charity-rep-name">{{ page.representative }}</p>
+        <p class="charity-rep-summary">
+          {{ page.representative_bio }}
+        </p>
+      </div>
+    </div>
+
+    {% for champ in page.champs %}
+    <div class="charity-rep-card">
+      <img class="charity-rep-image" src="{{ site.baseurl }}{{ champ.photo }}" />
+      <div class="charity-rep-about-container">
+        <h4 class="charity-rep-title">{{ champ.name }}</h4>
+        <p class="charity-rep-name">Charity Champ</p>
+        <p class="charity-rep-summary">
+          {{ champ.bio }}
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+</div>
+
 {% if page.next.url or page.previous.url %}
 <div id="page-blog-nav">
   <!-- Previous -->
