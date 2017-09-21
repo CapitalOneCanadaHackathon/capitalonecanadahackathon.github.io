@@ -6,8 +6,6 @@ $(function() {
     } else {
       $(this).find('.content-accordion-triangle-expand').addClass('rotate');
       $(this).children('.content-accordion-body').addClass('content-accordion-expand');
-      $(this)[0].scrollIntoView(true)
-      // $("window").scrollTop($(this).offset().top);
     }
   });
 });
