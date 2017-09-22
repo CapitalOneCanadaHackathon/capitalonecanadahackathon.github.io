@@ -29,6 +29,11 @@ a {
   height: 1px;
   margin-left: 96px;
   margin-right: 96px;
+
+	@media screen and (max-width: 640px) {
+		margin-left: 32px;
+	  margin-right: 32px;
+	}
 }
 
 .disable-scroll {
