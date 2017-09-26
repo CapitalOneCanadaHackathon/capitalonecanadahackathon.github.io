@@ -82,13 +82,13 @@ footer {
 
   #legal {
     #copyright {
-      flex-basis: 55%;
-      font-size: 12px;
+      flex-basis: 48%;
+      font-size: 10px;
       opacity: 0.6;
     }
 
     #legal-links {
-      flex-basis: 45%;
+      flex-basis: 52%;
       text-align: right;
       list-style: none;
       font-size: 12px;
@@ -97,7 +97,7 @@ footer {
         display: inline-block;
 
         &:not(:first-child) {
-          margin-left: 24px;
+          margin-left: 12px;
         }
       }
     }

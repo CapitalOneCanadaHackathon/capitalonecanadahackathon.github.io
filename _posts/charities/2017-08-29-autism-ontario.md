@@ -16,6 +16,19 @@ logo: /assets/img/charity/AutismOntario_BW.png
 logocolor: /assets/img/charity/AutismOntario_COL.png
 hero: /assets/img/charity/Autism_Charity_Photo.jpeg
 pullquote: "We know families turn to us first for support and we know that when we can make information easy to access, families feel supported.  We’re thrilled to participate in Gift the Code 2017. We  look forward to working with our outstanding team and can’t wait to see the results."
+representative: Jeff Bomben, Communications Coordinator
+representative_photo: /assets/img/2017/charities/charity-reps/AO_JeffBomben.png
+representative_bio: Meet Jeff Bomben. Jeff currently serves as the Communications Coordinator for Autism Ontario. He has worked in the non-profit sector for close to three years now after beginning his career in sports. In his role with Autism Ontario, some of his duties include maintaining the website, updating the provincial social media pages and handling all the media requests.
+champs:
+- item1:
+  name: Kevin Chan, Business Analyst, Capital One Canada
+  photo: /assets/img/2017/charities/charity-champs/champ-ao-kevin.png
+  bio: As a Business Analyst at Capital One, I wear many hats including being a business strategist, designer of new customer experiences and a quantitative analyst. My background as an industrial engineer and my fascination with AI have also led me to develop skills in building machine learning models and high-performance computing.
+- item2:
+  name: Karmandeep Batra, Product Owner, Canada Digital Strategy, Capital One Canada
+  photo: /assets/img/2017/charities/charity-champs/champ-ao-karmandeep.png
+  bio: I am currently a Product Owner at Capital One but I have several years of experience in analytics and data visualization. I enjoy product development and thrive in the process of taking ideas to market. In terms of technical skills, I have done Android/Java development for side projects, and I use SQL and statistical tools like SAS in my day-to-day work.
+
 ---
 <h3 class="charity-anchored-title anchored-title">About</h3>
 Autism Ontario is dedicated to increasing public awareness about autism and the day-to-day issues faced by individuals with autism, their families, and the professionals who journey with them. The association is guided by goals of providing information and education, supporting research, and advocating for programs and services for the autism community.

@@ -16,6 +16,18 @@ logo: /assets/img/charity/KidsHelpPhone_BW.png
 logocolor: /assets/img/charity/KidsHelpPhone_COL.png
 hero: /assets/img/charity/KidsHelpPhone_Charity_Photo.png
 pullquote: "Since its foundation by leaders of Canadian industry and service providers, Kids Help Phone has benefitted from the passion and energy of leading Canadian volunteers. Continuing that tradition by accessing the incredible talent and skills of today’s technology experts in the context of a hackathon is a no-brainer as the organization meets the challenge to help kids in an increasingly complex, technological world."
+representative: Ted Kaiser, VP, Innovation and Technology
+representative_photo: /assets/img/2017/charities/charity-reps/KHP_TedKaiser.png
+representative_bio: Ted Kaiser, Vice President of Technology and Innovation, has been harnessing technology to serve kids and drive success since he joined Kids Help Phone in 1990. Ted launched the first award-winning website for the charity in 1996 and has been leading innovation for the organization ever since. Ted’s broad vision is to continue to expand the counselling, counselling-related, and broader organizational operations of Kids Help Phone by supporting the skills and processes of collaboration and innovation; this is consistent with his commitment to compassionate, non-judgmental counselling service delivery, through the creative use and innovative application of technology.
+champs:
+- item1:
+  name: Ian Whitestone, Senior Data Scientist, Capital One Canada
+  photo: /assets/img/2017/charities/charity-champs/champ-khp-ian.png
+  bio: As a Data Scientist at Capital One, I have gained significant experience building databases, ETL pipelines and data-driven products.
+- item2:
+  name: Aaron Murray, Product Owner, Real Time Product Matching, Capital One Canada
+  photo: /assets/img/2017/charities/charity-champs/champ-khp-aaron.png
+  bio: I have over 3 years of experience consulting for non-profits, helping them define strategy and implement a variety of solutions and new technologies. Since business school, I have been drawn to technical analytics roles. At Capital One, my work specializes in application analysis and improving the experience for new customers.
 ---
 <h3 class="charity-anchored-title anchored-title">About</h3>
 More than just a telephone number, Kids Help Phone is a national community working tirelessly to support young people with the issues that are most relevant to them. Its mission is to improve the well-being of children and youth in Canada by providing them with anonymous and confidential professional counselling, referrals and information in English and French through technologically based communications media.

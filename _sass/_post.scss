@@ -58,7 +58,7 @@
   }
 
   #blog-main-content {
-    /* TODO Apply this for only blog psots, add class?? */
+    /* TODO Apply this for only blog posts, add class?? */
     h2 {
       font: 26px $base-font-family-extra-thin;
       color: #5a5a5a;
@@ -67,6 +67,17 @@
     h3 {
       font-family: $base-font-family-extra-thin;
       color: #018bbb;
+    }
+
+    .post-img-float {
+      height: 90px;
+      width: 90px;
+      border-radius: 2px;
+    }
+
+    .post-img-float-left {
+      float: left;
+      margin: 8px 16px 4px 0px;
     }
   }
 
