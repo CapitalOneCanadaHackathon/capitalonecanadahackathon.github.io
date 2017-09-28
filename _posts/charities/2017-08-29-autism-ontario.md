@@ -82,9 +82,6 @@ The solutions created through Gift the Code will strengthen the autism community
   </div>
 
   <p class="content-accordion-body">
-    Why?
-    <br />
-    <br />
     Aligning with Autism Ontario’s mandate to be a source of information for the autism community, the website is full of written content and resources. To appeal to the various learning styles and make their website more visually engaging, an interactive element that communicates the vision, mission and/or impact of its work will help  better engage new visitors and convert potential donors.
   </p>
 </div>
