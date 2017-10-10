@@ -1,8 +1,8 @@
 ---
 layout: post
 permalink: /:title/
-title: "Introducing our Charity Champions"
-featuredTitle: "Introducing our Charity Champions"
+title: "Meet our Charity Champions"
+featuredTitle: "Meet our Charity Champions"
 date: 2017-10-10 07:00:00 -0400
 theme:
 author: Capital One
@@ -13,7 +13,7 @@ featured: true
 featuredImage: /assets/img/2017/pattern-cyan.png
 ---
 
-We asked our Capital One charity champions why they chose to be part of Gift the Code and here’s what they had to say:
+We asked our Capital One Charity Champions why they chose to be part of Gift the Code and here’s what they had to say:
 
 <br />
 
