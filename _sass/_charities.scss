@@ -144,9 +144,10 @@
 
     .charity-rep-image {
       height: 60px;
-      width: 60px;
+      // width: 60px;
       border-radius: 50%;
       box-shadow: 0px 0px 2px 0px rgba(150,150,150,0.5);
+      align-self: flex-start;
     }
 
     .charity-rep-about-container {
@@ -175,6 +176,51 @@
   }
 }
 
+
+/* Charity Resources styling */
+#charity-resources-hero {
+  @include display-flex;
+  height: 250px;
+  width: 100%;
+  background: url($baseurl + '/assets/img/2017/pattern-cyan.png');
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color: white;
+    text-shadow: 0px 2px 2px rgba(120, 120, 120, 0.7);
+  }
+}
+
+#charity-resources-list {
+  list-style: none;
+  width: 100%;
+  padding: 18px 96px 16px 96px;
+
+  li {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+
+    a {
+      height: 100%;
+      color: $brand-color;
+      display: block;
+      padding: 16px 8px 16px 8px;
+
+      &:hover {
+        color: $brand-color;
+      }
+    }
+
+    &:hover {
+      background-color: #f0f0f0;
+    }
+  }
+}
+
+
 @media screen and (max-width: 640px) {
   #charities {
     #charity-banners {
@@ -202,6 +248,10 @@
         }
       }
     }
+  }
+
+  #charity-resources-list {
+    padding: 24px 32px 16px 32px;
   }
 
   .gtc-post {
