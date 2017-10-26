@@ -192,10 +192,13 @@
   }
 }
 
-#charity-resources-list {
+.charity-resources-list-separator {
+  margin-top: 32px;
+}
+
+.charity-resources-list {
   list-style: none;
   width: 100%;
-  padding: 18px 96px 16px 96px;
 
   li {
     margin-top: 16px;
@@ -206,7 +209,7 @@
       height: 100%;
       color: $brand-color;
       display: block;
-      padding: 16px 8px 16px 8px;
+      padding: 16px 8px 16px 0px;
 
       &:hover {
         color: $brand-color;
@@ -247,10 +250,6 @@
         }
       }
     }
-  }
-
-  #charity-resources-list {
-    padding: 24px 32px 16px 32px;
   }
 
   .gtc-post {

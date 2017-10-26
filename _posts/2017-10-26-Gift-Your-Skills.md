@@ -10,7 +10,7 @@ tags: >
 category: blog
 visible: true
 featured: true
-featuredImage: /assets/img/2017/pattern-red.png
+featuredImage: /assets/img/2017/pattern-main.png
 ---
 
 ## Gift Your Skills
