@@ -12,9 +12,8 @@ visible: true
 featured: true
 featuredImage: /assets/img/2017/pattern-red.png
 ---
-## Gift Your Skills										
-### Justin Scaini
-<br/>
+## Gift Your Skills
+
 I have spent a lot of time talking to charities about their challenges and working with them on solutions to those challenges. It’s unbelievably energizing and rewarding work.
 
 But it’s also daunting at times.
@@ -30,3 +29,5 @@ This is why I got involved with Gift the Code. I believe we all have a responsib
 For me, that cause is mental health. It’s a serious health issue for young people, and it’s something that has touched all of our lives in some way. If you’re interested in supporting mental health organizations as well, take a look at Kids Help Phone. It’s one of the beneficiaries of this year’s Gift the Code by Capital One, and one of the most important mental health organizations in Canada.
 
 For those participating in this year’s Gift the Code by Capital One – GOOD LUCK!! We know you’ll come up with some incredible tech solutions and make a difference for these charities!
+								
+### Justin Scaini
