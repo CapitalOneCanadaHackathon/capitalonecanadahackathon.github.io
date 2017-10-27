@@ -50,6 +50,9 @@ The solutions created through Gift the Code will strengthen the autism community
 
   <p class="content-accordion-body">
     Each chapter of Autism Ontario organizes unique events and initiatives to engage its local community. Rather than each of these chapters managing its own digital space for its members, news and events, Autism Ontario works as a coordinating body to collect and manage all this information and data. It needs a platform that will allow both existing members and those just discovering Autism Ontario online to find and connect to their local community by searching for what’s going on in their area. The solution should be accessible on the back-end for Autism Ontario staff to manage data, and have an engaging front-end for users to find relevant information.
+
+    <br />
+    <a href="{{ site.baseurl}}/resources/autism-ontario/GTC17_AutismOntario_Resources_01.pdf">Download challenge resources</a>
   </p>
 </div>
 
@@ -61,6 +64,9 @@ The solutions created through Gift the Code will strengthen the autism community
 
   <p class="content-accordion-body">
     The information database that Autism Ontario currently uses does not allow for member profiles to be searchable by keywords. This makes it very challenging for staff to identify which members are donors, which are volunteers, and which are family members; this is a significant barrier to communicating relevant information to such a diverse audience. A solution that allows Autism Ontario to identify and segment its members will allow it to be more strategic with its initiatives and programs.
+
+    <br />
+    <a href="{{ site.baseurl}}/resources/autism-ontario/GTC17_AutismOntario_Resources_02.pdf">Download challenge resources</a>
   </p>
 </div>
 
@@ -72,6 +78,9 @@ The solutions created through Gift the Code will strengthen the autism community
 
   <p class="content-accordion-body">
     Events are an important tool that Autism Ontario uses to build its community and support system. Currently, events are created, managed and marketed through an event management system that is separate from the Autism Ontario website. This creates a significant disconnect between each event and Autism Ontario as an association. It also means that event data is scattered and not managed or collected effectively. A solution to streamline creating and marketing events will optimize the work of Autism Ontario and further the reach of its work.
+
+    <br />
+    <a href="{{ site.baseurl}}/resources/autism-ontario/GTC17_AutismOntario_Resources_03.pdf">Download challenge resources</a>
   </p>
 </div>
 
@@ -83,6 +92,9 @@ The solutions created through Gift the Code will strengthen the autism community
 
   <p class="content-accordion-body">
     Aligning with Autism Ontario’s mandate to be a source of information for the autism community, the website is full of written content and resources. To appeal to the various learning styles and make their website more visually engaging, an interactive element that communicates the vision, mission and/or impact of its work will help  better engage new visitors and convert potential donors.
+
+    <br />
+    <a href="{{ site.baseurl}}/resources/autism-ontario/GTC17_AutismOntario_Resources_04.pdf">Download challenge resources</a>
   </p>
 </div>
 
