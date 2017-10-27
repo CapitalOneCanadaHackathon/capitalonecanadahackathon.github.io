@@ -50,7 +50,7 @@ Gift the Code will help Kids Help Phone continue to adapt to the changing tech e
   <p class="content-accordion-body">
     Kids Help Phone counsellors provide life-saving support, coaching and encouragement to young people over the phone. Data insights from these phone conversations provide a basis for measuring the quality of the conversation, the impact to the young person and the overall effectiveness of the call. The solution will leverage this data and present it in a visually appealing platform in order to track progress, growth and opportunities for improvement.
 
-    <br />
+    <br /><br />
     <a href="{{ site.baseurl}}/resources/kids-help-phone/GTC17_KidsHelpPhone_Resources_01.pdf">Download challenge resources</a>
   </p>
 </div>
@@ -63,7 +63,7 @@ Gift the Code will help Kids Help Phone continue to adapt to the changing tech e
   <p class="content-accordion-body">
     Young people have a plethora of choice for digital communication and web-search options. This solution will optimize their searches and ensure that they’re able to connect with life-saving resources that complement the services of Kids Help Phone. Ideally chat-based, the solution will be populated with data of how to connect with relevant community resources that young people can seek out when looking to improve their social, physical or mental health.
 
-    <br />
+    <br /><br />
     <a href="{{ site.baseurl}}/resources/kids-help-phone/GTC17_KidsHelpPhone_Resources_02.pdf">Download challenge resources</a>
   </p>
 </div>
@@ -76,7 +76,7 @@ Gift the Code will help Kids Help Phone continue to adapt to the changing tech e
   <p class="content-accordion-body">
     The Kids Help Phone website provides many resources for young people to work through their situation, learn about themselves and develop positive habits for resilience. This solution will work to offer this content in more relevant and accessible ways. Interactive elements can allow young people to engage in a process of exploration and discovery that opens their minds to new ideas in a more powerful way than just reading content.
 
-    <br />
+    <br /><br />
     <a href="{{ site.baseurl}}/resources/kids-help-phone/GTC17_KidsHelpPhone_Resources_03.pdf">Download challenge resources</a>
   </p>
 </div>
@@ -89,7 +89,7 @@ Gift the Code will help Kids Help Phone continue to adapt to the changing tech e
   <p class="content-accordion-body">
     Kids Help Phone has a faithful donor base but in order to increase the resilience of its funding and ensure that programs and services are not put at risk, it needs access to donors in new markets. A solution that allows Kids Help Phone to increase the number of donors will impact the long-term vision that Kids Help Phone can imagine and thus make a reality for young people in Canada.
 
-    <br />
+    <br /><br />
     <a href="{{ site.baseurl}}/resources/kids-help-phone/GTC17_KidsHelpPhone_Resources_04.pdf">Download challenge resources</a>
   </p>
 </div>
@@ -102,7 +102,7 @@ Gift the Code will help Kids Help Phone continue to adapt to the changing tech e
   <p class="content-accordion-body">
     Kids Help Phone has a unique ability to give insights into the current state of mental health of young people in Canada because of the volume and the nature of its communications. Sharing this information alongside real-time data reflecting how Kids Help Phone is addressing crises can help researchers, academics, teachers, parents and professionals better understand, prepare for and connect with youth in their own lives.
 
-    <br />
+    <br /><br />
     <a href="{{ site.baseurl}}/resources/kids-help-phone/GTC17_KidsHelpPhone_Resources_05.pdf">Download challenge resources</a>
   </p>
 </div>

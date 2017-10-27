@@ -50,7 +50,7 @@ Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In i
   <p class="content-accordion-body">
     Sistering works with clients who are in the midst of their recovery journey. As such, there are many situations that can be intense for staff and volunteers, and require a certain level of training for workers to be adequately prepared. In order to ensure that the investment in training volunteers is worthwhile, it is important that potential volunteers have a thorough understanding of what the opportunities will entail. This solution will give potential volunteers that understanding.
 
-    <br />
+    <br /><br />
     <a href="{{ site.baseurl}}/resources/sistering/GTC17_Sistering_Resources_01.pdf">Download challenge resources</a>
   </p>
 </div>
@@ -64,7 +64,7 @@ Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In i
   <p class="content-accordion-body">
     There are many needs for physical items among the clients that Sistering serves, and there are many eager donors who want to donate needed items. The challenge can be making a match between what is donated and what donations are needed. This solution will improve the understanding of what items are needed, and allow donors to donate those items easily.
 
-    <br />
+    <br /><br />
     <a href="{{ site.baseurl}}/resources/sistering/GTC17_Sistering_Resources_02.pdf">Download challenge resources</a>
   </p>
 </div>
@@ -78,7 +78,7 @@ Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In i
   <p class="content-accordion-body">
     There are many existing and prospective volunteers who reach out to Sistering inquiring about how they can be involved and support the work that Sistering is doing in Toronto. It takes valuable time for Sistering staff to share  all the upcoming events and current volunteer opportunities with each interested volunteer. This solution will present a current overview of upcoming events and volunteer opportunities. Interested volunteers can then browse at their convenience to learn about the  opportunities, and the required skills and training.
 
-    <br />
+    <br /><br />
     <a href="{{ site.baseurl}}/resources/sistering/GTC17_Sistering_Resources_03.pdf">Download challenge resources</a>
   </p>
 </div>
@@ -92,7 +92,7 @@ Sistering’s programs include a low-barrier 24/7 Drop In, an Outreach Drop In i
   <p class="content-accordion-body">
     There are many volunteers who help make the work of Sistering possible. Coordinating volunteers between all the areas where work is needed and when volunteers with the necessary skills and training are available can be a very time-consuming process. This solution will automate the process of matching qualified and available volunteers with time slots and opportunities that are available.
 
-    <br />
+    <br /><br />
     <a href="{{ site.baseurl}}/resources/sistering/GTC17_Sistering_Resources_04.pdf">Download challenge resources</a>
   </p>
 </div>
