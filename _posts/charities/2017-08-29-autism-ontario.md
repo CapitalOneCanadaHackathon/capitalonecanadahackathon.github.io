@@ -106,6 +106,9 @@ The solutions created through Gift the Code will strengthen the autism community
 
   <p class="content-accordion-body">
     Autism Ontario has many resources that chapters can use to find success with their volunteers, events and initiatives but does not have a platform where chapters can access this information. Additionally, chapters often develop their own best practices through their unique experiences and want to share these learnings with other chapters. This solution will increase the impact that each chapter has in its local community by ensuring that information is easily accessible by any chapter.
+
+    <br /><br />
+    <a href="{{ site.baseurl}}/resources/autism-ontario/GTC17_AutismOntario_Resources_05.pdf">Download challenge resources</a>
   </p>
 </div>
 
