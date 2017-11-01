@@ -97,7 +97,6 @@
 }
 
 #judges-mentors {
-
   #judges-mentors-list {
     @include display-flex;
     flex-direction: row;
@@ -134,6 +133,22 @@
 }
 
 @media screen and (max-width: 640px) {
+  #judges-mentors {
+    #judges-mentors-list {
+      display: block;
+
+      #judges-mentors-col1 {
+        display: block;
+        padding-right: 0px;
+      }
+
+      #judges-mentors-col2 {
+        display: block;
+        padding-left: 0px;
+      }
+    }
+  }
+
   #about-divider {
     margin-left: 32px;
     margin-right: 32px;
