@@ -96,6 +96,33 @@
   margin-right: 96px;
 }
 
+#judges-mentors {
+  #judges-mentors-list {
+    @include display-flex;
+    flex-direction: row;
+
+    #judges-mentors-col1 {
+      padding-right: 20px;
+    }
+
+    #judges-mentors-col2 {
+      padding-left: 20px;
+    }
+  }
+
+  .judge-mentor-info {
+    margin-bottom: 16px;
+
+    .judge-mentor-name {
+      font: 16px $base-font-family;
+    }
+
+    .judge-mentor-about {
+      font: 16px $base-font-family-extra-thin;
+    }
+  }
+}
+
 /* Responsive About Styles */
 @media screen and (max-width: 960px) {
   #about-gtc {
@@ -106,6 +133,22 @@
 }
 
 @media screen and (max-width: 640px) {
+  #judges-mentors {
+    #judges-mentors-list {
+      display: block;
+
+      #judges-mentors-col1 {
+        display: block;
+        padding-right: 0px;
+      }
+
+      #judges-mentors-col2 {
+        display: block;
+        padding-left: 0px;
+      }
+    }
+  }
+
   #about-divider {
     margin-left: 32px;
     margin-right: 32px;
