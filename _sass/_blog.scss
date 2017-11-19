@@ -124,21 +124,6 @@
       }
     }
   }
-  .video figure {
-    position: relative;
-    nowhitespace: afterproperty;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-  }
-
-  .video iframe, .video object, .video embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
 }
 
 #blog-legal {
@@ -184,3 +169,41 @@
     }
   }
 }
+.video iframe, .video object, .video embed {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height:400px;
+}
+#half-frame {
+  width: 49%;
+  height:300px;
+}
+@media only screen and (max-device-width: 480px) {
+  .video iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 200px;
+  }
+  #half-frame {
+    width: 49%;
+    height: 100px;
+  }
+}
+@media only screen and (max-device-width: 768px) {
+  .video iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 250px;
+  }
+  #half-frame {
+    width: 49%;
+    height: 150px;
+  }
+}
+
