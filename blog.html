@@ -4,7 +4,7 @@ layout: default
 <div id="blog" class="gtc-page">
   <div id="page-header" class="fade-in">
     <h1 id="page-title">Digital for Good</h1>
-    <p id="page-subtitle">The headquarters for updates, stories and hackathon talk.</p>
+    <p id="page-subtitle">The headquarters for stories, inspiration and hackathon talk.</p>
   </div>
 
   <div id="blog-posts">
@@ -13,7 +13,7 @@ layout: default
     {% assign showArchiveTitle = true %}
 
     {% for post in site.posts %}
-      {% if post.visible %}
+      {% if post.visible and post.category != 'eshop'%}
         {% unless post.categories contains 'charities' %}
           {% if postCounter == 1 %}
           <div id="blog-featured-columned">
