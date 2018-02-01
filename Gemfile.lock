@@ -152,7 +152,7 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0)
-    json (1.8.1)
+    json (2.0.2)
     kramdown (1.13.2)
     liquid (3.0.6)
     listen (3.0.6)
@@ -198,7 +198,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 146)
+  github-pages
   jekyll
   jekyll-redirect-from
   json
@@ -207,4 +207,4 @@ DEPENDENCIES
   redcarpet
 
 BUNDLED WITH
-   1.15.1
+   1.15.3

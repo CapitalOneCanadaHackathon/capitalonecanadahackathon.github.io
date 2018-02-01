@@ -1,32 +1,13 @@
-<!-- div id="hamburger">
-  <div class="menu hide">
-    <div class="wrapper">
-      <div class="logo"><img src="{{ site.baseurl }}/assets/img/logo-capone-hack-lockup.png" /></div>
-      <a href="{{ site.baseurl }}/"><div class="item">
-        HOME
-      </div></a>
-      <a href="{{ site.baseurl }}/blog/"><div class="item">
-        BLOG
-      </div></a>
-      <a href="{{ site.baseurl }}/resources/"><div class="item">
-        RESOURCES
-      </div></a>
-      <a href="https://www.hackworks.com/giftthecode/faq" target="_blank"><div class="item">
-        FAQ
-      </div></a>
-    </div>
-    <div class="close-menu">X</div>
-  </div>
-  <div class="button">
-    <img src="{{ site.baseurl }}/assets/img/hamburger.png" />
-  </div>
-</div>
+<nav id="nav">
+  <div id="nav-title-container">
+    <a href="/"><img id="nav-logo" src="{{ site.baseurl }}/assets/img/gtc-logo.png" /></a>
 
-<section id="nav" class="full-width">
-  <div class="wrapper">
-    <a href="{{ site.baseurl}}/">HOME</a>
-    <a href="{{ site.baseurl }}/blog/">BLOG</a>
-    <a href="{{ site.baseurl }}/resources/">RESOURCES</a>
-    <a href="https://www.hackworks.com/giftthecode/faq" target="_blank">FAQ</a>
+    <div id="nav-register">
+      <a class="button button__primary" href=" http://eepurl.com/c_tv1n">Stay Connected</a>
+    </div>
   </div>
-</section -->
+
+  <div id="nav-menu">
+    {% include hamburger.html %}
+  </div>
+</nav>

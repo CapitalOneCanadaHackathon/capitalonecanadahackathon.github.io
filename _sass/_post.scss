@@ -1,0 +1,245 @@
+#gtc-blog-article {
+  .fullwidth-marginated {
+    #page-header,
+    #article-container {
+      width: 85%;
+      margin: auto;
+    }
+  }
+}
+
+.gtc-post {
+  @include content-padding;
+  padding-bottom: 32px;
+
+  #page-header {
+    @include display-flex;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 8px;
+
+    #page-title-container {
+      flex-basis: 80%;
+    }
+  }
+}
+
+/* Article Content */
+#article-hero {
+  height: auto;
+  width: 100%;
+  margin-top: 8px;
+}
+
+#article-content-container.post-pullquote-flex {
+  @include display-flex;
+
+  #article-main-content,
+  #blog-main-content {
+    width: 100%;
+    flex-basis: 65%;
+    padding-left: 56px;
+    padding-right: 0;
+  }
+}
+
+#article-content-container {
+  font: 16px $base-font-family-thin;
+  color: $text-color;
+
+  #article-pullquote {
+    flex-basis: 30%;
+    max-width: 30%;
+    word-wrap: break-word;
+    font: 20px $base-font-family-extra-thin;
+    color: #a9a9a9;
+    line-height: 34px;
+    margin-top: 42px;
+  }
+
+  #blog-main-content {
+    /* TODO Apply this for only blog posts, add class?? */
+    h2 {
+      font: 26px $base-font-family-extra-thin;
+      color: #5a5a5a;
+    }
+
+    h3 {
+      font-family: $base-font-family-extra-thin;
+      color: #018bbb;
+    }
+
+    .post-img-float {
+      height: 90px;
+      width: 90px;
+      border-radius: 2px;
+    }
+
+    .post-img-float-left {
+      float: left;
+      margin: 8px 16px 4px 0px;
+    }
+  }
+
+  #article-main-content,
+  #blog-main-content {
+    margin-top: 32px;
+    line-height: 32px;
+
+    a,
+    a:visited {
+      color: #018bbb;
+    }
+
+    /* Since we're using a CSS reset, apply bare elements' margins for posts only */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 16px;
+      margin-bottom: 4px;
+    }
+
+    ol,
+    ul {
+      margin: 1em;
+      padding: 1em;
+    }
+
+    p {
+      margin-top: 8px;
+      margin-bottom: 1em;
+    }
+
+    img {
+      width: 90%;
+    }
+
+    hr {
+      border: 0;
+      background-color: #dadada;
+      opacity: 0.7;
+      height: 1px;
+    }
+  }
+}
+
+#page-blog-nav {
+  @include display-flex;
+  height: 200px;
+  cursor: pointer;
+  background-image: url($baseurl + "/assets/img/2017/pattern-main.png");
+  background-size: cover;
+
+  #blog-previous-nav,
+  #blog-next-nav {
+    flex-basis: 100%;
+    padding-left: 96px;
+  }
+
+  #blog-previous-nav.flex-asymmetrically,
+  #blog-next-nav.flex-asymmetrically {
+    flex-basis: 50%;
+    padding-left: 96px;
+  }
+
+  a {
+    color: white;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .blog-nav {
+    @include display-flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 32px;
+    padding-right: 16px;
+    position: relative;
+
+    .blog-next-overlay {
+      position: absolute;
+			height: 100%;
+			width: 100%;
+			top: 0;
+			left: 0;
+			background-color: rgba(25, 25, 25, 0.35);
+			z-index: 2;
+    }
+
+    h2,
+    p {
+      color: white;
+      z-index: 3;
+    }
+
+    h2 {
+      font-size: 12px;
+    }
+
+    p {
+      margin-top: 8px;
+      font: 24px $base-font-family-extra-thin;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #article-content-container.post-pullquote-flex {
+    display: block;
+
+    #article-main-content,
+    #blog-main-content {
+      width: 100%;
+      flex-basis: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  #article-content-container {
+    #article-pullquote {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+
+  #gtc-blog-article {
+    .fullwidth-marginated {
+      #page-header,
+      #article-container {
+        width: 100%;
+      }
+    }
+  }
+
+  #page-blog-nav {
+    height: 250px;
+
+    #blog-previous-nav.flex-asymmetrically,
+    #blog-next-nav.flex-asymmetrically {
+      flex-basis: 50%;
+    }
+
+    #blog-previous-nav,
+    #blog-next-nav {
+      flex-basis: 100%;
+      height: 200px;
+    }
+
+    #blog-next-nav.flex-asymmetrically,
+    #blog-previous-nav.flex-asymmetrically {
+      padding-left: 48px;
+    }
+
+    flex-direction: column;
+    .blog-nav {
+      width: 100%;
+    }
+  }
+}

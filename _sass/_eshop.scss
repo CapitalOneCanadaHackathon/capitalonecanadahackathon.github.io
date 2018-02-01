@@ -1,0 +1,543 @@
+#eshop {
+  padding-bottom: 32px;
+
+  #featured, /* #featured is deprecated, but keeping it here for cached versions of the site still referencing #featured */
+  #eshop-posts {
+    @include content-padding;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .fade-in-from-bottom {
+      // animation-delay: 500ms;
+    }
+    .winner-container {
+      @include display-flex;
+      flex-basis:100%;
+      flex-direction: row;
+      justify-content: space-between;
+      .winner-image {
+        width: 80px;
+        height: 80px;
+        align-content: center;
+      }
+    }
+    .highlighted-story-epost {
+      @include easeinout-transition(250ms);
+      @include display-flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 330px;
+      width: 100%;
+      font-family: $base-font-family-extra-thin;
+      padding-top: 48px;
+      padding-right: 48px;
+      padding-left: 64px;
+      padding-bottom: 48px;
+      position: relative;
+      background-image: url($baseurl + "/assets/img/2017/pattern-main.png");
+  		background-size: cover;
+      color: white;
+
+      .post-gradient-overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        /* Safari 4-5, Chrome 1-9 */
+        background: -webkit-gradient(linear, top top, bottom bottom, from(rgba(255,255,255,0.1)), to(rgba(25,25,25,0.5)));
+        /* Safari 5.1, Chrome 10+ */
+        background: -webkit-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.5));
+        /* Firefox 3.6+ */
+        background: -moz-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.5));
+        /* IE 10 */
+        background: -ms-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.5));
+        /* Opera 11.10+ */
+        background: -o-linear-gradient(top, rgba(255,255,255,0.1), rgba(25,25,25,0.5));
+      }
+
+        &:hover{
+          box-shadow: 0px 2px 2px 0px rgba(25, 25, 25, 0.5);
+          transform:scale(1.01);
+          text-rendering:optimizeLegibility;
+          -webkit-font-smoothing:subpixel-antialiased;
+          opacity: 1;
+        }
+
+      .anchored-title {
+        color: white;
+        z-index: 3;
+      }
+
+      .featured-post-title-eshop {
+        font: 24px $base-font-family-extra-thin;
+        color: white;
+        margin-top: 14px;
+        padding-bottom: 16px;
+        z-index: 3;
+      }
+      .featured-post-description-eshop {
+        line-height: 26px;
+        font-size: 18px;
+        margin-top: 8px;
+        width: 100%;
+        color: white;
+       }
+      .featured-post-link-eshop {
+        font-size: 16px;
+        color: white;
+        z-index: 3;
+      }
+
+    }
+
+    #blog-featured-highlight {
+      height: 300px;
+      width: 100%;
+      background-color: #fafafa;
+    }
+
+    #blog-featured-columned {
+      @include display-flex;
+      height: 300px;
+      width: 100%;
+      flex-direction: row;
+
+      a {
+        background-color: #777;
+        flex: 1;
+      }
+    }
+    #blog-featured-column-flex {
+      @include easeinout-transition(250ms);
+      @include display-flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 330px;
+      width: 100%;
+      font-family: $base-font-family-extra-thin;
+      color: white;
+
+    }
+    .charity-logo-container {
+      text-align: left;
+      align-self: center;
+      img {
+        width: 225px;
+      }
+    }
+
+  }
+
+  #archived-title {
+    padding-top: 88px;
+  }
+
+  #archived {
+    @include content-padding;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    .blog-image {
+      font-family: $base-font-family-extra-thin;
+      opacity: 1;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .archive-post {
+    @include display-flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #dadada;
+
+    .archive-post-identifier {
+      flex-basis: 25%;
+      font: 16px $base-font-family-extra-thin;
+    }
+
+    .archive-post-title {
+      flex-basis: 75%;
+      h3 {
+        font: 18px $base-font-family-thin;
+        margin-bottom: 4px;
+      }
+
+      a {
+        font: 16px $base-font-family-thin;
+        color: #018bbb;
+      }
+    }
+  }
+
+  .archive-post-eshop {
+    padding-top: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #dadada;
+
+    .archive-post-identifier {
+      font: 16px $base-font-family-extra-thin;
+    }
+
+    .archive-post-title {
+
+      font-family: $base-font-family-thin;
+      padding-left: 16px;
+
+      .solution-detail-title {
+        font-size: 21px;
+        line-height: 26px;
+        color: #777777;
+      }
+
+      .solution-detail-name {
+        color: #aeaeae;
+        font-size: 14px;
+        line-height: 26px;
+      }
+
+      .solution-detail-summary {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        font-size: 18px;
+        line-height: 24px;
+        color: #8a8a8a;
+
+        a {
+          font: 18px $base-font-family-thin;
+          color: #018bbb;
+        }
+      }
+    }
+    .archive-post-link {
+      font: 16px $base-font-family-thin;
+      color: #018bbb;
+    }
+  }
+  .solution-detail-container {
+    font-family: $base-font-family-thin;
+    padding-left: 24px;
+
+    .solution-detail-title {
+      font-size: 17px;
+      line-height: 26px;
+      color: #777777;
+    }
+
+    .solution-detail-name {
+      color: #aeaeae;
+      font-size: 14px;
+      line-height: 26px;
+    }
+
+    .solution-detail-summary {
+      margin-top: 16px;
+      font-size: 13px;
+      line-height: 24px;
+      color: #8a8a8a;
+
+      a {
+        font: 16px $base-font-family-thin;
+        color: #018bbb;
+      }
+    }
+  }
+}
+
+#blog-legal {
+  @include content-padding;
+  padding-top: 16px;
+  font: 12px $base-font-family-thin;
+  line-height: 16px;
+  color: #8a8a8a;
+}
+
+
+.video iframe, .video object, .video embed {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 99%;
+  height:400px;
+}
+#half-frame {
+  width: 49%;
+  height:300px;
+}
+
+@media screen and (max-width: 640px) {
+  #eshop {
+    #featured,
+    #eshop-posts {
+      .winner-container {
+        @include display-flex;
+        flex-basis:100%;
+        flex-direction: row;
+        justify-self: flex-start;
+        text-align: justify;
+        justify-content: space-between;
+        .winner-image {
+          width: 60px;
+          height: 60px;
+          text-align: right;
+          align-self: flex-end;
+          margin-top: 0px;
+          margin-bottom: 48px;
+        }
+      }
+      .highlighted-story-epost {
+        height: auto;
+        width: 100%;
+        padding: 32px 32px 32px 32px;
+        .featured-post-description-eshop {
+          font-size: 12px;
+          margin-top: 8px;
+          width: 100%;
+          color: white;
+        }
+        .featured-post-link-eshop {
+          font-size: 10px;
+          color: white;
+          z-index: 3;
+        }
+        .featured-post-title-eshop {
+          font-size: 14px;
+        }
+        .anchored-title {
+          font-size: 14px;
+        }
+      }
+      #blog-featured-columned-flex {
+        height: auto;
+        display: block;
+      }
+    }
+    .archive-post-eshop {
+      padding-top: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #dadada;
+
+      .archive-post-identifier {
+        font: 16px $base-font-family-extra-thin;
+      }
+
+      .archive-post-title {
+
+        font-family: $base-font-family-thin;
+        padding-left: 16px;
+
+        .solution-detail-title {
+          font-size: 14px;
+          color: #777777;
+        }
+
+        .solution-detail-name {
+          color: #aeaeae;
+          font-size: 12px;
+        }
+
+        .solution-detail-summary {
+          margin-top: 16px;
+          margin-bottom: 16px;
+          font-size: 12px;
+          color: #8a8a8a;
+
+          a {
+            font: 12px $base-font-family-thin;
+            color: #018bbb;
+          }
+        }
+      }
+      .archive-post-link {
+        font: 12px $base-font-family-thin;
+        color: #018bbb;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-device-width: 480px) {
+  #eshop {
+    #featured,
+    #eshop-posts {
+      .winner-container {
+        @include display-flex;
+        flex-basis:100%;
+        flex-direction: row;
+        justify-self: flex-start;
+        text-align: justify;
+        justify-content: space-between;
+        .winner-image {
+          width: 60px;
+          height: 60px;
+          text-align: right;
+          align-self: flex-end;
+          margin-top: 0px;
+          margin-bottom: 48px;
+        }
+      }
+      .highlighted-story-epost {
+        height: auto;
+        width: 100%;
+        padding: 32px 32px 32px 32px;
+        .featured-post-description-eshop {
+          font-size: 12px;
+          margin-top: 8px;
+          width: 100%;
+          color: white;
+        }
+        .featured-post-link-eshop {
+          font-size: 10px;
+          color: white;
+          z-index: 3;
+        }
+        .featured-post-title-eshop {
+          font-size: 14px;
+        }
+        .anchored-title {
+          font-size: 14px;
+        }
+      }
+      #blog-featured-columned-flex {
+        height: auto;
+        display: block;
+      }
+    }
+    .archive-post-eshop {
+      padding-top: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #dadada;
+
+      .archive-post-identifier {
+        font: 16px $base-font-family-extra-thin;
+      }
+
+      .archive-post-title {
+
+        font-family: $base-font-family-thin;
+        padding-left: 16px;
+
+        .solution-detail-title {
+          font-size: 14px;
+          color: #777777;
+        }
+
+        .solution-detail-name {
+          color: #aeaeae;
+          font-size: 12px;
+        }
+
+        .solution-detail-summary {
+          margin-top: 16px;
+          margin-bottom: 16px;
+          font-size: 12px;
+          color: #8a8a8a;
+
+          a {
+            font: 12px $base-font-family-thin;
+            color: #018bbb;
+          }
+        }
+      }
+      .archive-post-link {
+        font: 12px $base-font-family-thin;
+        color: #018bbb;
+      }
+    }
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  #eshop {
+    #featured,
+    #eshop-posts {
+      .winner-container {
+        @include display-flex;
+        flex-basis:100%;
+        flex-direction: row;
+        justify-self: flex-start;
+        text-align: justify;
+        justify-content: space-between;
+        .winner-image {
+          width: 60px;
+          height: 60px;
+          text-align: right;
+          align-self: flex-end;
+          margin-top: 0px;
+          margin-bottom: 48px;
+        }
+      }
+      .highlighted-story-epost {
+        height: auto;
+        width: 100%;
+        padding: 32px 32px 32px 32px;
+        .featured-post-description-eshop {
+          font-size: 12px;
+          margin-top: 8px;
+          width: 100%;
+          color: white;
+        }
+        .featured-post-link-eshop {
+          font-size: 10px;
+          color: white;
+          z-index: 3;
+        }
+        .featured-post-title-eshop {
+          font-size: 14px;
+        }
+        .anchored-title {
+          font-size: 14px;
+        }
+      }
+      #blog-featured-columned-flex {
+        height: auto;
+        display: block;
+      }
+    }
+    .archive-post-eshop {
+      padding-top: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #dadada;
+
+      .archive-post-identifier {
+        font: 16px $base-font-family-extra-thin;
+      }
+
+      .archive-post-title {
+
+        font-family: $base-font-family-thin;
+        padding-left: 16px;
+
+        .solution-detail-title {
+          font-size: 14px;
+          color: #777777;
+        }
+
+        .solution-detail-name {
+          color: #aeaeae;
+          font-size: 12px;
+        }
+
+        .solution-detail-summary {
+          margin-top: 16px;
+          margin-bottom: 16px;
+          font-size: 12px;
+          color: #8a8a8a;
+
+          a {
+            font: 12px $base-font-family-thin;
+            color: #018bbb;
+          }
+        }
+      }
+      .archive-post-link {
+        font: 12px $base-font-family-thin;
+        color: #018bbb;
+      }
+    }
+  }
+}
+

@@ -16,7 +16,50 @@
     }
 }
 
+@mixin content-padding-full {
+  padding: 64px 96px 64px 96px;
+
+  @media screen and (max-width: 640px) {
+    padding: 24px 32px 24px 32px;
+  }
+}
+
+@mixin content-padding {
+  padding-left: 96px;
+  padding-right: 96px;
+
+  @media screen and (max-width: 640px) {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@mixin display-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin wrapper-border {
+  border-left: 1px solid #cdcdcd;
+	border-right: 1px solid #cdcdcd;
+}
+
+@mixin easeinout-transition($duration) {
+  -webkit-transition: all $duration ease-in-out;
+  -ms-transition: all $duration ease-in-out;
+  -moz-transition: all $duration ease-in-out;
+  -o-transition: all $duration ease-in-out;
+  transition: all $duration ease-in-out;
+}
+
 $base-font-family: "Optimist", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family-thin: "Optimist Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family-extra-thin: "Optimist Extra Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family-semibold: "Optimist SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 $base-font-size:   16px;
 $smaller-base-font-size: 14px;
 $mobile-base-font-size: 13px;
@@ -26,7 +69,7 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #4a4a4a;
 $background-color: #004977;
 $brand-color:      #2a7ae2;
 
@@ -34,11 +77,15 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-// Width of the content area
-$content-width:    800px;
+$lightgrey-color:  #fafafa;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+// Width of the content area
+$content-width:    1000px;
+$content-width-wide:    1140px;
+
+$responsive-breakpoint: 1000px;
+
+$baseurl: "{{ site.baseurl }}";
 
 
 /*
@@ -55,5 +102,16 @@ $c1-yellow: #f8cc01;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-	"base"
+	"base",
+  "common",
+  "button",
+  "nav",
+  "page",
+  "post",
+  "index",
+  "footer",
+  "about",
+  "charities",
+  "blog",
+  "eshop"
 ;
